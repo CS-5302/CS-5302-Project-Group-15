@@ -2,4 +2,4 @@
 
 This project is on Speech to Machine Translation and Speech (SMTS) by Group 15 of CS 5302. This project was supervised by Dr. Agha Ali Raza (Associate Professor at the Department of Computer Science, LUMS).
 
-Project Timeline:
+Project Timeline: TBD
