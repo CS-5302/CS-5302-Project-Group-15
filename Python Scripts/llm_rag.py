@@ -14,6 +14,8 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.response_synthesizers import get_response_synthesizer
+from llama_index.prompts import PromptTemplate
 from IPython.display import Markdown, display
 import chromadb
 
@@ -66,6 +68,21 @@ Get retrieval or make it if non-existent (most time consuming imo)
 """
 K = 3 
 retriever = index.as_retriever(similarity_top_k=K)
+custom_instruction = """Use the following pieces of context to answer the user's question. 
+                    Don't use any information outside of these pieces. If you don't know the answer, just say that you don't know, don't try to make up an answer."""
+
+template = (
+    f"{custom_instruction}"
+    "---------------------\n"
+    "We have provided context information below. \n"
+    "---------------------\n"
+    "{context_str}"
+    "\n---------------------\n"
+    "Given this information, please answer the question: {query_str}\n"
+)
+
+qa_template = PromptTemplate(template)
+synth = get_response_synthesizer(text_qa_template=qa_template)
 
 # Step 4:
 """
