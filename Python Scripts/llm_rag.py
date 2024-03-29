@@ -64,6 +64,8 @@ display(Markdown(f"<b>{response}</b>"))
 """
 Get retrieval or make it if non-existent (most time consuming imo)
 """
+K = 3 
+retriever = index.as_retriever(similarity_top_k=K)
 
 # Step 4:
 """
