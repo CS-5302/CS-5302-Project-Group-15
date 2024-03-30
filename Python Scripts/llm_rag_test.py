@@ -3,6 +3,7 @@
 import numpy as np
 import os
 
+# Installations:
 # !pip install llama-index chromadb
 # !pip install chromadb
 # !pip install sentence-transformers
@@ -14,18 +15,15 @@ import os
 # !pip install llama_index-response-synthesizers
 # Imports:
 
-# imports
-# from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
-# from llama_index.vector_stores.chroma import ChromaVectorStore
-# from llama_index.core import StorageContext
-# from llama_index.llms.huggingface import HuggingFaceLLM
-# from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-# from llama_index.core import get_response_synthesizer
-# from llama_index.core import PromptTemplate
-# from IPython.display import Markdown, display
-# import chromadb
-
-import pandas as pd
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.vector_stores.chroma import ChromaVectorStore
+from llama_index.core import StorageContext
+from llama_index.llms.huggingface import HuggingFaceLLM
+from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.core import get_response_synthesizer
+from llama_index.core import PromptTemplate
+from IPython.display import Markdown, display
+import chromadb
 
 os.environ["OPENAI_API_KEY"] = "OUR_API_KEY"
 import openai
@@ -45,8 +43,10 @@ Reading the document and get service context of llm
 """
 Make index in vector database and storage context
 """
+
 # This is an example code from the documentation. You should read more: https://docs.llamaindex.ai/en/stable/examples/vector_stores/ChromaIndexDemo/
 # create client and a new collection
+# Creates an ephemeral Chroma client that does not persist data to disk.
 chroma_client = chromadb.EphemeralClient()
 chroma_collection = chroma_client.create_collection("quickstart")
 
@@ -58,6 +58,7 @@ documents = SimpleDirectoryReader("./data/paul_graham/").load_data()
 
 # set up ChromaVectorStore and load in data
 vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
+# Creates a StorageContext using the default configuration with the given vector_store
 storage_context = StorageContext.from_defaults(vector_store=vector_store)
 index = VectorStoreIndex.from_documents(
     documents, storage_context=storage_context, embed_model=embed_model
