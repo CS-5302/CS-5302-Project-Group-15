@@ -20,10 +20,7 @@ import chromadb
 doc = "Your document text goes here..."
 documents = [doc]  # Assuming a single document for simplicity.
 
-# Setup environment variables
-os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
-openai.api_key = os.environ["OPENAI_API_KEY"]
-TEMP = 0.7
+
 
 # Initialize ChromaDB and get service context
 # chroma_client = chromadb.PersistentClient(path = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MS2')

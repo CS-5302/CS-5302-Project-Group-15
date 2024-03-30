@@ -64,8 +64,6 @@ from IPython.display import Markdown, display
 import chromadb
 
 import openai
-os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
-openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # Step 1:
 """
