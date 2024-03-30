@@ -1,12 +1,19 @@
 import os
+import getpass
+import openai
 from uuid import uuid4 # assigns unique ID to documents
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
 from llama_index.llms.huggingface import HuggingFaceLLM
+from llama_index.llms.openai import OpenAI # resp = OpenAI().complete("Paul Graham is ")
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.core import Settings # Settings.embed_model = OpenAIEmbedding()
+from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.core import get_response_synthesizer
+from llama_index.core.node_parser import SentenceSplitter
 from llama_index.core import PromptTemplate
+from IPython.display import Markdown, display
 import chromadb
 
 # Document preparation
@@ -14,12 +21,25 @@ doc = "Your document text goes here..."
 documents = [doc]  # Assuming a single document for simplicity.
 
 # Setup environment variables
-os.environ["OPENAI_API_KEY"] = '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'
+# os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
+openai.api_key = os.environ["OPENAI_API_KEY"]
+TEMP = 0.7
 
-# Initialize ChromaDB
-chroma_client = chromadb.PersistentClient(path = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MS2')
-collection_name = 'llm_rag'
-chroma_collection = chroma_client.create_collection(collection_name)
+# Initialize ChromaDB and get service context
+# chroma_client = chromadb.PersistentClient(path = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MS2')
+chroma_client = chromadb.Client()
+collection_name = 'llm_rag_medical_shaip'
+chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space" : 'cosine'})
+llm = OpenAI(temperature = TEMP, model = 'gpt-4')
+
+Settings.llm = OpenAI(model="gpt-3.5-turbo")
+Settings.embed_model = OpenAIEmbedding(model = "text-embedding-3-small")
+Settings.node_parser = SentenceSplitter(chunk_size = 512, chunk_overlap = 20)
+Settings.num_output = 512
+Settings.context_window = 3900
+
+
 chroma_collection.add(
     embeddings=[[1.2, 2.3, 4.5], [6.7, 8.2, 9.2]],
     documents=["This is a document", "This is another document"],

@@ -2,6 +2,36 @@
 # Libraries:
 import numpy as np
 import os
+import getpass
+
+# Might Come in Handy
+
+"""
+from llama_index.core import Settings
+
+# tiktoken
+import tiktoken
+
+Settings.tokenizer = tiktoken.encoding_for_model("gpt-3.5-turbo").encode
+
+# huggingface
+from transformers import AutoTokenizer
+
+Settings.tokenizer = AutoTokenizer.from_pretrained(
+    "HuggingFaceH4/zephyr-7b-beta"
+)
+
+"""
+
+"""
+
+os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
+import openai
+
+"""
+
+
+
 
 # Installations:
 # !pip install llama-index chromadb
@@ -13,20 +43,28 @@ import os
 # !pip install llama-index-llms-huggingface 
 # !pip install llama-index-embeddings-huggingface
 # !pip install llama_index-response-synthesizers
+# !pip install llama-index-llms
+# !pip install llama-index-embeddings
+# pip install llama-index-llms-openai
+# !pip install -U llama-index-core llama-index-llms-openai llama-index-embeddings-openai
 # Imports:
 
+from uuid import uuid4 # assigns unique ID to documents
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
 from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+from llama_index.embeddings.openai import OpenAIEmbedding
+from llama_index.core import Settings # Settings.embed_model = OpenAIEmbedding()
 from llama_index.core import get_response_synthesizer
 from llama_index.core import PromptTemplate
+from llama_index.core.node_parser import SentenceSplitter
 from IPython.display import Markdown, display
 import chromadb
 
-os.environ["OPENAI_API_KEY"] = "OUR_API_KEY"
 import openai
+os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 # Step 1:
