@@ -21,7 +21,6 @@ doc = "Your document text goes here..."
 documents = [doc]  # Assuming a single document for simplicity.
 
 
-
 # Initialize ChromaDB and get service context
 # chroma_client = chromadb.PersistentClient(path = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MS2')
 chroma_client = chromadb.Client()
