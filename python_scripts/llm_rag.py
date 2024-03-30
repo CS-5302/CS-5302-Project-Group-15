@@ -17,22 +17,20 @@ from IPython.display import Markdown, display
 import chromadb
 
 # Setup environment variables
-os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
-openai.api_key = os.environ["OPENAI_API_KEY"]
-TEMP = 0.7
+# os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
+# openai.api_key = os.environ["OPENAI_API_KEY"]
+# TEMP = 0.7
 # Add your personal path here and comment the rest
 PATH = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/'
 
 # Document preparation
-documents =  # Assuming a single document for simplicity.
-
 
 # Step 1: Initialize ChromaDB and get service context
-# chroma_client = chromadb.Client() # online
-chroma_client = chromadb.PersistentClient(path = PATH)
-collection_name = 'llm_rag_medical_shaip'
+chroma_client = chromadb.Client() # online
+# chroma_client = chromadb.PersistentClient(path = PATH)
+collection_name = 'llm_rag_medical_shaip_data'
 chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space" : 'cosine'})
-llm = OpenAI(temperature = TEMP, model = 'gpt-4')
+# llm = OpenAI(temperature = TEMP, model = 'gpt-4')
 
 service_context = Settings
 service_context.llm = OpenAI(model = "gpt-3.5-turbo")
@@ -48,7 +46,7 @@ service_context.context_window = 3900
 embed_model = HuggingFaceEmbedding(model_name = "BAAI/bge-base-en-v1.5")
 
 # Load documents
-documents = SimpleDirectoryReader(PATH + 'ubaid_notes.docx').load_data()
+documents = SimpleDirectoryReader(PATH).load_data()
 
 # Chunks + embeddings + ids + metadeta creation
 texts = []
