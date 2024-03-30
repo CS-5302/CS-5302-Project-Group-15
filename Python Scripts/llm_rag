@@ -2,7 +2,7 @@ import os
 import getpass
 import openai
 from uuid import uuid4 # assigns unique ID to documents
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader # caveat. SimpleDirectoryReader prefers .txt.
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
 from llama_index.llms.huggingface import HuggingFaceLLM
@@ -21,11 +21,10 @@ os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
 openai.api_key = os.environ["OPENAI_API_KEY"]
 TEMP = 0.7
 # Add your personal path here and comment the rest
-PATH = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MS2'
+PATH = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/'
 
 # Document preparation
-doc = "Your document text goes here..."
-documents = [doc]  # Assuming a single document for simplicity.
+documents =  # Assuming a single document for simplicity.
 
 
 # Step 1: Initialize ChromaDB and get service context
@@ -40,28 +39,41 @@ service_context.llm = OpenAI(model = "gpt-3.5-turbo")
 service_context.embed_model = OpenAIEmbedding(model = "text-embedding-3-small")
 service_context.node_parser = SentenceSplitter(chunk_size = 512, chunk_overlap = 20)
 service_context.num_output = 512
+
 service_context.context_window = 3900
 
-# ids = [str(uuid4()) for _ in range(len(texts_chunk))]
-
-# Template on how to add more data
-# chroma_collection.add(
-#     embeddings=[chunk1_embed, chunk2_embed, chunk3_embed,...],
-#     documents=["This is a document", "This is another document", "This is a third document",...],,
-#     metadatas=[{"source": "my_source1"}, {"source": "my_source2"}, {"source": "my_source3"},...],,
-#     ids = [str(uuid4()) for _ in range(len(texts_chunk))]
-# )
-
-# Step 2: Make index in vector database and storage context
+# Step 2: Define Embeddings, Chunks, IDs and Metadatas
 
 # Define Embedding Function
 embed_model = HuggingFaceEmbedding(model_name = "BAAI/bge-base-en-v1.5")
 
 # Load documents
-documents = SimpleDirectoryReader(PATH).load_data()
+documents = SimpleDirectoryReader(PATH + 'ubaid_notes.docx').load_data()
 
-# Set up ChromaVectorStore and load in data
-vector_store = ChromaVectorStore(chroma_collection=chroma_collection, 
+# Chunks + embeddings + ids + metadeta creation
+texts = []
+chunks = service_context.node_parser(documents)
+
+for chunk in chunks:
+    texts.append(chunk.text)
+
+text_embeds = []
+metadatas = []
+for text in texts:
+    text_embeds.append(embed_model.get_text_embedding(text))
+    metadatas.append({'source':collection_name, 'text':text})
+
+ids = [str(uuid4()) for _ in range(len(text_embeds))]    
+
+chroma_collection.add(
+    embeddings = text_embeds,
+    documents = texts,
+    metadatas = metadatas,
+    ids = ids
+)
+
+# Step 3: Make index in vector database and storage context
+vector_store = ChromaVectorStore(chroma_collection = chroma_collection, 
                                  add_sparse_vector = True, 
                                  include_metadata = True)
 storage_context = StorageContext.from_defaults(vector_store = vector_store)
@@ -72,72 +84,33 @@ index = VectorStoreIndex.from_documents(documents,
                                         embed_model = embed_model)
 
 
-
-# Construct vector store and customize storage context
-vector_store = ChromaVectorStore(chroma_collection = chroma_collection, add_sparse_vector=True, include_metadata = True)
-storage_context = StorageContext.from_defaults(vector_store = vector_store)
-
-# Initialize LLM with OpenAI GPT-4
-llm = OpenAI(temperature = TEMP, model = 'gpt-4')
-service_context = ServiceContext.from_defaults(llm = llm)
-
-# Load documents and build index
-files_dir = "./documents/"
-documents = SimpleDirectoryReader(files_dir).load_data()
-index = VectorStoreIndex.from_documents(documents, storage_context = storage_context, embed_model = None)  # Assuming embedding is handled internally
-
-# Setup query and response mechanism
-custom_instruction = """Use the following pieces of context to answer the user's question. 
-                        Don't use any information outside of these pieces. If you don't know the answer, just say that you don't know, don't try to make up an answer."""
-template = (f"{custom_instruction}"
-            "---------------------\n"
-            "We have provided context information below. \n"
-            "---------------------\n"
-            "{context_str}"
-            "\n---------------------\n"
-            "Given this information, please answer the question: {query_str}\n")
-qa_template = PromptTemplate(template)
-synth = get_response_synthesizer(text_qa_template=qa_template)
-
-user_query = "What is the main topic of the document?"  # Example user query
-response = query_engine.query(user_query)
-print(f"Response: {response}")
-
-# Assume further setup for query processing and response generation will be added here
-
-
-
-
-
-
-
-
-
-
-# Initialize ChromaDB and Embedding Model
-chroma_client = chromadb.EphemeralClient()
-chroma_collection = chroma_client.create_collection("quickstart")
-embed_model = HuggingFaceEmbedding(model_name="BAAI/bge-base-en-v1.5")
-
-# Create the Vector Store and Index the Document
-vector_store = ChromaVectorStore(chroma_collection=chroma_collection)
-storage_context = StorageContext.from_defaults(vector_store=vector_store)
-index = VectorStoreIndex.from_documents(
-    documents, storage_context=storage_context, embed_model=embed_model
-)
-
-# Set Up the Query Engine and Retrieval System
+# Query Data from the Chroma Docker index
 query_engine = index.as_query_engine()
-K = 3  # Number of top similar results to retrieve
-retriever = index.as_retriever(similarity_top_k=K)
+response = query_engine.query("What is the title for Week 2 Notes?")
+display(Markdown(f"<b>{response}</b>"))
 
-# Define the Response Synthesizer with a Custom Template
-custom_instruction = "Use the following pieces of context to answer the user's question. If you don't know the answer, just say that you don't know."
-template = f"{custom_instruction}\n---------------------\nWe have provided context information below.\n---------------------\n{{context_str}}\n---------------------\nGiven this information, please answer the question: {{query_str}}\n"
-qa_template = PromptTemplate(template)
-synth = get_response_synthesizer(text_qa_template=qa_template)
 
-# Query and Response Mechanism
-user_query = "What is the main topic of the document?"  # Example user query
-response = query_engine.query(user_query)
-print(f"Response: {response}")
+
+
+
+
+
+
+
+# Alternative Response Generation (will come later)
+
+# # Set Up the Query Engine and Retrieval System
+# query_engine = index.as_query_engine()
+# K = 3  # Number of top similar results to retrieve
+# retriever = index.as_retriever(similarity_top_k = K)
+
+# # Define the Response Synthesizer with a Custom Template
+# custom_instruction = "Use the following pieces of context to answer the user's question. If you don't know the answer, just say that you don't know."
+# template = f"{custom_instruction}\n---------------------\nWe have provided context information below.\n---------------------\n{{context_str}}\n---------------------\nGiven this information, please answer the question: {{query_str}}\n"
+# qa_template = PromptTemplate(template)
+# synth = get_response_synthesizer(text_qa_template = qa_template)
+
+# # Query and Response Mechanism
+# user_query = "What is the main topic of the document?"  # Example user query
+# response = query_engine.query(user_query)
+# print(f"Response: {response}")
