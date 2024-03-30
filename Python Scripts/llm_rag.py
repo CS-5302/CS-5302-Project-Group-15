@@ -1,26 +1,31 @@
 # State neccessary import + installation
 # Libraries:
+import numpy as np
+import os
 
 # !pip install llama-index chromadb
 # !pip install chromadb
 # !pip install sentence-transformers
 # !pip install pydantic==1.10.11
 # !pip install -U openai
-# !pip install llama-index-storage-docstore-chroma # ChromaDB
+# !pip install llama-index-storage-store-chroma 
+# !pip install llama-index-llms-huggingface 
+# !pip install llama-index-embeddings-huggingface
+# !pip install llama_index-response-synthesizers
 # Imports:
 
 # imports
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
-from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.core import StorageContext
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.response_synthesizers import get_response_synthesizer
-from llama_index.prompts import PromptTemplate
-from IPython.display import Markdown, display
-import chromadb
+# from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+# from llama_index.vector_stores.chroma import ChromaVectorStore
+# from llama_index.core import StorageContext
+# from llama_index.llms.huggingface import HuggingFaceLLM
+# from llama_index.embeddings.huggingface import HuggingFaceEmbedding
+# from llama_index.core import get_response_synthesizer
+# from llama_index.core import PromptTemplate
+# from IPython.display import Markdown, display
+# import chromadb
 
-# set up OpenAI
-import os
+import pandas as pd
 
 os.environ["OPENAI_API_KEY"] = "OUR_API_KEY"
 import openai
