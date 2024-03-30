@@ -25,9 +25,6 @@ Settings.tokenizer = AutoTokenizer.from_pretrained(
 
 """
 
-os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
-import openai
-
 """
 
 
