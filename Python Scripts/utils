@@ -1,0 +1,57 @@
+from llama_index.core import VectorStoreIndex
+from llama_index.core.postprocessor import LLMRerank
+from llama_index.core.retrievers import RecursiveRetriever
+from llama_index.core.schema import IndexNode
+from llama_index.core.node_parser import SimpleNodeParser
+
+
+def get_reranker(reranker_top_n, service_context):
+    return LLMRerank(
+            choice_batch_size = 5,
+            top_n = reranker_top_n,
+            service_context = service_context)
+
+def get_retriever(documents, storage_context, service_context, K, parent_doc):
+    if parent_doc:
+        sub_chunk_sizes = [128, 256, 512]
+
+        sub_node_parsers = [
+            SimpleNodeParser.from_defaults(chunk_size = c) for c in sub_chunk_sizes
+        ]
+
+        # Parse documents into nodes with references to parent documents
+        all_nodes = []
+        for document in documents:
+            base_node = IndexNode.from_text_node(document, document.node_id)
+            for parser in sub_node_parsers:
+                sub_nodes = parser.get_nodes_from_documents([base_node])
+                sub_inodes = [
+                    IndexNode.from_text_node(sn, base_node.node_id) for sn in sub_nodes
+                ]
+                all_nodes.extend(sub_inodes)
+            # also add original node to node list
+            all_nodes.append(base_node)
+
+        # Now create an index with these nodes
+        index = VectorStoreIndex(
+            all_nodes, storage_context=storage_context, 
+            service_context=service_context
+        )
+
+        # Create a retriever for this index
+        vector_retriever = index.as_retriever(similarity_top_k = K)
+
+        # Now, construct the recursive retriever with the vector retriever
+        retriever = RecursiveRetriever(
+            "vector",
+            retriever_dict = {"vector": vector_retriever},
+            node_dict = {n.node_id: n for n in all_nodes},
+            verbose = True,
+            )
+        return retriever
+    
+    else:
+        index = VectorStoreIndex.from_documents(documents, storage_context = storage_context, service_context = service_context)
+        retriever = index.as_retriever(similarity_top_k = K)
+
+        return retriever

@@ -7,6 +7,7 @@ import getpass
 # Might Come in Handy
 
 """
+(1)
 from llama_index.core import Settings
 
 # tiktoken
@@ -24,7 +25,33 @@ Settings.tokenizer = AutoTokenizer.from_pretrained(
 """
 
 """
+(2)
+# Setup environment variables
+os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
+openai.api_key = os.environ["OPENAI_API_KEY"]
+TEMP = 0.7
+"""
 
+"""
+(3)
+For ChromaDB to easily filter out the relevant context of the user's query
+collection.query(
+    query_embeddings=[[11.1, 12.1, 13.1],[1.1, 2.3, 3.2], ...],
+    n_results=10,
+    where={"metadata_field": "is_equal_to_this"},
+    where_document={"$contains":"search_string"}
+)
+"""
+"""
+(4)
+# For modifying the documents in the collection, and adds them if they dont exist
+collection.upsert(
+    ids=["id1", "id2", "id3", ...],
+    embeddings=[[1.1, 2.3, 3.2], [4.5, 6.9, 4.4], [1.1, 2.3, 3.2], ...],
+    metadatas=[{"chapter": "3", "verse": "16"}, {"chapter": "3", "verse": "5"}, {"chapter": "29", "verse": "11"}, ...],
+    documents=["doc1", "doc2", "doc3", ...],
+)
+etc. (2), (3), (4) and others like it can be found here in chromaDB documentation: https://docs.trychroma.com/usage-guide
 """
 
 
