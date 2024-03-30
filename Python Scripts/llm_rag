@@ -21,7 +21,6 @@ doc = "Your document text goes here..."
 documents = [doc]  # Assuming a single document for simplicity.
 
 # Setup environment variables
-# os.environ["OPENAI_API_KEY"] = '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'
 os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
 openai.api_key = os.environ["OPENAI_API_KEY"]
 TEMP = 0.7
