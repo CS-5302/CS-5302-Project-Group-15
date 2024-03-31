@@ -17,7 +17,6 @@ from IPython.display import Markdown, display
 import chromadb
 
 
-
 def setup_environment(api_key, model_version = "gpt-3.5-turbo"):
     """
     Setup the environment by initializing OpenAI and service context.
