@@ -34,5 +34,5 @@ def translate_text(text, src_lang, trg_lang):
 >>> أعيش في باكستان
 """
 
-# Note will take time for a new language as it initializes the model etc. Japanese and Arabic have been done
-# but accuracy has to be checked.
+# Note will take time for a new language as it initializes the model etc. French, Deutsch and Arabic have been done
+# but accuracy has to be determined.
