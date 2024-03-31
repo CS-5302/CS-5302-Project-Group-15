@@ -1,9 +1,5 @@
 from langdetect import detect
 from gtts import gTTS
-import io 
-from pydub import AudioSegment
-from pydub.playback import play
-import playsound
 import os
 
 

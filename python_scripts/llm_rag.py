@@ -16,195 +16,94 @@ from llama_index.core import PromptTemplate
 from IPython.display import Markdown, display
 import chromadb
 
-
-def setup_environment(api_key, model_version = "gpt-3.5-turbo"):
+class DocumentEmbeddingPipeline:
     """
-    Setup the environment by initializing OpenAI and service context.
-    
-    :param api_key: OpenAI API Key for authentication
-    :param model_version: Version of the OpenAI model to use
-    :return: Configured service context
-    """
-    os.environ["OPENAI_API_KEY"] = api_key
-    openai.api_key = os.environ["OPENAI_API_KEY"]
-
-    # Initialize service context with OpenAI settings
-    service_context = Settings
-    service_context.llm = OpenAI(model=model_version)
-    service_context.embed_model = OpenAIEmbedding(model = "text-embedding-3-small")
-    service_context.node_parser = SentenceSplitter(chunk_size = 512, chunk_overlap = 20)
-    service_context.num_output = 512
-    service_context.context_window = 3900
-
-    return service_context
-
-def prepare_documents(path, collection_name, persistent = False, PATH = None):
-    """
-    Prepare the documents by loading them and initializing the ChromaDB collection.
-
-    :param path: Path to the directory containing the documents
-    :param collection_name: Name of the collection to create in ChromaDB
-    :param persistent: Boolean flag to indicate whether to use persistent or ephemeral ChromaDB
-    :param PATH: Path to the directory containing the ChromaDB data. None if persistent = False
-    :return: Tuple of loaded documents and the initialized ChromaDB collection
+    A class to manage the process of loading documents, embedding them,
+    indexing with ChromaDB, and querying.
     """
     
-    if persistent:
-        # Intialize chromaDB from memory
-        chroma_client = chromadb.PersistentClient(path = PATH)
-    else:
-        # Initialize ChromaDB client and create a new collection
-        chroma_client = chromadb.Client()
-        chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space": 'cosine'})
-    
-    # Load documents from the specified directory
-    documents = SimpleDirectoryReader(path).load_data()
-    return documents, chroma_collection
+    def __init__(self, model_version = "gpt-3.5-turbo", path = None):
+        """
+        Initialize the pipeline with the necessary configurations.
 
-def embed_and_index(documents, chroma_collection, model_name = "BAAI/bge-base-en-v1.5"):
-    """
-    Embed the documents and build an index in the vector database.
+        :param api_key: OpenAI API key for authentication.
+        :param model_version: Version of the OpenAI model to use.
+        :param path: Optional path for persistent ChromaDB storage.
+        """
+        self.model_version = model_version
+        self.path = path
 
-    :param documents: List of documents to process
-    :param chroma_collection: ChromaDB collection object
-    :param model_name: Model name for the embedding model
-    :return: Built index object
-    """
-    embed_model = HuggingFaceEmbedding(model_name = model_name)
-    chunks = service_context.node_parser(documents)
+    def setup_environment(self):
+        """
+        Setup the environment by initializing OpenAI and service context.
 
-    # Process each chunk of the document
-    texts, text_embeds, metadatas = [], [], []
-    for chunk in chunks:
-        texts.append(chunk.text)
-        text_embeds.append(embed_model.get_text_embedding(chunk.text))
-        metadatas.append({'source': collection_name, 'text': chunk.text})
+        :return: Configured service context.
+        """
+        os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
 
-    ids = [str(uuid4()) for _ in range(len(text_embeds))]
+        # Initialize service context with OpenAI settings
+        self.service_context = Settings
+        self.service_context.llm = OpenAI(model = self.model_version)
+        self.service_context.embed_model = OpenAIEmbedding(model = "text-embedding-3-small")
+        self.service_context.node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=20)
+        self.service_context.num_output = 512
+        self.service_context.context_window = 3900
 
-    # Add processed data to the ChromaDB collection
-    chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
+    def prepare_documents(self, path, collection_name, persistent = False):
+        """
+        Prepare the documents by loading them and initializing the ChromaDB collection.
 
-    # Create a vector store and a storage context for indexing
-    vector_store = ChromaVectorStore(chroma_collection = chroma_collection, add_sparse_vector = True, include_metadata = True)
-    storage_context = StorageContext.from_defaults(vector_store = vector_store)
+        :param path: Path to the directory containing the documents.
+        :param collection_name: Name of the collection to create in ChromaDB.
+        :param persistent: Boolean flag to indicate whether to use persistent or ephemeral ChromaDB.
+        :return: Tuple of loaded documents and the initialized ChromaDB collection.
+        """
+        if persistent:
+            chroma_client = chromadb.PersistentClient(path = self.path)
+        else:
+            chroma_client = chromadb.Client()
+        
+        self.chroma_collection = chroma_client.create_collection(name=collection_name, metadata={"hnsw:space": 'cosine'})
 
-    # Build the index using the processed documents
-    index = VectorStoreIndex.from_documents(documents, storage_context = storage_context, embed_model = embed_model)
-    return index
+        self.documents = SimpleDirectoryReader(path).load_data()
 
-def query_data(index, query):
-    """
-    Query data from the index and display the result.
+    def embed_and_index(self, model_name = "BAAI/bge-base-en-v1.5"):
+        """
+        Embed the documents and build an index in the vector database.
 
-    :param index: The index object to query from
-    :param query: The query string
-    """
-    query_engine = index.as_query_engine()
-    response = query_engine.query(query)
-    display(Markdown(f"<b>{response}</b>"))
+        :param documents: List of documents to process.
+        :param chroma_collection: ChromaDB collection object.
+        :param model_name: Model name for the embedding model.
+        :return: Built index object.
+        """
+        embed_model = HuggingFaceEmbedding(model_name=model_name)
+        chunks = self.service_context.node_parser(self.documents)
 
+        texts, text_embeds, metadatas = [], [], []
+        for chunk in chunks:
+            texts.append(chunk.text)
+            text_embeds.append(embed_model.get_text_embedding(chunk.text))
+            metadatas.append({'source': self.chroma_collection.name, 'text': chunk.text})
 
+        ids = [str(uuid4()) for _ in range(len(text_embeds))]
 
+        self.chroma_collection.add(embeddings=text_embeds, documents=texts, metadatas=metadatas, ids=ids)
 
+        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection.name, add_sparse_vector = True, include_metadata = True)
+        storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
+        self.index = VectorStoreIndex.from_documents(self.documents, storage_context=storage_context, embed_model = embed_model)
 
+    def query_data(self, query):
+        """
+        Query data from the index and display the result.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Setup environment variables
-# os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
-# openai.api_key = os.environ["OPENAI_API_KEY"]
-# TEMP = 0.7
-# Add your personal path here and comment the rest
-PATH = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/'
-
-# Document preparation
-
-# Step 1: Initialize ChromaDB and get service context
-chroma_client = chromadb.Client() # online
-# chroma_client = chromadb.PersistentClient(path = PATH)
-collection_name = 'llm_rag_medical_shaip_data'
-chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space" : 'cosine'})
-# llm = OpenAI(temperature = TEMP, model = 'gpt-4')
-
-service_context = Settings
-service_context.llm = OpenAI(model = "gpt-3.5-turbo")
-service_context.embed_model = OpenAIEmbedding(model = "text-embedding-3-small")
-service_context.node_parser = SentenceSplitter(chunk_size = 512, chunk_overlap = 20)
-service_context.num_output = 512
-
-service_context.context_window = 3900
-
-# Step 2: Define Embeddings, Chunks, IDs and Metadatas
-
-# Define Embedding Function
-embed_model = HuggingFaceEmbedding(model_name = "BAAI/bge-base-en-v1.5")
-
-# Load documents
-documents = SimpleDirectoryReader(PATH).load_data()
-
-# Chunks + embeddings + ids + metadeta creation
-texts = []
-chunks = service_context.node_parser(documents)
-
-for chunk in chunks:
-    texts.append(chunk.text)
-
-text_embeds = []
-metadatas = []
-for text in texts:
-    text_embeds.append(embed_model.get_text_embedding(text))
-    metadatas.append({'source':collection_name, 'text':text})
-
-ids = [str(uuid4()) for _ in range(len(text_embeds))]    
-
-chroma_collection.add(
-    embeddings = text_embeds,
-    documents = texts,
-    metadatas = metadatas,
-    ids = ids
-)
-
-# Step 3: Make index in vector database and storage context
-vector_store = ChromaVectorStore(chroma_collection = chroma_collection, 
-                                 add_sparse_vector = True, 
-                                 include_metadata = True)
-storage_context = StorageContext.from_defaults(vector_store = vector_store)
-
-# Load documents and build index
-index = VectorStoreIndex.from_documents(documents, 
-                                        storage_context = storage_context,
-                                        embed_model = embed_model)
-
-
-# Query Data from the Chroma Docker index
-query_engine = index.as_query_engine()
-response = query_engine.query("What is the title for Week 2 Notes?")
-display(Markdown(f"<b>{response}</b>"))
-
-
-
-
-
-
+        :param index: The index object to query from.
+        :param query: The query string.
+        """
+        query_engine = self.index.as_query_engine()
+        response = query_engine.query(query)
+        display(Markdown(f"<b>{response}</b>"))
 
 
 
