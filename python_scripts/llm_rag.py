@@ -18,7 +18,6 @@ import chromadb
 
 
 
-
 def setup_environment(api_key, model_version = "gpt-3.5-turbo"):
     """
     Setup the environment by initializing OpenAI and service context.
@@ -85,14 +84,14 @@ def embed_and_index(documents, chroma_collection, model_name = "BAAI/bge-base-en
     ids = [str(uuid4()) for _ in range(len(text_embeds))]
 
     # Add processed data to the ChromaDB collection
-    chroma_collection.add(embeddings=text_embeds, documents=texts, metadatas=metadatas, ids=ids)
+    chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
 
     # Create a vector store and a storage context for indexing
-    vector_store = ChromaVectorStore(chroma_collection=chroma_collection, add_sparse_vector=True, include_metadata=True)
-    storage_context = StorageContext.from_defaults(vector_store=vector_store)
+    vector_store = ChromaVectorStore(chroma_collection = chroma_collection, add_sparse_vector = True, include_metadata = True)
+    storage_context = StorageContext.from_defaults(vector_store = vector_store)
 
     # Build the index using the processed documents
-    index = VectorStoreIndex.from_documents(documents, storage_context=storage_context, embed_model=embed_model)
+    index = VectorStoreIndex.from_documents(documents, storage_context = storage_context, embed_model = embed_model)
     return index
 
 def query_data(index, query):
