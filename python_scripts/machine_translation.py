@@ -12,7 +12,7 @@ def translate_text(text, src_lang, trg_lang):
     model = MarianMTModel.from_pretrained(model_name)
 
     # tokenizing the text
-    tokenized_text = tokenizer.prepare_seq2seq_batch([text], return_tensors='pt')
+    tokenized_text = tokenizer.prepare_seq2seq_batch([text], return_tensors = 'pt')
 
     # generating the translation
     translated = model.generate(**tokenized_text)
@@ -24,11 +24,11 @@ def translate_text(text, src_lang, trg_lang):
 
 # Example Usage
 
-sample_text = "I live in Pakistan"
+# sample_text = "I live in Pakistan"
 
-# English to Arabic translation
-translated_text = translate_text(sample_text, "en", "ar")
-print(translated_text)
+# # English to Arabic translation
+# translated_text = translate_text(sample_text, "en", "ar")
+# print(translated_text)
 
 """
 >>> أعيش في باكستان
