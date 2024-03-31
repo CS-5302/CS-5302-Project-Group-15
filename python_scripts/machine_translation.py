@@ -22,17 +22,5 @@ def translate_text(text, src_lang, trg_lang):
 
     return translation[0]
 
-# Example Usage
-
-sample_text = "I live in Pakistan"
-
-# English to Arabic translation
-translated_text = translate_text(sample_text, "en", "ar")
-print(translated_text)
-
-"""
->>> أعيش في باكستان
-"""
-
 # Note will take time for a new language as it initializes the model etc. French, Deutsch and Arabic have been done
 # but accuracy has to be determined.
