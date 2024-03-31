@@ -24,15 +24,18 @@ def translate_text(text, src_lang, trg_lang):
 
 # Example Usage
 
-sample_text = "I live in Pakistan"
-
-# English to Arabic translation
-translated_text = translate_text(sample_text, "en", "ar")
-print(translated_text)
+# English to Arabic
+sample_text_en = "One ring to rule them all, one ring to find them, one ring to bring them all and in the darkness bind them."
 
 """
->>> ���� �� �������
+>>> 'خاتم واحد ليحكمهم جميعاً، خاتم واحد ليجدوهم، خاتم واحد ليجلبهم جميعاً وفي الظلام يربطهم.'
 """
 
+# French to English
+sample_text_fr = 'Aujourd’hui, on est samedi, nous rendons visite à notre grand-mère. Elle a 84 ans et elle habite à Antibes. J’adore ma grand-mère, elle est très gentille. Elle fait des bons gâteaux.'
+
+"""
+>>> 'Today, it's Saturday, we visit our grandmother. She's 84 and she lives in Antibes. I love my grandmother, she's very nice. She makes good cakes.'
+"""
 # Note will take time for a new language as it initializes the model etc. French, Deutsch and Arabic have been done
 # but accuracy has to be determined.
