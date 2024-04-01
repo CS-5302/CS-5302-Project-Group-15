@@ -28,7 +28,6 @@ def join_text(directory_path):
 
     :param directory_path: The directory path where the CSV files are located.
     """
-
     # List all files in the directory
     files_in_directory = os.listdir(directory_path)
 

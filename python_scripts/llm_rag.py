@@ -75,10 +75,16 @@ class DocumentEmbeddingPipeline:
             self.chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space": 'cosine'})  
 
         if joining:
-            utils.join_text(df_csv_path = data_path)
+            utils.join_text(directory_path = data_path)
                             
         # Load documents from the given path using a simple directory reader utility
-        self.documents = SimpleDirectoryReader(data_path).load_data()
+        required_exts = ['.txt']
+        reader = SimpleDirectoryReader(
+            input_dir = data_path,
+            required_exts = required_exts,
+            recursive = True
+        )
+        self.documents = reader.load_data()
 
     def embed_and_index(self, model_name = "BAAI/bge-base-en-v1.5"):
         """
