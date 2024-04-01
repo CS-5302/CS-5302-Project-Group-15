@@ -15,6 +15,13 @@ from llama_index.core.node_parser import SentenceSplitter
 from llama_index.core import PromptTemplate
 from IPython.display import Markdown, display
 import chromadb
+import llama_index
+os.environ["REPLICATE_API_TOKEN"] = getpass.getpass("REPLICATE API KEY:")
+from llama_index.core.prompts import PromptTemplate
+from llama_index.llms.replicate import Replicate
+
+
+
 
 class DocumentEmbeddingPipeline:
     """
@@ -22,7 +29,7 @@ class DocumentEmbeddingPipeline:
     indexing with ChromaDB, and querying.
     """
     
-    def __init__(self, model_version = "gpt-3.5-turbo", path = None):
+    def __init__(self, model_version = "a16z-infra/llama13b-v2-chat:df7690f1994d94e96ad9d568eac121aecf50684a0b0963b25a41cc40061269e5", path = None):
         """
         Initialize the pipeline with the necessary configurations.
 
@@ -39,12 +46,15 @@ class DocumentEmbeddingPipeline:
 
         :return: Configured service context.
         """
-        os.environ["OPENAI_API_KEY"] = getpass.getpass("OpenAI API Key:")
 
         # Initialize service context with OpenAI settings
         self.service_context = Settings
-        self.service_context.llm = OpenAI(model = self.model_version)
-        self.service_context.embed_model = OpenAIEmbedding(model = "text-embedding-3-small")
+        self.service_context.llm = Replicate(
+                                            model=self.model_version,
+                                            is_chat_model=True,
+                                            additional_kwargs={"max_new_tokens": 512}
+                                        )
+        self.service_context.embed_model = "local:BAAI/bge-small-en-v1.5"
         self.service_context.node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=20)
         self.service_context.num_output = 512
         self.service_context.context_window = 3900
@@ -89,7 +99,7 @@ class DocumentEmbeddingPipeline:
 
         self.chroma_collection.add(embeddings=text_embeds, documents=texts, metadatas=metadatas, ids=ids)
 
-        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection.name, add_sparse_vector = True, include_metadata = True)
+        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector = True, include_metadata = True)
         storage_context = StorageContext.from_defaults(vector_store=vector_store)
 
         self.index = VectorStoreIndex.from_documents(self.documents, storage_context=storage_context, embed_model = embed_model)
