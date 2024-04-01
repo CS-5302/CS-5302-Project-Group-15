@@ -29,7 +29,7 @@ class DocumentEmbeddingPipeline:
     indexing with ChromaDB, and querying.
     """
     
-    def __init__(self, model_version = "a16z-infra/llama13b-v2-chat:df7690f1994d94e96ad9d568eac121aecf50684a0b0963b25a41cc40061269e5", path = None):
+    def __init__(self, model_version = "mistralai/mixtral-8x7b-instruct-v0.1", path = None):
         """
         Initialize the pipeline with the necessary configurations.
 
@@ -55,9 +55,7 @@ class DocumentEmbeddingPipeline:
                                             additional_kwargs={"max_new_tokens": 512}
                                         )
         self.service_context.embed_model = "local:BAAI/bge-small-en-v1.5"
-        self.service_context.node_parser = SentenceSplitter(chunk_size=512, chunk_overlap=20)
-        self.service_context.num_output = 512
-        self.service_context.context_window = 3900
+        self.service_context.node_parser = SentenceSplitter(chunk_size=1024, chunk_overlap=128)
 
     def prepare_documents(self, path, collection_name, persistent = False):
         """
@@ -73,7 +71,10 @@ class DocumentEmbeddingPipeline:
         else:
             chroma_client = chromadb.Client()
         
-        self.chroma_collection = chroma_client.create_collection(name=collection_name, metadata={"hnsw:space": 'cosine'})
+        if collection_name in chroma_client.list_collections():
+            self.chroma_collection = chroma_client.get_collection(name = collection_name)     
+        else:
+            self.chroma_collection = chroma_client.create_collection(name=collection_name, metadata={"hnsw:space": 'cosine'})
 
         self.documents = SimpleDirectoryReader(path).load_data()
 
