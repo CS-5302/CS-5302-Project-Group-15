@@ -19,91 +19,99 @@ import llama_index
 os.environ["REPLICATE_API_TOKEN"] = getpass.getpass("REPLICATE API KEY:")
 from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.replicate import Replicate
-
-
+from python_scripts import utils
 
 
 class DocumentEmbeddingPipeline:
+   
     """
     A class to manage the process of loading documents, embedding them,
     indexing with ChromaDB, and querying.
     """
-    
-    def __init__(self, model_version = "mistralai/mixtral-8x7b-instruct-v0.1", path = None):
+
+    def __init__(self, model_version = "mistralai/mixtral-8x7b-instruct-v0.1", chroma_path = None):
         """
         Initialize the pipeline with the necessary configurations.
 
-        :param api_key: OpenAI API key for authentication.
-        :param model_version: Version of the OpenAI model to use.
-        :param path: Optional path for persistent ChromaDB storage.
+        :param model_version: Version of the machine learning model to use for embedding documents.
+        :param path: Optional path for persistent storage, used for ChromaDB.
         """
-        self.model_version = model_version
-        self.path = path
+        self.model_version = model_version  # Model version for document embedding
+        self.chroma_path = chroma_path  # Path for ChromaDB storage, if persistent storage is used
+    
 
     def setup_environment(self):
         """
-        Setup the environment by initializing OpenAI and service context.
-
-        :return: Configured service context.
+        Setup the environment by initializing the required settings for embedding and parsing.
         """
-
-        # Initialize service context with OpenAI settings
-        self.service_context = Settings
-        self.service_context.llm = Replicate(
-                                            model=self.model_version,
-                                            is_chat_model=True,
-                                            additional_kwargs={"max_new_tokens": 512}
-                                        )
+        # Service context is a hypothetical construct that manages settings and configurations
+        self.service_context = Settings  # Initialize settings for the service context
+        # Initialize language model with specific configurations like model version and token limits
+        self.service_context.llm = Replicate(model = self.model_version, is_chat_model = True, additional_kwargs = {"max_new_tokens": 512})
+        # Define the embedding model to use locally
         self.service_context.embed_model = "local:BAAI/bge-small-en-v1.5"
-        self.service_context.node_parser = SentenceSplitter(chunk_size=1024, chunk_overlap=128)
+        # Initialize the node parser for sentence splitting with specified chunk size and overlap
+        self.service_context.node_parser = SentenceSplitter(chunk_size = 1024, chunk_overlap = 128)
 
-    def prepare_documents(self, path, collection_name, persistent = False):
-        """
-        Prepare the documents by loading them and initializing the ChromaDB collection.
+    def prepare_documents(self, data_path, collection_name,  joining = True, persistent = False):
 
-        :param path: Path to the directory containing the documents.
-        :param collection_name: Name of the collection to create in ChromaDB.
-        :param persistent: Boolean flag to indicate whether to use persistent or ephemeral ChromaDB.
-        :return: Tuple of loaded documents and the initialized ChromaDB collection.
         """
-        if persistent:
-            chroma_client = chromadb.PersistentClient(path = self.path)
-        else:
-            chroma_client = chromadb.Client()
-        
+        Load documents from a specified path and initialize a collection in ChromaDB.
+
+        :param path: Path to the directory containing the documents to be processed.
+        :param collection_name: Name of the collection to be created or used in ChromaDB.
+        :param joining: If true, the documents will be joined into a single string.
+        :param persistent: If true, ChromaDB will use persistent storage; otherwise, it uses ephemeral storage.
+        """
+        # Initialize ChromaDB client based on the persistence requirement
+        chroma_client = chromadb.PersistentClient(path = self.path) if persistent else chromadb.Client()
+
+        # Check if the specified collection already exists in ChromaDB
         if collection_name in chroma_client.list_collections():
-            self.chroma_collection = chroma_client.get_collection(name = collection_name)     
+            # If the collection exists, retrieve it
+            self.chroma_collection = chroma_client.get_collection(name = collection_name)
         else:
-            self.chroma_collection = chroma_client.create_collection(name=collection_name, metadata={"hnsw:space": 'cosine'})
+            # If the collection does not exist, create a new one with the specified name and metadata
+            self.chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space": 'cosine'})  
 
-        self.documents = SimpleDirectoryReader(path).load_data()
+        if joining:
+            utils.join_text(df_csv_path = data_path)
+                            
+        # Load documents from the given path using a simple directory reader utility
+        self.documents = SimpleDirectoryReader(data_path).load_data()
 
     def embed_and_index(self, model_name = "BAAI/bge-base-en-v1.5"):
         """
-        Embed the documents and build an index in the vector database.
+        Embed the documents using a specified model and index them in ChromaDB.
 
-        :param documents: List of documents to process.
-        :param chroma_collection: ChromaDB collection object.
-        :param model_name: Model name for the embedding model.
-        :return: Built index object.
+        :param model_name: Name of the embedding model to use for generating document embeddings.
         """
-        embed_model = HuggingFaceEmbedding(model_name=model_name)
+        # Initialize the embedding model
+        embed_model = HuggingFaceEmbedding(model_name = model_name)
+        # Parse and chunk documents for embedding
         chunks = self.service_context.node_parser(self.documents)
 
+        # Initialize lists to store texts, embeddings, and metadata
         texts, text_embeds, metadatas = [], [], []
+
+        # Iterate over chunks, embed texts, and prepare metadata
         for chunk in chunks:
             texts.append(chunk.text)
             text_embeds.append(embed_model.get_text_embedding(chunk.text))
             metadatas.append({'source': self.chroma_collection.name, 'text': chunk.text})
 
+        # Generate unique identifiers for each embedded document
         ids = [str(uuid4()) for _ in range(len(text_embeds))]
 
-        self.chroma_collection.add(embeddings=text_embeds, documents=texts, metadatas=metadatas, ids=ids)
+        # Add the embedded texts and metadata to the ChromaDB collection
+        self.chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
 
-        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector = True, include_metadata = True)
-        storage_context = StorageContext.from_defaults(vector_store=vector_store)
+        # Prepare a vector store for indexing the documents in ChromaDB
+        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector=True, include_metadata=True)
+        storage_context = StorageContext.from_defaults(vector_store = vector_store)
 
-        self.index = VectorStoreIndex.from_documents(self.documents, storage_context=storage_context, embed_model = embed_model)
+        # Create an index from the documents using the vector store and embedding model
+        self.index = VectorStoreIndex.from_documents(self.documents, storage_context = storage_context, embed_model = embed_model)
 
     def query_data(self, query):
         """
@@ -118,7 +126,7 @@ class DocumentEmbeddingPipeline:
 
 
 
-# Alternative Response Generation (will come later)
+# Alternative Response Generation (might come in handy later)
 
 # # Set Up the Query Engine and Retrieval System
 # query_engine = index.as_query_engine()
