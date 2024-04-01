@@ -69,6 +69,12 @@ etc. (2), (3), (4) and others like it can be found here in chromaDB documentatio
 # pip install llama-index-llms-openai
 # !pip install -U llama-index-core llama-index-llms-openai llama-index-embeddings-openai
 # !pip install llama-index-llms-replicate
+# pip install sounddevice numpy scipy
+# pip install keyboard
+# !pip install pyaudio
+# !pip install audiorecorder
+# !pip install streamlit-audiorecorder
+# !pip install audio-recorder-streamlit
 # Imports:
 
 from uuid import uuid4 # assigns unique ID to documents

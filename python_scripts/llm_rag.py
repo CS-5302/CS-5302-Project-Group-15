@@ -113,7 +113,7 @@ class DocumentEmbeddingPipeline:
         self.chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
 
         # Prepare a vector store for indexing the documents in ChromaDB
-        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector=True, include_metadata=True)
+        vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector = True, include_metadata = True)
         storage_context = StorageContext.from_defaults(vector_store = vector_store)
 
         # Create an index from the documents using the vector store and embedding model

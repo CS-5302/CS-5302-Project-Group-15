@@ -3,18 +3,18 @@ from gtts import gTTS
 import os
 
 
-def multilingual_text_to_speech(text, filename = None):
+def multilingual_text_to_speech(text, filepath):
     try:
         lang = detect(text)
         print(f"Detected language: {lang}")
-        tts = gTTS(text = text, lang=lang, slow=False)
-        if filename:
-            filepath = filename
-        else:
-            filepath = f"{lang}_speech.mp3" 
+        tts = gTTS(text = text, lang = lang, slow=False)
+        # if filename:
+        #     filepath = filename
+        # else:
+        #     filepath = f"{lang}_speech.mp3" 
 
-        directory = os.path.dirname("multilingual_tts.ipynb")  
-        filepath = os.path.join(directory, filepath)
+        # directory = os.path.dirname("multilingual_tts.ipynb")  
+        # filepath = os.path.join(directory, filepath)
         tts.save(filepath)
         print(f"Speech saved to {filepath}")
 
