@@ -14,6 +14,7 @@ from pathlib import Path
 import os
 
 # Path for the data
+# root_path = Path(os.getcwd() + '\\Datasets')
 root_path = Path('C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets')
 train_path = root_path / 'train'
 

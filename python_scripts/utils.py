@@ -59,6 +59,7 @@ def record_audio():
     Manages the user interaction to start and stop the audio recording.
     Collects user information and records audio, saving it in a unique file based on the user's details.
     """
+    # base_path = os.getcwd() + '\\Datasets\\Audio_Files'
     base_path = "C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/Audio_Files"
     name = input("Enter your full name: ")
     age = input("Enter your age: ")
