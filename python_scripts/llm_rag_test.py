@@ -75,6 +75,7 @@ etc. (2), (3), (4) and others like it can be found here in chromaDB documentatio
 # !pip install audiorecorder
 # !pip install streamlit-audiorecorder
 # !pip install audio-recorder-streamlit
+# !pip install faster-whisper
 # Imports:
 
 from uuid import uuid4 # assigns unique ID to documents
