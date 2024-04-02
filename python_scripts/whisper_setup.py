@@ -23,7 +23,7 @@ def transcribe_audio(audio_file, models):
 
     for model in models:
         # Load the Whisper model (set device to "cuda" if it is available else use "cpu" - default = 'auto')
-        whisper_model = WhisperModel(model, device="cuda")
+        whisper_model = WhisperModel(model)
 
         # Perform trancription into English
         segments, info = whisper_model.transcribe(audio_file, task='translate')
