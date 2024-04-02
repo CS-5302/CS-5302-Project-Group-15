@@ -80,4 +80,3 @@ class AudioRecorder:
         wf.close()
 
         print(f"Recording stopped and saved to {self.output_filename}", flush=True)
-
