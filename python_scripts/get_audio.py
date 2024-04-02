@@ -1,4 +1,3 @@
-
 # Neccessary Imports
 import os
 import pyaudio  # Import the PyAudio library for audio recording
@@ -80,4 +79,3 @@ class AudioRecorder:
         wf.close()
 
         print(f"Recording stopped and saved to {self.output_filename}", flush=True)
-
