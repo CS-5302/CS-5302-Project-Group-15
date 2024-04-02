@@ -6,12 +6,11 @@ It demonstrates how to run Whisper models from the command line, capture their o
 and parse the resulting text and detected language.
 
 Dependencies:
-- Whisper (OpenAI): Install via `pip install git+https://github.com/openai/whisper.git`
-- ffmpeg: Install via `sudo apt update && sudo apt install ffmpeg`
+- Faster Whisper (SYSTRAN): Install via `pip install faster-whisper`
 """
 
-import subprocess
-import re
+# import whisper
+from faster_whisper import WhisperModel
 
 def transcribe_audio(audio_file, models):
     """
@@ -22,41 +21,40 @@ def transcribe_audio(audio_file, models):
     :return: A dictionary containing the transcripts and detected languages for each model
     """
     transcript = {}
-    
+
     for model in models:
-        # Execute the Whisper model via subprocess and capture the output
-        command = subprocess.run(["whisper", audio_file, "--model", model, "--task", "translate"],
-                                 capture_output=True, text=True)
-        output = command.stdout
+        # Load the Whisper model (set device to "cuda" if it is available else use "cpu" - default = 'auto')
+        whisper_model = WhisperModel(model, device="cuda")
 
-        # Regular expressions to find language and transcribed text in the output
-        lang_pattern = r'Detected language: (\w+)\n\['
-        text_pattern = r'\]\s*(.*)\n'
+        # Perform trancription into English
+        segments, info = whisper_model.transcribe(audio_file, task='translate')
 
-        # Search for language and text in the output
-        match_language = re.search(lang_pattern, output)
-        match_text = re.search(text_pattern, output)
+        # Extracting the detected language and transcribed text in the result
+        detected_lang = info.language
+        lang_prob = info.language_probability
 
-        # Store the detected language and transcribed text in the dictionary
-        # transcript[model] = {'lang': match_language.group(1), 'text': match_text.group(1)}
-        transcript[model] = {'text': match_text.group(1)}
+        for segment in segments:
+            text = segment.text
+
+        # Store the detected language, language_prob, and transcribed text in the dictionary
+        transcript[model] = {'lang': detected_lang, 'prob': lang_prob, 'text': text}
 
 
     return transcript
 
-# Example Usage
+# # Example Usage
 
-"""
-# Specify the audio file path
-audio_file = "/kaggle/input/new-data/Recording (3).m4a"
+# # Specify the audio file path
+# audio_file = "/kaggle/input/voice/intro.m4a"
 
-# List of Whisper models to use for transcription
-models = ["tiny", "base", "small", "medium", "large"]
+# # List of Whisper models to use for transcription
+# available_models = ["tiny", "base", "small", "medium", "large-v1", "large-v2", "large-v3", "large"]
 
-# Transcribe the audio file using the specified models
-transcript = transcribe_audio(audio_file, models)
+# # Specify the model to use
+# specified_model = ["large-v2"]
 
-# Print the transcription results
-print(transcript)
+# # Transcribe the audio file using the specified model
+# transcript = transcribe_audio(audio_file, specified_model)
 
-"""
+# # Print the transcription results
+# print(transcript)
