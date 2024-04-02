@@ -70,3 +70,8 @@ class AudioRecorder:
         wf.writeframes(b''.join(self.frames))
         wf.close()
         print(f"Audio saved as {self.filename}")
+
+# # Sample Usage
+# recorder = Recorder(filename="recording.wav")
+# recorder.record(duration=5)  # Record for 5 seconds
+# recorder.save()
