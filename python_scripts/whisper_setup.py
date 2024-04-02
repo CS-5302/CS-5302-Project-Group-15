@@ -9,7 +9,6 @@ Dependencies:
 - Faster Whisper (SYSTRAN): Install via `pip install faster-whisper`
 """
 
-# import whisper
 from faster_whisper import WhisperModel
 
 def transcribe_audio(audio_file, models):
