@@ -9,6 +9,11 @@ from python_scripts import get_audio
 import pandas as pd
 import os
 import threading
+import wave
+import pyaudio
+import json
+from itertools import chain
+import re
 
 def get_reranker(reranker_top_n, service_context):
     return LLMRerank(
@@ -60,7 +65,8 @@ def record_audio():
     Collects user information and records audio, saving it in a unique file based on the user's details.
     """
     # base_path = (os.getcwd() + '\\Datasets\\Audio_Files').replace('\\', '/')
-    base_path = "C:/Users/Admin/OneDrive/Documents/GitHub/CS-5302-Project-Group-15/Datasets/Audio_Files"
+    # base_path = "C:/Users/Admin/OneDrive/Documents/GitHub/CS-5302-Project-Group-15/Datasets/Audio_Files"
+    base_path = 'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/Audio_Files'
     name = input("Enter your full name: ")
     age = input("Enter your age: ")
     gender = input("Enter your gender: ")
@@ -80,6 +86,117 @@ def record_audio():
     t.join()
 
     return output_filename
+
+
+def play_wav(filename):
+    """
+    Plays a WAV file using the PyAudio library.
+
+    This function opens a WAV file, initializes PyAudio, and plays the file
+    in a streaming fashion.
+
+    Parameters:
+    - filename (str): The path to the WAV file.
+
+    Note:
+    This function requires the 'pyaudio' library. Ensure it is installed
+    using `pip install pyaudio`.
+    """
+    # Open the WAV file
+    wf = wave.open(filename, 'rb')
+
+    # Create a PyAudio object
+    p = pyaudio.PyAudio()
+
+    # Open a stream on the PyAudio object
+    stream = p.open(format=p.get_format_from_width(wf.getsampwidth()),
+                    channels=wf.getnchannels(),
+                    rate=wf.getframerate(),
+                    output=True)
+
+    # Read data in chunks
+    chunk_size = 1024
+    data = wf.readframes(chunk_size)
+
+    # Play the stream chunk by chunk
+    while data:
+        stream.write(data)
+        data = wf.readframes(chunk_size)
+
+    # Stop and close the stream
+    stream.stop_stream()
+    stream.close()
+
+    # Close PyAudio
+    p.terminate()
+
+# Example usage of playing a WAV file
+# wav_file_path = 'your_file.wav'
+# play_wav(wav_file_path)
+
+def read_jsonl_to_list_of_lists(filepath):
+    """
+    Reads a JSONL file and converts it into a list of lists.
+
+    Each line in the JSONL file should be a JSON object. This function
+    will extract the values from each JSON object and store them in a list,
+    appending each of these lists to a main list.
+
+    Parameters:
+    - filepath (str): The path to the JSONL file.
+
+    Returns:
+    - list: A list where each element is a list of values extracted from each JSON object.
+    """
+    all_values = []
+    with open(filepath, 'r', encoding = 'utf-8', errors = 'replace') as file:
+        for line in file:
+            cleaned_line = re.sub(r'\\u0[0-9a-fA-F]{3}', '', line)
+            json_obj = json.loads(cleaned_line)
+            values_list = [str(value) for value in json_obj.values()]
+            all_values.append(values_list)
+    return all_values
+
+# Example usage of reading JSONL to list of lists
+# jsonl_path = 'training_data.jsonl'
+# data_list = read_jsonl_to_list_of_lists(jsonl_path)
+# print(data_list)
+
+
+def flatten_list_of_lists(list_of_lists):
+    """
+    Flattens a list of lists into a single list using itertools.chain.
+
+    Parameters:
+    - list_of_lists (list): A list where each element is a list of items.
+
+    Returns:
+    - list: A single list containing all the elements from the sublists.
+    """
+    return list(chain.from_iterable(list_of_lists))
+
+# Example Usage
+# flattened_list = flatten_list_of_lists(example_list_of_lists)
+
+def write_list_to_file(list_of_items, file_path):
+    """
+    Writes a list to a text file, with each element on a new line.
+
+    Parameters:
+    - list_of_items (list): A list of items to be written to the file.
+    - file_path (str): The path to the text file where the list will be written.
+
+    Each item in the list will be converted to a string if it is not already one.
+    """
+    with open(file_path, 'w') as file:
+        for item in list_of_items:
+            # Convert item to string and write it to the file followed by a newline
+            file.write(str(item) + '\n')
+
+# Example usage
+# my_list = ['apple', 'banana', 'cherry']
+# file_path = 'output.txt'
+# write_list_to_file(my_list, file_path)
 
 
 def get_unique_filename(base_path, name, age, gender):
