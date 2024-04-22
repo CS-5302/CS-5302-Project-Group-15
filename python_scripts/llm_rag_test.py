@@ -76,6 +76,8 @@ etc. (2), (3), (4) and others like it can be found here in chromaDB documentatio
 # !pip install streamlit-audiorecorder
 # !pip install audio-recorder-streamlit
 # !pip install faster-whisper
+# !pip install gradio
+# !pip install mistral-lang
 # Imports:
 
 from uuid import uuid4 # assigns unique ID to documents
