@@ -64,7 +64,7 @@ class DocumentEmbeddingPipeline:
         :param persistent: If true, ChromaDB will use persistent storage; otherwise, it uses ephemeral storage.
         """
         # Initialize ChromaDB client based on the persistence requirement
-        chroma_client = chromadb.PersistentClient(path = self.path) if persistent else chromadb.Client()
+        chroma_client = chromadb.PersistentClient(path = self.chroma_path) if persistent else chromadb.Client()
 
         # Check if the specified collection already exists in ChromaDB
         if collection_name in chroma_client.list_collections():
@@ -74,13 +74,23 @@ class DocumentEmbeddingPipeline:
             # If the collection does not exist, create a new one with the specified name and metadata
             self.chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space": 'cosine'})  
 
-        if joining:
-            utils.join_text(directory_path = data_path)
+        # if joining:
+        #     utils.join_text(directory_path = data_path)
                             
         # Load documents from the given path using a simple directory reader utility
+        
+        # Preprocess the data if of jsonl/json type
+        print(data_path, '\n', data_path + '/json_to_text.txt')
+        if data_path.endswith(('.jsonl', '.ndjson')):
+            step1 = utils.read_jsonl_to_list_of_lists(data_path)
+            step2 = utils.flatten_list_of_lists(step1)
+            data_path = data_path + '/json_to_text.txt'
+            step3 = utils.write_list_to_file(step2, data_path)
+
         required_exts = ['.txt']
+        print("RR")
         reader = SimpleDirectoryReader(
-            input_dir = data_path,
+            input_dir = self.chroma_path,
             required_exts = required_exts,
             recursive = True
         )
