@@ -3,7 +3,7 @@ import getpass
 import openai
 from uuid import uuid4 # assigns unique ID to documents
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader # caveat. SimpleDirectoryReader prefers .txt.
-from llama_index.vector_stores.chroma import ChromaVectorStore
+from llama_index.legacy.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
 from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.llms.openai import OpenAI # resp = OpenAI().complete("Paul Graham is ")
@@ -144,18 +144,18 @@ class DocumentEmbeddingPipeline:
 
 # Alternative Response Generation (might come in handy later)
 
-# # Set Up the Query Engine and Retrieval System
+# # # Set Up the Query Engine and Retrieval System
 # query_engine = index.as_query_engine()
 # K = 3  # Number of top similar results to retrieve
 # retriever = index.as_retriever(similarity_top_k = K)
 
-# # Define the Response Synthesizer with a Custom Template
+# # # Define the Response Synthesizer with a Custom Template
 # custom_instruction = "Use the following pieces of context to answer the user's question. If you don't know the answer, just say that you don't know."
 # template = f"{custom_instruction}\n---------------------\nWe have provided context information below.\n---------------------\n{{context_str}}\n---------------------\nGiven this information, please answer the question: {{query_str}}\n"
 # qa_template = PromptTemplate(template)
 # synth = get_response_synthesizer(text_qa_template = qa_template)
 
-# # Query and Response Mechanism
+# # # Query and Response Mechanism
 # user_query = "What is the main topic of the document?"  # Example user query
 # response = query_engine.query(user_query)
 # print(f"Response: {response}")
