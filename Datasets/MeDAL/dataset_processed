@@ -1,0 +1,350 @@
+Disease,Fever,Cough,Fatigue,Difficulty Breathing,Blood Pressure,Cholesterol Level,Outcome Variable,prompts,results
+Influenza,Yes,No,Yes,Yes,Low,Normal,Positive,"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+Common Cold,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Eczema,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Eczema,Yes,No,No,No,Normal,Normal,Positive,I have Fever. What disease do i have?,You have Eczema.
+Influenza,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+Influenza,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+Hyperthyroidism,No,Yes,No,No,Normal,Normal,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Hyperthyroidism,No,Yes,No,No,Normal,Normal,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Asthma,Yes,No,No,Yes,High,Normal,Positive,"I have Fever, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Asthma.
+Allergic Rhinitis,No,Yes,Yes,No,Normal,Low,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Anxiety Disorders,No,Yes,No,No,Normal,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Common Cold,No,No,No,No,Low,Normal,Negative,I have . What disease do i have?,You don't have a disease.
+Diabetes,No,No,No,No,Low,Normal,Negative,I have . What disease do i have?,You don't have a disease.
+Gastroenteritis,No,Yes,No,No,Normal,Normal,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Pancreatitis,Yes,No,No,No,High,Normal,Negative,"I have Fever, Blood Pressure. What disease do i have?",You don't have a disease.
+Rheumatoid Arthritis,No,Yes,Yes,Yes,High,High,Negative,"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Depression,Yes,Yes,Yes,Yes,High,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Depression.
+Liver Cancer,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Liver Cancer.
+Stroke,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Stroke.
+Urinary Tract Infection,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Urinary Tract Infection.
+Dengue Fever,Yes,No,Yes,No,Normal,Normal,Negative,"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+Dengue Fever,Yes,No,Yes,No,Normal,Normal,Negative,"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+Eczema,No,Yes,Yes,No,High,High,Negative,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Gastroenteritis,Yes,Yes,Yes,No,High,High,Negative,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hepatitis,Yes,Yes,Yes,Yes,High,Normal,Negative,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+Kidney Cancer,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Migraine,Yes,No,No,No,Normal,Normal,Negative,I have Fever. What disease do i have?,You don't have a disease.
+Migraine,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Muscular Dystrophy,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Sinusitis,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Ulcerative Colitis,Yes,Yes,No,No,Normal,Normal,Negative,"I have Fever, Cough. What disease do i have?",You don't have a disease.
+Ulcerative Colitis,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Asthma.
+Bipolar Disorder,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bipolar Disorder.
+Bronchitis,Yes,Yes,No,Yes,Low,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Bronchitis.
+Bronchitis,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+Bronchitis,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+Cerebral Palsy,No,No,Yes,Yes,Normal,Normal,Positive,"I have Fatigue, Difficulty Breathing. What disease do i have?",You have Cerebral Palsy.
+Colorectal Cancer,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Colorectal Cancer.
+Eczema,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Eczema.
+Hypertensive Heart Disease,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypertensive Heart Disease.
+Influenza,Yes,Yes,Yes,No,High,Normal,Positive,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Influenza.
+Influenza,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+Multiple Sclerosis,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Multiple Sclerosis.
+Myocardial Infarction (Heart...,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Myocardial Infarction (Heart....
+Urinary Tract Infection (UTI),Yes,No,No,No,Normal,Normal,Positive,I have Fever. What disease do i have?,You have Urinary Tract Infection (UTI).
+Asthma,No,No,No,Yes,Normal,Low,Negative,I have Difficulty Breathing. What disease do i have?,You don't have a disease.
+Osteoporosis,No,No,No,Yes,Low,Normal,Negative,I have Difficulty Breathing. What disease do i have?,You don't have a disease.
+Common Cold,Yes,No,Yes,Yes,High,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Common Cold.
+Migraine,Yes,No,No,No,Normal,Normal,Positive,I have Fever. What disease do i have?,You have Migraine.
+Pneumonia,Yes,No,Yes,Yes,High,Normal,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Pneumonia.
+Allergic Rhinitis,No,No,Yes,No,Normal,Low,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Asthma,No,Yes,Yes,Yes,Normal,High,Negative,"I have Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+Asthma,Yes,Yes,Yes,Yes,Normal,Normal,Negative,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Asthma,No,Yes,Yes,Yes,High,Normal,Negative,"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+Asthma,No,Yes,Yes,Yes,High,Normal,Negative,"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+Atherosclerosis,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Chronic Obstructive Pulmonary...,Yes,Yes,Yes,Yes,Normal,Normal,Negative,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Common Cold,Yes,Yes,Yes,No,High,Normal,Negative,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Eczema,No,Yes,No,No,High,Normal,Negative,"I have Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Epilepsy,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hypertension,Yes,Yes,Yes,No,High,Normal,Negative,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Hyperthyroidism,Yes,Yes,Yes,No,Normal,Normal,Negative,"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+Obsessive-Compulsive Disorde...,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Pneumonia,Yes,Yes,Yes,Yes,Normal,Normal,Negative,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Pneumonia,Yes,Yes,Yes,Yes,Normal,Normal,Negative,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Psoriasis,Yes,No,No,No,Normal,Low,Negative,I have Fever. What disease do i have?,You don't have a disease.
+Psoriasis,No,Yes,Yes,No,Normal,Low,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Rubella,Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Rubella,Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Urinary Tract Infection (UTI),No,Yes,Yes,No,High,High,Negative,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Cirrhosis,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Cirrhosis.
+Conjunctivitis (Pink Eye),No,Yes,No,No,High,High,Positive,"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Conjunctivitis (Pink Eye).
+Depression,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Depression.
+Gastroenteritis,Yes,No,Yes,Yes,Low,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Gastroenteritis.
+Hyperthyroidism,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hyperthyroidism.
+Hyperthyroidism,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hyperthyroidism.
+Kidney Cancer,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Kidney Cancer.
+Liver Cancer,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Cancer.
+Liver Disease,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Disease.
+Malaria,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Malaria.
+Malaria,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Malaria.
+Migraine,No,Yes,Yes,No,High,High,Positive,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Migraine.
+Migraine,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Migraine.
+Pancreatitis,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Pancreatitis.
+Rheumatoid Arthritis,Yes,Yes,Yes,No,Normal,Low,Positive,"I have Fever, Cough, Fatigue. What disease do i have?",You have Rheumatoid Arthritis.
+Rheumatoid Arthritis,No,No,Yes,No,Normal,Low,Positive,I have Fatigue. What disease do i have?,You have Rheumatoid Arthritis.
+Spina Bifida,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Spina Bifida.
+Ulcerative Colitis,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Ulcerative Colitis.
+Ulcerative Colitis,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Ulcerative Colitis.
+Urinary Tract Infection,Yes,No,Yes,No,Normal,High,Positive,"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Urinary Tract Infection.
+Allergic Rhinitis,No,Yes,No,No,Low,Normal,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Depression,No,No,No,No,Normal,High,Negative,I have Cholesterol Level. What disease do i have?,You don't have a disease.
+Gastroenteritis,No,No,No,No,Normal,Low,Negative,I have . What disease do i have?,You don't have a disease.
+Influenza,No,No,No,No,Normal,Normal,Negative,I have . What disease do i have?,You don't have a disease.
+Kidney Disease,No,No,Yes,No,Low,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Liver Cancer,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Liver Disease,No,Yes,No,Yes,Low,Normal,Negative,"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Osteoporosis,No,Yes,No,No,Normal,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Stroke,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Anxiety Disorders,Yes,No,Yes,Yes,High,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Anxiety Disorders.
+Diabetes,Yes,No,Yes,Yes,High,Low,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Diabetes.
+Migraine,Yes,Yes,No,No,High,High,Positive,"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Migraine.
+Osteoarthritis,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Osteoarthritis.
+Pneumonia,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Pneumonia.
+Klinefelter Syndrome,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Klinefelter Syndrome.
+Acne,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Brain Tumor,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Bronchitis,No,Yes,No,Yes,Normal,Normal,Negative,"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Cystic Fibrosis,No,No,Yes,Yes,High,High,Negative,"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Diabetes,Yes,No,No,No,High,High,Negative,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Glaucoma,No,No,Yes,No,High,Normal,Negative,"I have Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Osteoarthritis,No,No,Yes,No,High,Normal,Negative,"I have Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Rabies,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Rabies,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Asthma,Yes,No,Yes,No,Low,Normal,Positive,"I have Fever, Fatigue. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,No,No,Yes,Yes,High,High,Positive,"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Asthma.
+Asthma,Yes,No,Yes,Yes,Normal,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Asthma.
+Asthma,Yes,No,Yes,Yes,Normal,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Asthma.
+Chickenpox,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Chickenpox.
+Chickenpox,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Chickenpox.
+Coronary Artery Disease,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Coronary Artery Disease.
+"Eating Disorders (Anorexia,...",No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?","You have Eating Disorders (Anorexia,...."
+Fibromyalgia,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Fibromyalgia.
+Gastroenteritis,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Gastroenteritis.
+Hemophilia,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Hemophilia.
+Hyperthyroidism,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hyperthyroidism.
+Hypoglycemia,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypoglycemia.
+Lymphoma,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Lymphoma.
+Pneumonia,Yes,Yes,Yes,Yes,Normal,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Pneumonia.
+Psoriasis,No,Yes,Yes,No,High,Normal,Positive,"I have Cough, Fatigue, Blood Pressure. What disease do i have?",You have Psoriasis.
+Psoriasis,Yes,No,No,No,High,Normal,Positive,"I have Fever, Blood Pressure. What disease do i have?",You have Psoriasis.
+Psoriasis,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Psoriasis.
+Tuberculosis,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tuberculosis.
+Tuberculosis,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tuberculosis.
+Anxiety Disorders,No,No,No,No,Low,Normal,Negative,I have . What disease do i have?,You don't have a disease.
+Common Cold,Yes,Yes,No,No,High,High,Negative,"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Depression,Yes,No,No,Yes,High,Normal,Negative,"I have Fever, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+Influenza,No,Yes,No,No,Normal,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Kidney Cancer,Yes,No,No,No,Normal,Normal,Negative,I have Fever. What disease do i have?,You don't have a disease.
+Liver Cancer,Yes,No,Yes,Yes,Normal,Low,Negative,"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Liver Disease,Yes,No,No,Yes,Normal,Normal,Negative,"I have Fever, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Lung Cancer,Yes,No,Yes,Yes,Normal,Low,Negative,"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Migraine,Yes,Yes,Yes,No,High,High,Negative,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Osteoarthritis,No,No,Yes,No,Normal,Low,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Stroke,Yes,No,Yes,No,Normal,Low,Negative,"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+Urinary Tract Infection,No,Yes,Yes,Yes,Normal,Low,Negative,"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Diabetes,Yes,Yes,Yes,No,High,Normal,Positive,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Diabetes.
+Hypothyroidism,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+Hypothyroidism,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+Kidney Disease,Yes,No,Yes,No,High,Low,Positive,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Kidney Disease.
+Pneumonia,No,Yes,Yes,Yes,High,Normal,Positive,"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Pneumonia.
+Allergic Rhinitis,No,Yes,Yes,No,High,Normal,Negative,"I have Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Autism Spectrum Disorder (ASD),No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Crohn's Disease,Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Hepatitis,Yes,No,Yes,No,High,High,Negative,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hepatitis,Yes,No,Yes,No,High,High,Negative,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hyperglycemia,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Kidney Cancer,No,Yes,Yes,Yes,Normal,Low,Negative,"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Kidney Disease,Yes,Yes,No,No,Normal,High,Negative,"I have Fever, Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Melanoma,Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Migraine,No,No,No,No,Low,Normal,Negative,I have . What disease do i have?,You don't have a disease.
+Ovarian Cancer,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Pancreatitis,No,Yes,Yes,Yes,Normal,Low,Negative,"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Rheumatoid Arthritis,Yes,No,No,No,Normal,Normal,Negative,I have Fever. What disease do i have?,You don't have a disease.
+Stroke,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Turner Syndrome,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Turner Syndrome,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Urinary Tract Infection,No,No,No,No,Low,Normal,Negative,I have . What disease do i have?,You don't have a disease.
+Zika Virus,No,Yes,Yes,No,High,High,Negative,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Zika Virus,No,Yes,Yes,No,High,High,Negative,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Allergic Rhinitis,Yes,Yes,Yes,No,High,Normal,Positive,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Allergic Rhinitis.
+Anxiety Disorders,Yes,Yes,Yes,No,High,Normal,Positive,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Anxiety Disorders.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Asthma,Yes,Yes,No,Yes,Normal,Normal,Positive,"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+Cataracts,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Cataracts.
+Crohn's Disease,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Crohn's Disease.
+Crohn's Disease,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Crohn's Disease.
+Depression,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Depression.
+Diabetes,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Diabetes.
+Diabetes,No,Yes,Yes,No,Normal,High,Positive,"I have Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Diabetes.
+Hypertension,Yes,No,Yes,No,Normal,High,Positive,"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Hypertension.
+Hypothyroidism,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+Liver Disease,Yes,Yes,Yes,No,Normal,High,Positive,"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Liver Disease.
+Multiple Sclerosis,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Multiple Sclerosis.
+Multiple Sclerosis,Yes,No,No,No,High,High,Positive,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Multiple Sclerosis.
+Osteoarthritis,Yes,No,Yes,Yes,High,Normal,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Osteoarthritis.
+Osteoporosis,Yes,Yes,Yes,No,Normal,High,Positive,"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Osteoporosis.
+Pneumocystis Pneumonia (PCP),Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pneumocystis Pneumonia (PCP).
+Pneumonia,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pneumonia.
+Scoliosis,No,No,No,No,High,High,Positive,"I have Blood Pressure, Cholesterol Level. What disease do i have?",You have Scoliosis.
+Sickle Cell Anemia,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Sickle Cell Anemia.
+Tetanus,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Tetanus.
+Tetanus,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Tetanus.
+Hypertension,No,No,No,No,Low,High,Negative,I have Cholesterol Level. What disease do i have?,You don't have a disease.
+Hypothyroidism,No,No,Yes,No,Normal,High,Negative,"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hypothyroidism,No,No,Yes,No,Normal,High,Negative,"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+Allergic Rhinitis,Yes,No,No,No,High,High,Negative,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Anemia,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Anxiety Disorders,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Cholera,Yes,No,Yes,Yes,High,High,Negative,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Cholera,Yes,No,Yes,Yes,High,High,Negative,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Crohn's Disease,Yes,Yes,Yes,No,Normal,High,Negative,"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+Crohn's Disease,No,No,Yes,No,Normal,High,Negative,"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+Depression,No,Yes,Yes,No,Low,Low,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Diabetes,No,Yes,No,No,Normal,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Endometriosis,Yes,No,No,No,High,Normal,Negative,"I have Fever, Blood Pressure. What disease do i have?",You don't have a disease.
+Hypertension,No,Yes,No,No,Normal,Low,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Hypothyroidism,Yes,Yes,Yes,No,Normal,High,Negative,"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+Kidney Cancer,No,Yes,No,No,Low,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Kidney Disease,No,Yes,No,Yes,Normal,Normal,Negative,"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Pancreatitis,No,Yes,No,No,Low,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Rheumatoid Arthritis,No,Yes,No,No,Low,Normal,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Sepsis,Yes,Yes,Yes,No,Normal,Normal,Negative,"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+Sleep Apnea,Yes,No,Yes,Yes,High,High,Negative,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Urinary Tract Infection,Yes,Yes,No,Yes,High,Normal,Negative,"I have Fever, Cough, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+Asthma,Yes,Yes,Yes,Yes,Normal,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Asthma.
+Bronchitis,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+Down Syndrome,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Down Syndrome.
+Ebola Virus,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Ebola Virus.
+Ebola Virus,Yes,Yes,Yes,Yes,Normal,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Ebola Virus.
+Eczema,No,Yes,No,No,High,High,Positive,"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Eczema.
+Gastroenteritis,Yes,Yes,Yes,Yes,High,Normal,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Gastroenteritis.
+Klinefelter Syndrome,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Klinefelter Syndrome.
+Liver Cancer,No,Yes,Yes,Yes,High,High,Positive,"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Cancer.
+Lyme Disease,Yes,No,No,No,Normal,High,Positive,"I have Fever, Cholesterol Level. What disease do i have?",You have Lyme Disease.
+Lyme Disease,Yes,No,No,No,Normal,High,Positive,"I have Fever, Cholesterol Level. What disease do i have?",You have Lyme Disease.
+Pancreatic Cancer,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pancreatic Cancer.
+Pneumothorax,No,No,Yes,Yes,High,High,Positive,"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pneumothorax.
+Stroke,No,Yes,Yes,Yes,High,High,Positive,"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Ulcerative Colitis,No,Yes,Yes,No,Normal,High,Positive,"I have Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Ulcerative Colitis.
+Hypertension,Yes,Yes,No,No,Normal,Low,Negative,"I have Fever, Cough. What disease do i have?",You don't have a disease.
+Multiple Sclerosis,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Multiple Sclerosis,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Appendicitis,Yes,No,Yes,No,Normal,Normal,Negative,"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+Bronchitis,No,No,Yes,Yes,High,High,Negative,"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Bronchitis,Yes,Yes,Yes,Yes,High,Normal,Negative,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+Common Cold,Yes,No,Yes,Yes,Normal,Low,Negative,"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Diabetes,No,Yes,No,No,Normal,High,Negative,"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+Esophageal Cancer,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+HIV/AIDS,Yes,No,No,No,High,High,Negative,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+HIV/AIDS,Yes,No,No,No,High,High,Negative,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hypertension,No,Yes,No,No,Normal,Low,Negative,I have Cough. What disease do i have?,You don't have a disease.
+Liver Disease,No,Yes,Yes,No,High,Low,Negative,"I have Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Marfan Syndrome,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Migraine,No,Yes,Yes,Yes,Normal,Low,Negative,"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Osteoporosis,No,No,Yes,No,High,Normal,Negative,"I have Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Parkinson's Disease,No,No,Yes,No,Normal,Low,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Parkinson's Disease,No,No,Yes,No,Normal,Low,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Anxiety Disorders,Yes,Yes,No,No,Normal,Low,Positive,"I have Fever, Cough. What disease do i have?",You have Anxiety Disorders.
+Coronary Artery Disease,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Coronary Artery Disease.
+Coronary Artery Disease,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Coronary Artery Disease.
+Hemorrhoids,No,No,No,No,High,High,Positive,"I have Blood Pressure, Cholesterol Level. What disease do i have?",You have Hemorrhoids.
+Hypertension,Yes,No,Yes,No,High,Normal,Positive,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Hypertension.
+Hypothyroidism,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+Osteoarthritis,Yes,Yes,No,No,High,High,Positive,"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Osteoarthritis.
+Osteoporosis,Yes,No,Yes,Yes,High,Low,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Osteoporosis.
+Osteoporosis,No,Yes,Yes,No,Normal,Normal,Positive,"I have Cough, Fatigue. What disease do i have?",You have Osteoporosis.
+Osteoporosis,Yes,No,Yes,No,Normal,Normal,Positive,"I have Fever, Fatigue. What disease do i have?",You have Osteoporosis.
+Osteoporosis,Yes,No,Yes,No,Normal,Normal,Positive,"I have Fever, Fatigue. What disease do i have?",You have Osteoporosis.
+Polycystic Ovary Syndrome (PCOS),Yes,Yes,No,No,Normal,Normal,Positive,"I have Fever, Cough. What disease do i have?",You have Polycystic Ovary Syndrome (PCOS).
+Systemic Lupus Erythematosus...,No,Yes,Yes,No,High,High,Positive,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Systemic Lupus Erythematosus....
+Typhoid Fever,No,Yes,No,No,Normal,Low,Positive,I have Cough. What disease do i have?,You have Typhoid Fever.
+Typhoid Fever,No,Yes,No,No,Normal,Low,Positive,I have Cough. What disease do i have?,You have Typhoid Fever.
+Influenza,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Influenza.
+Pneumonia,Yes,Yes,No,Yes,Normal,High,Negative,"I have Fever, Cough, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+Breast Cancer,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Coronary Artery Disease,Yes,Yes,No,No,High,High,Negative,"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Coronary Artery Disease,Yes,Yes,No,No,High,High,Negative,"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Hyperthyroidism,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Measles,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Measles,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Osteoarthritis,No,Yes,No,Yes,Normal,Normal,Negative,"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+Osteomyelitis,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Osteoporosis,Yes,No,No,No,High,High,Negative,"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Osteoporosis,No,Yes,No,No,High,High,Negative,"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Osteoporosis,No,Yes,No,No,High,High,Negative,"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Polio,Yes,Yes,Yes,No,Normal,Normal,Negative,"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+Asthma,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Asthma.
+Chronic Kidney Disease,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Chronic Kidney Disease.
+Hemophilia,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Hemophilia.
+Hepatitis B,No,Yes,Yes,No,Normal,Low,Positive,"I have Cough, Fatigue. What disease do i have?",You have Hepatitis B.
+Hepatitis B,No,Yes,Yes,No,Normal,Low,Positive,"I have Cough, Fatigue. What disease do i have?",You have Hepatitis B.
+Hypertension,No,No,Yes,No,High,Normal,Positive,"I have Fatigue, Blood Pressure. What disease do i have?",You have Hypertension.
+Hypertension,Yes,No,Yes,No,High,Normal,Positive,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Hypertension.
+Hypertension,No,No,No,No,High,High,Positive,"I have Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypertension.
+Kidney Cancer,Yes,Yes,Yes,No,High,Normal,Positive,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Kidney Cancer.
+Kidney Disease,Yes,Yes,Yes,Yes,High,High,Positive,"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Kidney Disease.
+Osteoporosis,Yes,No,Yes,No,High,Normal,Positive,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Osteoporosis.
+Pancreatitis,Yes,Yes,Yes,No,High,Normal,Positive,"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Pancreatitis.
+Parkinson's Disease,Yes,Yes,No,No,High,Normal,Positive,"I have Fever, Cough, Blood Pressure. What disease do i have?",You have Parkinson's Disease.
+Parkinson's Disease,Yes,Yes,No,No,High,Normal,Positive,"I have Fever, Cough, Blood Pressure. What disease do i have?",You have Parkinson's Disease.
+Prader-Willi Syndrome,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Prader-Willi Syndrome.
+Rheumatoid Arthritis,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Rheumatoid Arthritis.
+Thyroid Cancer,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Thyroid Cancer.
+Tuberculosis,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tuberculosis.
+Bladder Cancer,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Diabetes,No,No,Yes,No,Normal,High,Negative,"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+Otitis Media (Ear Infection),Yes,Yes,Yes,No,Normal,Normal,Negative,"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+Stroke,Yes,No,Yes,No,High,Low,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Stroke,Yes,No,Yes,No,High,Low,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Tourette Syndrome,No,No,Yes,No,High,High,Negative,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+Urinary Tract Infection (UTI),Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Alzheimer's Disease,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Alzheimer's Disease.
+Alzheimer's Disease,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Alzheimer's Disease.
+Alzheimer's Disease,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Alzheimer's Disease.
+Bronchitis,Yes,No,Yes,Yes,High,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+Chronic Obstructive Pulmonary Disease (COPD),Yes,No,Yes,Yes,High,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Chronic Obstructive Pulmonary Disease (COPD).
+Chronic Obstructive Pulmonary Disease (COPD),Yes,No,Yes,Yes,High,High,Positive,"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Chronic Obstructive Pulmonary Disease (COPD).
+Dementia,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Dementia.
+Diabetes,Yes,Yes,Yes,No,Normal,High,Positive,"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Diabetes.
+Diverticulitis,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Diverticulitis.
+Liver Cancer,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Cancer.
+Lung Cancer,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Lung Cancer.
+Lung Cancer,Yes,No,Yes,No,Normal,High,Positive,"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Lung Cancer.
+Mumps,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Mumps.
+Mumps,No,No,Yes,No,Normal,High,Positive,"I have Fatigue, Cholesterol Level. What disease do i have?",You have Mumps.
+Osteoporosis,No,Yes,Yes,No,High,High,Positive,"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Osteoporosis.
+Stroke,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Alzheimer's Disease,Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Alzheimer's Disease,Yes,No,Yes,No,High,Normal,Negative,"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+Cholecystitis,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,Normal,High,Negative,"I have Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+Chronic Obstructive Pulmonary Disease (COPD),No,Yes,Yes,Yes,Normal,High,Negative,"I have Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+Osteoporosis,Yes,No,No,No,Normal,Normal,Negative,I have Fever. What disease do i have?,You don't have a disease.
+Parkinson's Disease,No,No,Yes,No,Normal,Normal,Negative,I have Fatigue. What disease do i have?,You don't have a disease.
+Prostate Cancer,Yes,Yes,No,No,High,Normal,Negative,"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+Schizophrenia,No,Yes,Yes,No,Normal,Normal,Negative,"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+Gout,Yes,No,Yes,No,Normal,High,Positive,"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Gout.
+Migraine,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Migraine.
+Stroke,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Stroke.
+Stroke,No,Yes,No,No,Normal,High,Positive,"I have Cough, Cholesterol Level. What disease do i have?",You have Stroke.
+Testicular Cancer,No,No,Yes,No,High,High,Positive,"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Testicular Cancer.
+Tonsillitis,Yes,Yes,Yes,No,High,High,Positive,"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tonsillitis.
+Williams Syndrome,No,No,Yes,No,Normal,Normal,Positive,I have Fatigue. What disease do i have?,You have Williams Syndrome.
+Stroke,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Stroke,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Stroke,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Stroke,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Stroke,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+Stroke,Yes,No,Yes,No,High,High,Positive,"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
