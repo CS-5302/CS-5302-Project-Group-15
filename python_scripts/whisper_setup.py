@@ -36,9 +36,8 @@ def transcribe_audio(audio_file, models):
             text = segment.text
 
         # Store the detected language, language_prob, and transcribed text in the dictionary
-        transcript[model] = {'lang': detected_lang, 'prob': lang_prob, 'text': text}
-
-
+        # transcript[model] = {'lang': detected_lang, 'prob': lang_prob, 'text': text}
+        transcript[model] = text
     return transcript
 
 # # Example Usage
