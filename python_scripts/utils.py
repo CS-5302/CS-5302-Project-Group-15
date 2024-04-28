@@ -7,6 +7,7 @@ from llama_index.core.node_parser import SimpleNodeParser
 from python_scripts import get_audio
 
 import pandas as pd
+import numpy as np
 import os
 import threading
 import wave
@@ -14,6 +15,30 @@ import pyaudio
 import json
 from itertools import chain
 import re
+from pydub import AudioSegment
+
+import soundfile
+import wave
+
+def sasti_harkat(file_path):
+
+    data, samplerate = soundfile.read(file_path)
+    soundfile.write(file_path, data, samplerate)
+
+def preprocess_audio(audio_path):
+
+    audio = AudioSegment.from_wav(audio_path)
+
+    if audio[0] != 16000: # 16 kHz
+        audio = audio.set_frame_rate(16000)
+    if audio.sample_width != 2:   # int16
+        audio = audio.set_sample_width(2)
+    if audio.channels != 1:       # mono
+        audio = audio.set_channels(1)        
+    arr = np.array(audio.get_array_of_samples())
+    arr = arr.astype(np.float32)/32768.0
+
+    return arr
 
 def get_reranker(reranker_top_n, service_context):
     return LLMRerank(
