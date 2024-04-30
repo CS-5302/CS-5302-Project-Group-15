@@ -19,6 +19,8 @@ from pydub import AudioSegment
 
 import soundfile
 import wave
+import jsonlines
+
 
 def sasti_harkat(file_path):
     """
@@ -161,79 +163,19 @@ def play_wav(filename):
 # wav_file_path = 'your_file.wav'
 # play_wav(wav_file_path)
 
-def read_jsonl_to_list_of_lists(filepath):
-    """
-    Reads a JSONL file and converts it into a list of lists.
-
-    Each line in the JSONL file should be a JSON object. This function
-    will extract the values from each JSON object and store them in a list,
-    appending each of these lists to a main list.
-
-    Parameters:
-    - filepath (str): The path to the JSONL file.
-
-    Returns:
-    - list: A list where each element is a list of values extracted from each JSON object.
-    """
-    all_values = []
-    with open(filepath, 'r', encoding='utf-8', errors='replace') as file:
-        for line in file:
-            cleaned_line = re.sub(r'\\u0[0-9a-fA-F]{3}', '', line)
-            cleaned_line = cleaned_line.strip()  # Remove leading/trailing whitespace
-            if cleaned_line:  # Check if line is not empty after stripping
-                values_list = []
-                while cleaned_line:
-                    match = re.search(r'"(.*?)"', cleaned_line)
-                    if match:
-                        value = match.group(1)
-                        values_list.append(value)
-                        cleaned_line = cleaned_line[match.end():].lstrip(', ')
-                    else:
-                        break
-                all_values.append(values_list)
-    return all_values
-
-# Example usage of reading JSONL to list of lists
-# jsonl_path = 'training_data.jsonl'
-# data_list = read_jsonl_to_list_of_lists(jsonl_path)
-# print(data_list)
-
-
-def flatten_list_of_lists(list_of_lists):
-    """
-    Flattens a list of lists into a single list using itertools.chain.
-
-    Parameters:
-    - list_of_lists (list): A list where each element is a list of items.
-
-    Returns:
-    - list: A single list containing all the elements from the sublists.
-    """
-    return list(chain.from_iterable(list_of_lists))
-
-# Example Usage
-# flattened_list = flatten_list_of_lists(example_list_of_lists)
-
-def write_list_to_file(list_of_items, file_path):
-    """
-    Writes a list to a text file, with each element on a new line.
-
-    Parameters:
-    - list_of_items (list): A list of items to be written to the file.
-    - file_path (str): The path to the text file where the list will be written.
-
-    Each item in the list will be converted to a string if it is not already one.
-    """
-    with open(file_path, 'w') as file:
-        for item in list_of_items:
-            # Convert item to string and write it to the file followed by a newline
-            print("i dont have permission bcuz i am muqeem")
-            file.write(str(item) + '\n')
+def jsonl_to_text(jsonl_file, text_file, field_name):
+    with open(jsonl_file, 'r', encoding='utf-8') as input_file, open(text_file, 'w', encoding='utf-8') as output_file:
+        reader = jsonlines.Reader(input_file)
+        for data in reader:
+            text = data.get(field_name, '')  # Change 'field_name' to the actual field name containing the text
+            output_file.write(text + '\n')
 
 # Example usage
-# my_list = ['apple', 'banana', 'cherry']
-# file_path = 'output.txt'
-# write_list_to_file(my_list, file_path)
+"""
+jsonl_to_text('C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MeDAL/nehal_processed.jsonl', 
+              'C:/Users/Talha/OneDrive - Higher Education Commission/Documents/GitHub/CS-5302-Project-Group-15/Datasets/MeDAL/nehal_output.txt', 
+              'text')
+"""
 
 
 def get_unique_filename(base_path, name, age, gender):

@@ -84,20 +84,4 @@ For getitng embeddings do model.chroma_collection.get(include = ['documents', 'e
 # !pip install faster-whisper
 # !pip install gradio
 # !pip install mistral-lang
-# Imports:
-
-from uuid import uuid4 # assigns unique ID to documents
-from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
-from llama_index.vector_stores.chroma import ChromaVectorStore
-from llama_index.core import StorageContext
-from llama_index.llms.huggingface import HuggingFaceLLM
-from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.embeddings.openai import OpenAIEmbedding
-from llama_index.core import Settings # Settings.embed_model = OpenAIEmbedding()
-from llama_index.core import get_response_synthesizer
-from llama_index.core import PromptTemplate
-from llama_index.core.node_parser import SentenceSplitter
-from IPython.display import Markdown, display
-import chromadb
-
-import openai
+# !pip install jsonlines

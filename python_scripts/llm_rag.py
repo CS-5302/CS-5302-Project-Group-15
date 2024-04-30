@@ -65,18 +65,16 @@ class DocumentEmbeddingPipeline:
         :param joining: If true, the documents will be joined into a single string.
         :param persistent: If true, ChromaDB will use persistent storage; otherwise, it uses ephemeral storage.
         """
+
+        self.persistent = persistent  # Set persistent storage requirement
         # Initialize ChromaDB client based on the persistence requirement
         chroma_client = chromadb.PersistentClient(path = self.chroma_path) if persistent else chromadb.Client()
-        print("talha muqeem")
         cl = chroma_client.list_collections()
-        print(cl)
         # Check if the specified collection already exists in ChromaDB
         if collection_name in cl:
             # If the collection exists, retrieve it
-            print("collection hai")
             self.chroma_collection = chroma_client.get_collection(name = collection_name)
         else:
-            print("collection nahi hai")
             # If the collection does not exist, create a new one with the specified name and metadata
             self.chroma_collection = chroma_client.create_collection(get_or_create = True, name = collection_name, metadata = {"hnsw:space": 'cosine'})  
 
@@ -88,30 +86,19 @@ class DocumentEmbeddingPipeline:
         # Preprocess the data if of jsonl/json type
         # print(data_path)
 
-        for file in os.listdir(self.chroma_path):
+        for idx, file in enumerate(os.listdir(self.chroma_path)):
             file_path = os.path.join(self.chroma_path, file)
-            print(file_path)
             if file_path.endswith(('.jsonl', '.ndjson')):
-                print("hello")
-                step1 = utils.read_jsonl_to_list_of_lists(file_path)
-                print("talha momy")
-                step2 = utils.flatten_list_of_lists(step1)
-                print("ubaid king")
-                # data_path = data_path + '/json_to_text.txt'
-                step3 = utils.write_list_to_file(step2, self.chroma_path)
+                destination_path = os.path.join(self.chroma_path, f'output{idx}.txt')
+                utils.jsonl_to_text(file_path, destination_path, 'text')
 
         required_exts = ['.txt']
-        print("RR")
-        print(self.chroma_path)
         reader = SimpleDirectoryReader(
             input_dir = self.chroma_path,
             required_exts = required_exts,
             recursive = True
         )
         self.documents = reader.load_data(True)
-        print(reader.input_files)
-        print("Hi")
-        print(f"loaded {len(self.documents)} docs")
 
     def embed_and_index(self, model_name = "BAAI/bge-small-en-v1.5"):
         """
@@ -120,32 +107,31 @@ class DocumentEmbeddingPipeline:
         :param model_name: Name of the embedding model to use for generating document embeddings.
         """
         # Initialize the embedding model
-        Settings.embed_model = HuggingFaceEmbedding(model_name = model_name)
-        print('kkjkk')
-        # Parse and chunk documents for embedding
-        chunks = self.service_context.node_parser.get_nodes_from_documents(self.documents, True)
-        print("chnk")
-        # Initialize lists to store texts, embeddings, and metadata
-        texts, text_embeds, metadatas = [], [], []
+        if not self.persistent:
+            Settings.embed_model = HuggingFaceEmbedding(model_name = model_name)
+            # Parse and chunk documents for embedding
+            chunks = self.service_context.node_parser.get_nodes_from_documents(self.documents, True)
+            # Initialize lists to store texts, embeddings, and metadata
+            texts, text_embeds, metadatas = [], [], []
 
-        # Iterate over chunks, embed texts, and prepare metadata
-        for chunk in tqdm(chunks, desc='Chunking data'):
-            texts.append(chunk.text)
-            text_embeds.append(Settings.embed_model.get_text_embedding(chunk.text))
-            metadatas.append({'source': self.chroma_collection.name, 'text': chunk.text})
+            # Iterate over chunks, embed texts, and prepare metadata
+            for chunk in tqdm(chunks, desc='Chunking data'):
+                texts.append(chunk.text)
+                text_embeds.append(Settings.embed_model.get_text_embedding(chunk.text))
+                metadatas.append({'source': self.chroma_collection.name, 'text': chunk.text})
 
-        # Generate unique identifiers for each embedded document
-        ids = [str(uuid4()) for _ in range(len(text_embeds))]
+            # Generate unique identifiers for each embedded document
+            ids = [str(uuid4()) for _ in range(len(text_embeds))]
 
-        # Add the embedded texts and metadata to the ChromaDB collection
-        self.chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
+            # Add the embedded texts and metadata to the ChromaDB collection
+            self.chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
 
         # Prepare a vector store for indexing the documents in ChromaDB
         vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector = True, include_metadata = True)
         storage_context = StorageContext.from_defaults(vector_store = vector_store)
 
         # Create an index from the documents using the vector store and embedding model
-        self.index = VectorStoreIndex.from_documents(self.documents, storage_context, True, service_context=self.service_context)
+        self.index = VectorStoreIndex.from_documents(self.documents, storage_context, True, service_context = self.service_context)
     def query_data(self, query):
         """
         Query data from the index and display the result.
