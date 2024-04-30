@@ -1,0 +1,1350 @@
+prompts,results
+"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+I have Fever. What disease do i have?,You have Eczema.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+I have Cough. What disease do i have?,You don't have a disease.
+I have Cough. What disease do i have?,You don't have a disease.
+"I have Fever, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Asthma.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have . What disease do i have?,You don't have a disease.
+I have . What disease do i have?,You don't have a disease.
+I have Cough. What disease do i have?,You don't have a disease.
+"I have Fever, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Depression.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Liver Cancer.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Stroke.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Urinary Tract Infection.
+"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+I have Fever. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Cough. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bipolar Disorder.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Bronchitis.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+"I have Fatigue, Difficulty Breathing. What disease do i have?",You have Cerebral Palsy.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Colorectal Cancer.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Eczema.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypertensive Heart Disease.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Influenza.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Influenza.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Multiple Sclerosis.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Myocardial Infarction (Heart....
+I have Fever. What disease do i have?,You have Urinary Tract Infection (UTI).
+I have Difficulty Breathing. What disease do i have?,You don't have a disease.
+I have Difficulty Breathing. What disease do i have?,You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Common Cold.
+I have Fever. What disease do i have?,You have Migraine.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Pneumonia.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+I have Fever. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Cirrhosis.
+"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Conjunctivitis (Pink Eye).
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Depression.
+"I have Fever, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Gastroenteritis.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hyperthyroidism.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hyperthyroidism.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Kidney Cancer.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Cancer.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Malaria.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Malaria.
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Migraine.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Migraine.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Pancreatitis.
+"I have Fever, Cough, Fatigue. What disease do i have?",You have Rheumatoid Arthritis.
+I have Fatigue. What disease do i have?,You have Rheumatoid Arthritis.
+I have Fatigue. What disease do i have?,You have Spina Bifida.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Ulcerative Colitis.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Ulcerative Colitis.
+"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Urinary Tract Infection.
+I have Cough. What disease do i have?,You don't have a disease.
+I have Cholesterol Level. What disease do i have?,You don't have a disease.
+I have . What disease do i have?,You don't have a disease.
+I have . What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Anxiety Disorders.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Diabetes.
+"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Migraine.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Osteoarthritis.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Pneumonia.
+I have Fatigue. What disease do i have?,You have Klinefelter Syndrome.
+I have Fatigue. What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Asthma.
+"I have Fever, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Asthma.
+"I have Fever, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Asthma.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Chickenpox.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Chickenpox.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Coronary Artery Disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?","You have Eating Disorders (Anorexia,...."
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Fibromyalgia.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Gastroenteritis.
+I have Fatigue. What disease do i have?,You have Hemophilia.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hyperthyroidism.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypoglycemia.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Lymphoma.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Pneumonia.
+"I have Cough, Fatigue, Blood Pressure. What disease do i have?",You have Psoriasis.
+"I have Fever, Blood Pressure. What disease do i have?",You have Psoriasis.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Psoriasis.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tuberculosis.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tuberculosis.
+I have . What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fever. What disease do i have?,You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Diabetes.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Kidney Disease.
+"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Pneumonia.
+"I have Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+I have . What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+I have Fever. What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have . What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Allergic Rhinitis.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Anxiety Disorders.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Difficulty Breathing. What disease do i have?",You have Asthma.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Cataracts.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Crohn's Disease.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Crohn's Disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Depression.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Diabetes.
+"I have Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Diabetes.
+"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Hypertension.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Liver Disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Multiple Sclerosis.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You have Multiple Sclerosis.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Osteoarthritis.
+"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Osteoporosis.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pneumocystis Pneumonia (PCP).
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pneumonia.
+"I have Blood Pressure, Cholesterol Level. What disease do i have?",You have Scoliosis.
+I have Fatigue. What disease do i have?,You have Sickle Cell Anemia.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Tetanus.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Tetanus.
+I have Cholesterol Level. What disease do i have?,You don't have a disease.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Blood Pressure. What disease do i have?",You don't have a disease.
+I have Cough. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Cough. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You have Asthma.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Down Syndrome.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Ebola Virus.
+"I have Fever, Cough, Fatigue, Difficulty Breathing. What disease do i have?",You have Ebola Virus.
+"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Eczema.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Gastroenteritis.
+I have Fatigue. What disease do i have?,You have Klinefelter Syndrome.
+"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Cancer.
+"I have Fever, Cholesterol Level. What disease do i have?",You have Lyme Disease.
+"I have Fever, Cholesterol Level. What disease do i have?",You have Lyme Disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pancreatic Cancer.
+"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Pneumothorax.
+"I have Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Ulcerative Colitis.
+"I have Fever, Cough. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Cough. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Cough. What disease do i have?",You have Anxiety Disorders.
+I have Fatigue. What disease do i have?,You have Coronary Artery Disease.
+I have Fatigue. What disease do i have?,You have Coronary Artery Disease.
+"I have Blood Pressure, Cholesterol Level. What disease do i have?",You have Hemorrhoids.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Hypertension.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypothyroidism.
+"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You have Osteoarthritis.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure. What disease do i have?",You have Osteoporosis.
+"I have Cough, Fatigue. What disease do i have?",You have Osteoporosis.
+"I have Fever, Fatigue. What disease do i have?",You have Osteoporosis.
+"I have Fever, Fatigue. What disease do i have?",You have Osteoporosis.
+"I have Fever, Cough. What disease do i have?",You have Polycystic Ovary Syndrome (PCOS).
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Systemic Lupus Erythematosus....
+I have Cough. What disease do i have?,You have Typhoid Fever.
+I have Cough. What disease do i have?,You have Typhoid Fever.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Influenza.
+"I have Fever, Cough, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Difficulty Breathing. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Asthma.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Chronic Kidney Disease.
+I have Fatigue. What disease do i have?,You have Hemophilia.
+"I have Cough, Fatigue. What disease do i have?",You have Hepatitis B.
+"I have Cough, Fatigue. What disease do i have?",You have Hepatitis B.
+"I have Fatigue, Blood Pressure. What disease do i have?",You have Hypertension.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Hypertension.
+"I have Blood Pressure, Cholesterol Level. What disease do i have?",You have Hypertension.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Kidney Cancer.
+"I have Fever, Cough, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Kidney Disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You have Osteoporosis.
+"I have Fever, Cough, Fatigue, Blood Pressure. What disease do i have?",You have Pancreatitis.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You have Parkinson's Disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You have Parkinson's Disease.
+I have Fatigue. What disease do i have?,You have Prader-Willi Syndrome.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Rheumatoid Arthritis.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Thyroid Cancer.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tuberculosis.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Alzheimer's Disease.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Alzheimer's Disease.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Alzheimer's Disease.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Bronchitis.
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Chronic Obstructive Pulmonary Disease (COPD).
+"I have Fever, Fatigue, Difficulty Breathing, Blood Pressure, Cholesterol Level. What disease do i have?",You have Chronic Obstructive Pulmonary Disease (COPD).
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Dementia.
+"I have Fever, Cough, Fatigue, Cholesterol Level. What disease do i have?",You have Diabetes.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Diverticulitis.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Liver Cancer.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Lung Cancer.
+"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Lung Cancer.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Mumps.
+"I have Fatigue, Cholesterol Level. What disease do i have?",You have Mumps.
+"I have Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Osteoporosis.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Blood Pressure. What disease do i have?",You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue, Difficulty Breathing, Cholesterol Level. What disease do i have?",You don't have a disease.
+I have Fever. What disease do i have?,You don't have a disease.
+I have Fatigue. What disease do i have?,You don't have a disease.
+"I have Fever, Cough, Blood Pressure. What disease do i have?",You don't have a disease.
+"I have Cough, Fatigue. What disease do i have?",You don't have a disease.
+"I have Fever, Fatigue, Cholesterol Level. What disease do i have?",You have Gout.
+I have Fatigue. What disease do i have?,You have Migraine.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Cough, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Testicular Cancer.
+"I have Fever, Cough, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Tonsillitis.
+I have Fatigue. What disease do i have?,You have Williams Syndrome.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"I have Fever, Fatigue, Blood Pressure, Cholesterol Level. What disease do i have?",You have Stroke.
+"i have depressive or psychotic symptoms, insomnia, abnormal involuntary movements, chest tightness, irregular heartbeat, breathing fast. what disease do i have?",you have panic disorder.
+"i have shortness of breath, depressive or psychotic symptoms, insomnia, chest tightness, irregular heartbeat. what disease do i have?",you have panic disorder.
+"i have shortness of breath, depressive or psychotic symptoms, dizziness, insomnia, chest tightness, palpitations, breathing fast. what disease do i have?",you have panic disorder.
+"i have anxiety and nervousness, depression, dizziness, chest tightness, irregular heartbeat, breathing fast. what disease do i have?",you have panic disorder.
+"i have anxiety and nervousness, depression, shortness of breath, depressive or psychotic symptoms, dizziness, insomnia, chest tightness, irregular heartbeat. what disease do i have?",you have panic disorder.
+"i have depression, depressive or psychotic symptoms, dizziness, insomnia, chest tightness, breathing fast. what disease do i have?",you have panic disorder.
+"i have sore throat, throat swelling, throat feels tight. what disease do i have?",you have vocal cord polyp.
+"i have hoarse voice, sore throat. what disease do i have?",you have vocal cord polyp.
+"i have suprapubic pain, vaginal itching, pain during intercourse, frequent urination, vaginal discharge, blood in urine. what disease do i have?",you have atrophic vaginitis.
+"i have vomiting, headache, nausea, neck pain. what disease do i have?",you have headache after lumbar puncture.
+"i have dizziness, painful urination, neck pain, low back pain. what disease do i have?",you have headache after lumbar puncture.
+"i have hand or finger pain, foot or toe pain, elbow pain. what disease do i have?",you have osteochondrosis.
+"i have jaundice, arm stiffness or tightness. what disease do i have?",you have metabolic disorder.
+"i have suprapubic pain, sharp abdominal pain, pain during intercourse, vaginal discharge, pain during pregnancy, pelvic pain, vaginal pain. what disease do i have?",you have vaginitis.
+"i have pain during intercourse, vaginal discharge, vaginal redness. what disease do i have?",you have vaginitis.
+"i have suprapubic pain, sharp abdominal pain, painful urination, pain during intercourse, lower abdominal pain, pelvic pain. what disease do i have?",you have vaginitis.
+"i have diminished hearing, ringing in ear, plugged feeling in ear. what disease do i have?",you have tinnitus of unknown cause.
+"i have anxiety and nervousness, depression, abusing alcohol, acne or pimples, decreased appetite. what disease do i have?",you have eating disorder.
+"i have sharp abdominal pain, blood in urine, back pain. what disease do i have?",you have pyelonephritis.
+"i have suprapubic pain, sharp abdominal pain, painful urination, frequent urination, lower abdominal pain, blood in urine, back pain, low back pain. what disease do i have?",you have pyelonephritis.
+"i have suprapubic pain, sharp abdominal pain, vomiting, nausea, lower abdominal pain, blood in urine, side pain. what disease do i have?",you have pyelonephritis.
+"i have leg pain, sharp abdominal pain, back pain, low back pain, pelvic pain, shoulder pain, ache all over. what disease do i have?",you have chronic pain disorder.
+"i have leg pain, sharp abdominal pain, headache, shoulder pain, ache all over. what disease do i have?",you have chronic pain disorder.
+"i have leg pain, headache, back pain, low back pain, pelvic pain, knee pain, shoulder pain. what disease do i have?",you have chronic pain disorder.
+"i have headache, low back pain, pelvic pain, ache all over. what disease do i have?",you have chronic pain disorder.
+"i have sharp abdominal pain, vomiting, headache, pelvic pain, spotting or bleeding during pregnancy. what disease do i have?",you have problem during pregnancy.
+"i have vomiting, nausea, pelvic pain, problems during pregnancy. what disease do i have?",you have problem during pregnancy.
+"i have vomiting, nausea, back pain, problems during pregnancy. what disease do i have?",you have problem during pregnancy.
+"i have headache, nausea, pelvic pain. what disease do i have?",you have problem during pregnancy.
+"i have vomiting, lower abdominal pain, pelvic pain, cramps and spasms. what disease do i have?",you have problem during pregnancy.
+"i have vomiting, headache, nausea, lower abdominal pain, pain during pregnancy, pelvic pain. what disease do i have?",you have problem during pregnancy.
+"i have jaundice, sharp abdominal pain, vomiting, decreased appetite, side pain, upper abdominal pain. what disease do i have?",you have choledocholithiasis.
+"i have sharp abdominal pain, vomiting, nausea, side pain, upper abdominal pain, chills. what disease do i have?",you have choledocholithiasis.
+"i have jaundice, nausea, decreased appetite, side pain, chills. what disease do i have?",you have choledocholithiasis.
+"i have symptoms of eye, pain in eye, abnormal movement of eyelid, foreign body sensation in eye. what disease do i have?",you have diabetic retinopathy.
+"i have leg pain, hip pain, headache, back pain, neck pain, low back pain, muscle pain. what disease do i have?",you have fibromyalgia.
+"i have sharp chest pain, leg pain, hip pain, neck pain, low back pain, muscle pain, ache all over. what disease do i have?",you have fibromyalgia.
+"i have leg pain, hip pain, neck pain, low back pain. what disease do i have?",you have fibromyalgia.
+"i have retention of urine, blood in stool, vomiting, nausea, burning abdominal pain, constipation. what disease do i have?",you have ischemia of the bowel.
+"i have shortness of breath, groin mass, vomiting, back pain, side pain. what disease do i have?",you have peritonitis.
+"i have shortness of breath, back pain, side pain. what disease do i have?",you have peritonitis.
+"i have sharp chest pain, abusing alcohol, side pain, lower body pain. what disease do i have?",you have acute pancreatitis.
+"i have abusing alcohol, sharp abdominal pain, nausea, back pain, burning abdominal pain, hemoptysis. what disease do i have?",you have acute pancreatitis.
+"i have abusing alcohol, vomiting, nausea, diarrhea, back pain, burning abdominal pain, side pain, lower body pain, upper abdominal pain. what disease do i have?",you have acute pancreatitis.
+"i have sharp chest pain, abusing alcohol, sharp abdominal pain, vomiting, diarrhea, back pain, burning abdominal pain, side pain, lower body pain, upper abdominal pain. what disease do i have?",you have acute pancreatitis.
+"i have sharp chest pain, abusing alcohol, sharp abdominal pain, vomiting, lower body pain, upper abdominal pain, hemoptysis. what disease do i have?",you have acute pancreatitis.
+"i have sharp chest pain, sharp abdominal pain, vomiting, nausea, back pain, burning abdominal pain, hemoptysis. what disease do i have?",you have acute pancreatitis.
+"i have shortness of breath, chest tightness, wheezing, fever, coughing up sputum, coryza, allergic reaction. what disease do i have?",you have asthma.
+"i have shortness of breath, sharp chest pain, chest tightness, difficulty breathing, coughing up sputum. what disease do i have?",you have asthma.
+"i have cough, nasal congestion, wheezing. what disease do i have?",you have asthma.
+"i have chest tightness, cough, difficulty breathing, coughing up sputum. what disease do i have?",you have asthma.
+"i have shortness of breath, sharp chest pain, cough, coryza, allergic reaction. what disease do i have?",you have asthma.
+"i have vaginal discharge, intermenstrual bleeding, pain during pregnancy, spotting or bleeding during pregnancy, groin pain. what disease do i have?",you have induced abortion.
+"i have sharp abdominal pain, lower abdominal pain, intermenstrual bleeding, spotting or bleeding during pregnancy, groin pain. what disease do i have?",you have induced abortion.
+"i have vomiting, diarrhea, fluid retention, flu-like syndrome. what disease do i have?",you have infectious gastroenteritis.
+"i have sharp abdominal pain, vomiting, nausea, fever, chills, fluid retention, flu-like syndrome. what disease do i have?",you have infectious gastroenteritis.
+"i have vomiting, headache, nausea, burning abdominal pain, decreased appetite, fever, chills. what disease do i have?",you have infectious gastroenteritis.
+"i have blood in stool, sharp abdominal pain, headache, nausea, diarrhea, burning abdominal pain, decreased appetite, chills, fluid retention. what disease do i have?",you have infectious gastroenteritis.
+"i have blood in stool, sharp abdominal pain, vomiting, nausea, diarrhea, burning abdominal pain, decreased appetite, chills, fluid retention, flu-like syndrome. what disease do i have?",you have infectious gastroenteritis.
+"i have blood in stool, sharp abdominal pain, nausea. what disease do i have?",you have infectious gastroenteritis.
+"i have sore throat, cough. what disease do i have?",you have acute sinusitis.
+"i have facial pain, frontal headache, coughing up sputum, coryza. what disease do i have?",you have acute sinusitis.
+"i have nasal congestion, facial pain, frontal headache, coughing up sputum, coryza. what disease do i have?",you have acute sinusitis.
+"i have sore throat, cough, nasal congestion, facial pain, ear pain, frontal headache, sinus congestion. what disease do i have?",you have acute sinusitis.
+"i have cough, frontal headache. what disease do i have?",you have acute sinusitis.
+"i have sore throat, ear pain, frontal headache, coughing up sputum, sinus congestion. what disease do i have?",you have acute sinusitis.
+"i have sore throat, facial pain, fever, coughing up sputum, coryza, sinus congestion, painful sinuses. what disease do i have?",you have acute sinusitis.
+"i have nasal congestion, ear pain, fever, coughing up sputum, sinus congestion, painful sinuses. what disease do i have?",you have acute sinusitis.
+"i have cough, facial pain, ear pain, coughing up sputum, coryza. what disease do i have?",you have acute sinusitis.
+"i have anxiety and nervousness, depressive or psychotic symptoms, hostile behavior, feeling ill. what disease do i have?",you have substance-related mental disorder.
+"i have anxiety and nervousness, insomnia, hostile behavior, feeling ill, delusions or hallucinations. what disease do i have?",you have substance-related mental disorder.
+"i have depression, depressive or psychotic symptoms, pain during pregnancy, excessive anger, delusions or hallucinations. what disease do i have?",you have postpartum depression.
+"i have leg pain, neck pain, side pain, stiffness all over, back mass or lump. what disease do i have?",you have spondylitis.
+"i have hip pain, back pain, neck pain, low back pain, side pain, stiffness all over. what disease do i have?",you have spondylitis.
+"i have hip pain, neck pain, lower body pain, stiffness all over, back mass or lump. what disease do i have?",you have spondylitis.
+"i have leg pain, low back pain, side pain, stiffness all over, back mass or lump. what disease do i have?",you have spondylitis.
+"i have leg pain, hip pain, neck pain, side pain, stiffness all over. what disease do i have?",you have spondylitis.
+"i have sharp abdominal pain, involuntary urination, intermenstrual bleeding, cramps and spasms, heavy menstrual flow, unpredictable menstruation, painful menstruation. what disease do i have?",you have uterine fibroids.
+"i have sharp abdominal pain, painful urination, long menstrual periods. what disease do i have?",you have idiopathic nonmenstrual bleeding.
+"i have diminished vision, symptoms of eye, pain in eye, foreign body sensation in eye, lacrimation, mass on eyelid. what disease do i have?",you have chalazion.
+"i have diminished vision, eye redness, mass on eyelid, swollen eye, eyelid swelling. what disease do i have?",you have chalazion.
+"i have skin growth, symptoms of eye, pain in eye, foreign body sensation in eye, eye redness, lacrimation, swollen eye. what disease do i have?",you have chalazion.
+"i have skin growth, diminished vision, symptoms of eye, eye redness, lacrimation, mass on eyelid, swollen eye, eyelid swelling. what disease do i have?",you have chalazion.
+"i have diminished vision, symptoms of eye, pain in eye, lacrimation, eyelid swelling. what disease do i have?",you have chalazion.
+"i have diminished vision, foreign body sensation in eye, eye redness, eyelid swelling. what disease do i have?",you have chalazion.
+"i have vaginal itching, painful urination, lower abdominal pain, vaginal redness, vulvar irritation, itching of skin. what disease do i have?",you have vaginal yeast infection.
+"i have sharp abdominal pain, vaginal itching, vaginal discharge, vaginal redness, vulvar irritation. what disease do i have?",you have vaginal yeast infection.
+"i have suprapubic pain, painful urination. what disease do i have?",you have vaginal yeast infection.
+"i have suprapubic pain, sharp abdominal pain, vaginal discharge, vaginal pain, vulvar irritation, itching of skin. what disease do i have?",you have vaginal yeast infection.
+"i have sharp abdominal pain, vaginal itching. what disease do i have?",you have vaginal yeast infection.
+"i have abnormal appearing skin, skin growth, foot or toe pain, foot or toe swelling, skin on leg or foot looks infected, skin dryness, peeling, scaliness, or roughness, skin on arm or hand looks infected. what disease do i have?",you have ingrown toe nail.
+"i have abnormal appearing skin, neck swelling, foot or toe pain, foot or toe swelling, swollen eye, irregular appearing nails, skin on arm or hand looks infected. what disease do i have?",you have ingrown toe nail.
+"i have foot or toe swelling, skin on leg or foot looks infected, swollen eye, irregular appearing nails, skin on arm or hand looks infected. what disease do i have?",you have ingrown toe nail.
+"i have neck swelling, foot or toe swelling, skin on leg or foot looks infected, irregular appearing nails. what disease do i have?",you have ingrown toe nail.
+"i have neck swelling, foot or toe pain, foot or toe swelling, skin on leg or foot looks infected, swollen eye, irregular appearing nails, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have ingrown toe nail.
+"i have shortness of breath, dizziness, cough, paresthesia, fever. what disease do i have?",you have pulmonary eosinophilia.
+"i have white discharge from eye, double vision, symptoms of eye, pain in eye, lacrimation. what disease do i have?",you have corneal disorder.
+"i have white discharge from eye, diminished vision, double vision, symptoms of eye, spots or clouds in vision, eye redness. what disease do i have?",you have corneal disorder.
+"i have cough, flatulence, sharp abdominal pain, vomiting, diarrhea, allergic reaction. what disease do i have?",you have intestinal malabsorption.
+"i have skin swelling, lip swelling, abnormal appearing skin, skin lesion, skin growth. what disease do i have?",you have viral warts.
+"i have skin swelling, lip swelling, abnormal appearing skin. what disease do i have?",you have viral warts.
+"i have dizziness, headache, problems with movement, focal weakness, slurring words. what disease do i have?",you have stroke.
+"i have depressive or psychotic symptoms, dizziness, abnormal involuntary movements, difficulty speaking, problems with movement. what disease do i have?",you have stroke.
+"i have skin growth, irregular appearing scalp, pain of the anus, pelvic pain, bones are painful. what disease do i have?",you have pilonidal cyst.
+"i have skin swelling, irregular appearing scalp, bones are painful, ache all over, lower body pain. what disease do i have?",you have pilonidal cyst.
+"i have skin swelling, knee pain, ankle pain, problems with movement. what disease do i have?",you have flat feet.
+"i have skin swelling, ankle pain, problems with movement. what disease do i have?",you have flat feet.
+"i have retention of urine, involuntary urination, blood in urine, intermenstrual bleeding, vaginal pain. what disease do i have?",you have pelvic organ prolapse.
+"i have suprapubic pain, blood in urine. what disease do i have?",you have pelvic organ prolapse.
+"i have retention of urine, suprapubic pain, involuntary urination, frequent urination, blood in urine, intermenstrual bleeding, vaginal pain. what disease do i have?",you have pelvic organ prolapse.
+"i have involuntary urination, intermenstrual bleeding, symptoms of bladder. what disease do i have?",you have pelvic organ prolapse.
+"i have arm pain, wrist swelling, wrist stiffness or tightness, elbow pain, shoulder stiffness or tightness, elbow swelling. what disease do i have?",you have fracture of the arm.
+"i have wrist swelling, arm stiffness or tightness, arm swelling, wrist stiffness or tightness, elbow pain, shoulder pain, shoulder stiffness or tightness, elbow swelling. what disease do i have?",you have fracture of the arm.
+"i have leg pain, melena. what disease do i have?",you have coagulation (bleeding) disorder.
+"i have depressive or psychotic symptoms, dizziness, abnormal involuntary movements, difficulty speaking, vomiting, headache, diminished vision. what disease do i have?",you have intracranial hemorrhage.
+"i have depressive or psychotic symptoms, abnormal involuntary movements, difficulty speaking, vomiting, headache, diminished vision, seizures. what disease do i have?",you have intracranial hemorrhage.
+"i have shortness of breath, difficulty in swallowing, feeling ill, nausea, weakness, decreased heart rate. what disease do i have?",you have hyperkalemia.
+"i have shortness of breath, depressive or psychotic symptoms, sharp chest pain, dizziness, difficulty in swallowing, vomiting, weakness, decreased heart rate. what disease do i have?",you have hyperkalemia.
+"i have depressive or psychotic symptoms, sharp chest pain, difficulty in swallowing, feeling ill, vomiting, nausea, decreased heart rate. what disease do i have?",you have hyperkalemia.
+"i have diminished vision, eye redness, lacrimation, itchiness of eye, eye burns or stings, swollen eye. what disease do i have?",you have cornea infection.
+"i have lip swelling, spots or clouds in vision, eye redness, lacrimation, swollen eye. what disease do i have?",you have cornea infection.
+"i have lip swelling, pain in eye, foreign body sensation in eye, spots or clouds in vision, eye redness, lacrimation, itchiness of eye, swollen eye. what disease do i have?",you have cornea infection.
+"i have sore throat, cough, headache, facial pain, ear pain, fever, painful sinuses. what disease do i have?",you have chronic sinusitis.
+"i have sore throat, facial pain, ear pain, fever, congestion in chest, sinus congestion, painful sinuses. what disease do i have?",you have chronic sinusitis.
+"i have sharp chest pain, chest tightness, cough, difficulty in swallowing. what disease do i have?",you have achalasia.
+"i have hoarse voice, difficulty speaking, diminished hearing, ear pain, ringing in ear, plugged feeling in ear, redness in ear. what disease do i have?",you have conductive hearing loss.
+"i have dizziness, difficulty speaking, ear pain, ringing in ear, fluid in ear. what disease do i have?",you have conductive hearing loss.
+"i have ringing in ear, redness in ear, low self-esteem. what disease do i have?",you have conductive hearing loss.
+"i have hoarse voice, difficulty speaking, ear pain. what disease do i have?",you have conductive hearing loss.
+"i have diminished hearing, plugged feeling in ear, fluid in ear. what disease do i have?",you have conductive hearing loss.
+"i have symptoms of the scrotum and testes, sharp abdominal pain, ache all over, upper abdominal pain, swollen abdomen. what disease do i have?",you have abdominal hernia.
+"i have symptoms of the scrotum and testes, lower abdominal pain, ache all over, upper abdominal pain, swollen abdomen. what disease do i have?",you have abdominal hernia.
+"i have depression, difficulty speaking, hostile behavior, fears and phobias, low self-esteem. what disease do i have?",you have marijuana abuse.
+"i have depression, depressive or psychotic symptoms, drug abuse, temper problems. what disease do i have?",you have marijuana abuse.
+i have depression. what disease do i have?,you have marijuana abuse.
+"i have anxiety and nervousness, depression, depressive or psychotic symptoms, abusing alcohol, drug abuse, low self-esteem. what disease do i have?",you have marijuana abuse.
+"i have depressive or psychotic symptoms, abusing alcohol, hostile behavior, excessive anger, temper problems, low self-esteem. what disease do i have?",you have marijuana abuse.
+"i have anxiety and nervousness, depression, depressive or psychotic symptoms, abusing alcohol, drug abuse, temper problems, fears and phobias, low self-esteem. what disease do i have?",you have marijuana abuse.
+"i have depression, depressive or psychotic symptoms, difficulty speaking, abusing alcohol, excessive anger, fears and phobias, low self-esteem. what disease do i have?",you have marijuana abuse.
+"i have depression, depressive or psychotic symptoms, difficulty speaking, hostile behavior, drug abuse. what disease do i have?",you have marijuana abuse.
+"i have anxiety and nervousness, abusing alcohol, drug abuse, delusions or hallucinations, fears and phobias. what disease do i have?",you have marijuana abuse.
+"i have anxiety and nervousness, depression, abusing alcohol. what disease do i have?",you have marijuana abuse.
+"i have anxiety and nervousness, depression, abusing alcohol, drug abuse, delusions or hallucinations. what disease do i have?",you have marijuana abuse.
+"i have sharp chest pain, sharp abdominal pain, vomiting, nausea, heartburn. what disease do i have?",you have indigestion.
+"i have sharp chest pain, sharp abdominal pain, vomiting, nausea, burning abdominal pain, decreased appetite, stomach bloating. what disease do i have?",you have indigestion.
+"i have sharp chest pain, sharp abdominal pain, diarrhea, heartburn, decreased appetite. what disease do i have?",you have indigestion.
+"i have arm pain, arm stiffness or tightness, shoulder pain, elbow swelling. what disease do i have?",you have bursitis.
+"i have leg pain, shoulder pain, elbow swelling. what disease do i have?",you have bursitis.
+"i have leg pain, knee pain, elbow pain, shoulder stiffness or tightness. what disease do i have?",you have bursitis.
+"i have hip pain, arm pain, arm swelling, knee pain, leg swelling, shoulder pain, elbow swelling. what disease do i have?",you have bursitis.
+"i have leg pain, hip pain, arm stiffness or tightness, arm swelling. what disease do i have?",you have bursitis.
+"i have leg pain, knee swelling, shoulder pain, shoulder stiffness or tightness. what disease do i have?",you have bursitis.
+"i have arm pain, arm stiffness or tightness, arm swelling, knee pain, elbow pain, knee swelling, shoulder pain, shoulder stiffness or tightness. what disease do i have?",you have bursitis.
+"i have shortness of breath, sharp chest pain, chest tightness, nasal congestion, fever. what disease do i have?",you have pulmonary congestion.
+"i have shortness of breath, sharp chest pain, chest tightness, cough, nasal congestion, leg swelling, weakness, decreased heart rate, fever. what disease do i have?",you have pulmonary congestion.
+"i have sharp chest pain, chest tightness, cough, leg swelling, fever. what disease do i have?",you have pulmonary congestion.
+"i have skin swelling, skin moles, symptoms of the face, skin dryness, peeling, scaliness, or roughness, skin rash. what disease do i have?",you have actinic keratosis.
+"i have skin swelling, irregular appearing scalp, skin moles, symptoms of the face, skin dryness, peeling, scaliness, or roughness, skin irritation. what disease do i have?",you have actinic keratosis.
+"i have abnormal appearing skin, skin lesion, skin moles, itching of skin, skin irritation. what disease do i have?",you have actinic keratosis.
+"i have cough, diminished hearing, plugged feeling in ear, fluid in ear, coryza. what disease do i have?",you have acute otitis media.
+"i have sore throat, nasal congestion, ear pain, fluid in ear, coryza. what disease do i have?",you have acute otitis media.
+"i have cough, nasal congestion, diminished hearing. what disease do i have?",you have acute otitis media.
+"i have diminished hearing, redness in ear. what disease do i have?",you have acute otitis media.
+"i have eye deviation, diminished vision, double vision, pain in eye, spots or clouds in vision. what disease do i have?",you have astigmatism.
+"i have shortness of breath, sharp chest pain, sore throat, fever. what disease do i have?",you have chronic obstructive pulmonary disease (copd).
+"i have shortness of breath, sharp chest pain, cough, nasal congestion, coryza. what disease do i have?",you have chronic obstructive pulmonary disease (copd).
+"i have shortness of breath, sharp chest pain, chest tightness, sore throat, cough, nasal congestion, fever, coughing up sputum, coryza, congestion in chest. what disease do i have?",you have chronic obstructive pulmonary disease (copd).
+"i have shortness of breath, sharp chest pain, chest tightness, nasal congestion, wheezing, coryza. what disease do i have?",you have chronic obstructive pulmonary disease (copd).
+"i have shortness of breath, sharp chest pain, chest tightness, sore throat, wheezing, coughing up sputum, coryza, congestion in chest. what disease do i have?",you have chronic obstructive pulmonary disease (copd).
+"i have leg pain, hip pain, neck pain, low back pain, loss of sensation, lower body pain. what disease do i have?",you have spondylosis.
+"i have back pain, neck pain, low back pain, knee pain, loss of sensation, shoulder pain, lower body pain. what disease do i have?",you have spondylosis.
+"i have leg pain, hip pain, arm pain, knee pain, ache all over. what disease do i have?",you have spondylosis.
+"i have cough, vomiting, mouth ulcer, swollen lymph nodes. what disease do i have?",you have herpangina.
+"i have arm stiffness or tightness, bones are painful, shoulder stiffness or tightness, muscle cramps, contractures, or spasms. what disease do i have?",you have injury to the shoulder.
+"i have arm pain, arm stiffness or tightness, elbow pain, shoulder pain, shoulder stiffness or tightness. what disease do i have?",you have injury to the shoulder.
+"i have insomnia, leg pain, hand or finger swelling. what disease do i have?",you have infection of open wound.
+"i have sharp chest pain, weight gain, weakness. what disease do i have?",you have heart block.
+"i have shortness of breath, sharp chest pain, dizziness, irregular heartbeat, fainting, peripheral edema. what disease do i have?",you have heart block.
+"i have sharp chest pain, dizziness, irregular heartbeat, fainting, weight gain, weakness. what disease do i have?",you have heart block.
+"i have dizziness, chest tightness, irregular heartbeat, peripheral edema. what disease do i have?",you have heart block.
+"i have chest tightness, fainting, peripheral edema, weakness. what disease do i have?",you have heart block.
+"i have shortness of breath, sharp chest pain, irregular heartbeat, weight gain, weakness. what disease do i have?",you have heart block.
+"i have shortness of breath, dizziness, chest tightness, palpitations, irregular heartbeat, fainting, peripheral edema, weight gain. what disease do i have?",you have heart block.
+"i have sharp chest pain, dizziness, chest tightness, palpitations, irregular heartbeat, fainting, peripheral edema, weight gain. what disease do i have?",you have heart block.
+"i have anxiety and nervousness, depression, depressive or psychotic symptoms, hostile behavior, drug abuse, antisocial behavior. what disease do i have?",you have attention deficit hyperactivity disorder (adhd).
+"i have anxiety and nervousness, depressive or psychotic symptoms, lack of growth, hostile behavior, drug abuse, temper problems, antisocial behavior. what disease do i have?",you have attention deficit hyperactivity disorder (adhd).
+"i have sharp chest pain, nausea. what disease do i have?",you have tietze syndrome.
+"i have cough, nausea, loss of sensation. what disease do i have?",you have tietze syndrome.
+"i have abnormal involuntary movements, headache, facial pain, double vision, abnormal movement of eyelid. what disease do i have?",you have cranial nerve palsy.
+"i have abnormal involuntary movements, difficulty speaking, facial pain, diminished vision, abnormal movement of eyelid. what disease do i have?",you have cranial nerve palsy.
+"i have hand or finger swelling, arm pain, wrist swelling, arm swelling, bones are painful, joint pain. what disease do i have?",you have injury to the arm.
+"i have hand or finger swelling, arm pain, wrist swelling, arm swelling, bones are painful, elbow pain. what disease do i have?",you have injury to the arm.
+"i have hand or finger pain, wrist pain, wrist swelling, arm stiffness or tightness, arm swelling, joint pain, elbow swelling. what disease do i have?",you have injury to the arm.
+"i have hand or finger pain, wrist pain, wrist swelling, arm stiffness or tightness, bones are painful, elbow pain, loss of sensation, elbow swelling. what disease do i have?",you have injury to the arm.
+"i have wrist pain, arm pain, bones are painful, elbow swelling. what disease do i have?",you have injury to the arm.
+"i have wrist pain, hand or finger swelling, wrist swelling, arm stiffness or tightness, arm swelling, bones are painful, loss of sensation, joint pain, elbow swelling. what disease do i have?",you have injury to the arm.
+"i have hand or finger pain, wrist pain, hand or finger swelling, arm pain, wrist swelling, arm stiffness or tightness, loss of sensation, elbow swelling. what disease do i have?",you have injury to the arm.
+"i have wrist pain, hand or finger swelling, bones are painful, elbow pain, joint pain, elbow swelling. what disease do i have?",you have injury to the arm.
+"i have abnormal involuntary movements, leg pain, hand or finger pain, back pain, neck pain, low back pain, foot or toe pain, problems with movement, loss of sensation, ache all over. what disease do i have?",you have complex regional pain syndrome.
+"i have abnormal involuntary movements, leg pain, hand or finger pain, arm pain, back pain, neck pain, foot or toe pain, problems with movement, loss of sensation, paresthesia. what disease do i have?",you have complex regional pain syndrome.
+"i have leg pain, arm pain, foot or toe pain, paresthesia. what disease do i have?",you have complex regional pain syndrome.
+"i have abnormal involuntary movements, leg pain, back pain, neck pain, foot or toe pain, ache all over. what disease do i have?",you have complex regional pain syndrome.
+"i have abnormal involuntary movements, leg pain, hand or finger pain, arm pain, back pain, neck pain, low back pain, problems with movement, paresthesia. what disease do i have?",you have complex regional pain syndrome.
+"i have sharp chest pain, headache, wrist pain, back pain, low back pain, bones are painful, shoulder pain, rib pain. what disease do i have?",you have injury to the trunk.
+"i have sharp abdominal pain, lower abdominal pain, vaginal discharge, back pain, burning abdominal pain. what disease do i have?",you have vulvodynia.
+"i have lower abdominal pain, vaginal discharge, back pain, pain during pregnancy, pelvic pain, burning abdominal pain, vaginal pain, side pain, cramps and spasms. what disease do i have?",you have vulvodynia.
+"i have lower abdominal pain, burning abdominal pain. what disease do i have?",you have endometriosis.
+"i have dizziness, leg pain, headache, foot or toe swelling, leg stiffness or tightness, lymphedema. what disease do i have?",you have vasculitis.
+"i have dizziness, rib pain, sleepiness. what disease do i have?",you have concussion.
+"i have difficulty speaking, headache, nausea, facial pain, double vision, back pain, disturbance of memory, rib pain, sleepiness. what disease do i have?",you have concussion.
+"i have sharp abdominal pain, painful urination, involuntary urination, frequent urination, lower abdominal pain, blood in urine. what disease do i have?",you have bladder disorder.
+"i have leg pain, knee pain, loss of sensation. what disease do i have?",you have myositis.
+"i have sore throat, feeling ill, swollen lymph nodes, fever, skin rash. what disease do i have?",you have mononucleosis.
+"i have retention of urine, blood in urine, low back pain. what disease do i have?",you have polycystic kidney disease.
+"i have retention of urine, sharp abdominal pain, blood in urine, skin growth, low back pain, side pain. what disease do i have?",you have polycystic kidney disease.
+"i have retention of urine, sharp abdominal pain, low back pain. what disease do i have?",you have polycystic kidney disease.
+"i have depression, insomnia, abusing alcohol, excessive anger, delusions or hallucinations, fears and phobias. what disease do i have?",you have bipolar disorder.
+"i have depressive or psychotic symptoms, abusing alcohol, excessive anger, temper problems, obsessions and compulsions. what disease do i have?",you have bipolar disorder.
+"i have depression, obsessions and compulsions. what disease do i have?",you have bipolar disorder.
+"i have shortness of breath, abnormal involuntary movements, problems with movement, allergic reaction. what disease do i have?",you have poisoning due to antimicrobial drugs.
+"i have shortness of breath, abnormal involuntary movements, peripheral edema, problems with movement, skin rash. what disease do i have?",you have poisoning due to antimicrobial drugs.
+"i have shortness of breath, dizziness, double vision, slurring words. what disease do i have?",you have myasthenia gravis.
+"i have dizziness, fainting, nausea, weakness, decreased appetite, seizures. what disease do i have?",you have hypoglycemia.
+"i have depressive or psychotic symptoms, dizziness, abnormal involuntary movements, fainting, nausea, sleepiness, sweating. what disease do i have?",you have hypoglycemia.
+"i have fainting, feeling ill, nausea, problems with movement, decreased appetite, sleepiness, sweating. what disease do i have?",you have hypoglycemia.
+"i have dizziness, feeling ill, nausea, weakness, sleepiness. what disease do i have?",you have hypoglycemia.
+"i have fainting, feeling ill, nausea, decreased appetite, sleepiness. what disease do i have?",you have hypoglycemia.
+"i have depressive or psychotic symptoms, dizziness, emotional symptoms, vomiting, headache, nausea. what disease do i have?",you have carbon monoxide poisoning.
+"i have anxiety and nervousness, chest tightness, irregular heartbeat, loss of sensation. what disease do i have?",you have panic attack.
+"i have difficulty speaking, eye deviation, diminished vision, symptoms of eye, spots or clouds in vision, eye redness. what disease do i have?",you have hyperopia.
+"i have sharp chest pain, difficulty in swallowing, sharp abdominal pain, nausea, back pain, regurgitation, regurgitation.1. what disease do i have?",you have hiatal hernia.
+"i have sharp chest pain, dizziness, difficulty in swallowing, sharp abdominal pain, vomiting blood, heartburn. what disease do i have?",you have hiatal hernia.
+"i have sharp chest pain, difficulty in swallowing, sharp abdominal pain, back pain, regurgitation, burning abdominal pain, heartburn, regurgitation.1. what disease do i have?",you have hiatal hernia.
+"i have sharp chest pain, dizziness, difficulty in swallowing, nausea, vomiting blood, upper abdominal pain. what disease do i have?",you have hiatal hernia.
+"i have headache, ringing in ear, allergic reaction. what disease do i have?",you have meniere disease.
+"i have nausea, facial pain, ear pain, ringing in ear. what disease do i have?",you have meniere disease.
+"i have sharp abdominal pain, vaginal dryness, pain of the anus, changes in stool appearance, rectal bleeding, constipation. what disease do i have?",you have anal fissure.
+"i have vaginal dryness, lower body pain, changes in stool appearance, constipation. what disease do i have?",you have anal fissure.
+"i have cough, skin swelling, peripheral edema, itchiness of eye, fluid retention, swollen eye, skin rash. what disease do i have?",you have allergy.
+"i have cough, lip swelling, abnormal appearing skin, itchiness of eye, fluid retention. what disease do i have?",you have allergy.
+"i have cough, nasal congestion, plugged feeling in ear, fever, allergic reaction, redness in ear, painful sinuses. what disease do i have?",you have chronic otitis media.
+"i have nasal congestion, fluid in ear, allergic reaction, pulling at ears, redness in ear, painful sinuses. what disease do i have?",you have chronic otitis media.
+"i have irregular heartbeat, leg pain, shoulder pain. what disease do i have?",you have polymyalgia rheumatica.
+"i have throat swelling, leg pain, abnormal appearing skin, peripheral edema, leg swelling, foot or toe swelling, fluid retention. what disease do i have?",you have lymphedema.
+"i have leg pain, abnormal appearing skin, peripheral edema, leg swelling, foot or toe swelling, lymphedema. what disease do i have?",you have lymphedema.
+"i have shortness of breath, sore throat, cough, nasal congestion, vomiting, wheezing, fever, coryza. what disease do i have?",you have acute bronchospasm.
+"i have sore throat, cough, vomiting, wheezing, coryza. what disease do i have?",you have acute bronchospasm.
+"i have shortness of breath, sharp chest pain, chest tightness, sore throat, nasal congestion, vomiting, wheezing, fever, difficulty breathing. what disease do i have?",you have acute bronchospasm.
+"i have chest tightness, nasal congestion, wheezing. what disease do i have?",you have acute bronchospasm.
+"i have shortness of breath, chest tightness, sore throat, difficulty breathing. what disease do i have?",you have acute bronchospasm.
+"i have shortness of breath, chest tightness, sore throat, cough, nasal congestion, vomiting, difficulty breathing, coryza. what disease do i have?",you have acute bronchospasm.
+"i have leg pain, hip pain, low back pain, problems with movement, leg cramps or spasms, lower body pain, back cramps or spasms. what disease do i have?",you have sciatica.
+"i have leg pain, problems with movement, leg cramps or spasms, lower body pain, back cramps or spasms. what disease do i have?",you have sciatica.
+"i have leg pain, problems with movement, leg cramps or spasms, leg weakness. what disease do i have?",you have sciatica.
+"i have retention of urine, involuntary urination, frequent urination, hot flashes. what disease do i have?",you have stress incontinence.
+"i have retention of urine, painful urination, involuntary urination, frequent urination, intermenstrual bleeding. what disease do i have?",you have stress incontinence.
+"i have symptoms of the scrotum and testes, mass in scrotum. what disease do i have?",you have hydrocele of the testicle.
+"i have retention of urine, groin mass, symptoms of the scrotum and testes, swelling of scrotum, pain in testicles, mass in scrotum. what disease do i have?",you have hydrocele of the testicle.
+"i have groin mass, symptoms of the scrotum and testes, swelling of scrotum. what disease do i have?",you have hydrocele of the testicle.
+"i have sharp abdominal pain, nausea, lower abdominal pain, back pain. what disease do i have?",you have hydronephrosis.
+"i have blood in stool, nausea, diarrhea, lower abdominal pain, heartburn, upper abdominal pain, melena, rectal bleeding. what disease do i have?",you have diverticulosis.
+"i have vomiting, nausea, lower abdominal pain, upper abdominal pain. what disease do i have?",you have diverticulosis.
+"i have vomiting, nausea, diarrhea, lower abdominal pain, heartburn, upper abdominal pain, melena, rectal bleeding. what disease do i have?",you have diverticulosis.
+"i have vomiting, diarrhea, lower abdominal pain, rectal bleeding. what disease do i have?",you have diverticulosis.
+"i have blood in stool, vomiting, nausea, upper abdominal pain, melena, rectal bleeding. what disease do i have?",you have diverticulosis.
+"i have sharp abdominal pain, nausea, diarrhea, lower abdominal pain, heartburn, upper abdominal pain, melena, rectal bleeding. what disease do i have?",you have diverticulosis.
+"i have sharp chest pain, leg pain, nausea, lower abdominal pain, neck pain, side pain. what disease do i have?",you have pain after an operation.
+"i have sharp chest pain, leg pain, sharp abdominal pain, vomiting, lower abdominal pain, low back pain. what disease do i have?",you have pain after an operation.
+"i have sharp chest pain, leg pain, headache, nausea, back pain, neck pain, low back pain. what disease do i have?",you have pain after an operation.
+"i have groin mass, regurgitation, neck mass, itchy ear(s), fatigue, regurgitation.1. what disease do i have?",you have lymphoma.
+"i have skin swelling, lack of growth, abnormal appearing skin, skin lesion, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have dermatitis due to sun exposure.
+"i have skin swelling, abnormal appearing skin, skin lesion, acne or pimples, irregular appearing scalp, too little hair. what disease do i have?",you have fungal infection of the skin.
+"i have abnormal appearing skin, skin lesion, acne or pimples, itching of skin, itchy scalp. what disease do i have?",you have fungal infection of the skin.
+"i have itching of skin, too little hair. what disease do i have?",you have fungal infection of the skin.
+"i have skin swelling, irregular appearing scalp, itching of skin, skin dryness, peeling, scaliness, or roughness, too little hair. what disease do i have?",you have fungal infection of the skin.
+"i have skin swelling, skin lesion, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, too little hair, skin rash. what disease do i have?",you have fungal infection of the skin.
+"i have abnormal appearing skin, skin lesion, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, itchy scalp, too little hair, skin rash. what disease do i have?",you have fungal infection of the skin.
+"i have skin lesion, irregular appearing scalp, itching of skin, skin dryness, peeling, scaliness, or roughness, itchy scalp, too little hair, skin rash. what disease do i have?",you have fungal infection of the skin.
+"i have depressive or psychotic symptoms, lower abdominal pain, back pain. what disease do i have?",you have premenstrual tension syndrome.
+"i have diminished hearing, symptoms of eye, pain in eye, eye redness, fever, swollen eye. what disease do i have?",you have orbital cellulitis.
+"i have diminished hearing, symptoms of eye, pain in eye, peripheral edema, fever, swollen eye. what disease do i have?",you have orbital cellulitis.
+"i have leg pain, knee pain, foot or toe pain, ankle pain, problems with movement, foot or toe swelling, infant feeding problem. what disease do i have?",you have injury to the leg.
+"i have leg pain, foot or toe pain, ankle pain, problems with movement, knee stiffness or tightness, irregular appearing nails, ankle swelling. what disease do i have?",you have injury to the leg.
+"i have sharp chest pain, irregular heartbeat, fatigue, nightmares. what disease do i have?",you have mitral valve disease.
+"i have chest tightness, irregular heartbeat, nightmares. what disease do i have?",you have mitral valve disease.
+"i have shortness of breath, sharp chest pain, dizziness, chest tightness, increased heart rate, fatigue, sweating, nightmares. what disease do i have?",you have mitral valve disease.
+"i have shortness of breath, sharp chest pain, dizziness, chest tightness, irregular heartbeat, fatigue. what disease do i have?",you have mitral valve disease.
+"i have dizziness, problems with movement, weakness, focal weakness. what disease do i have?",you have parkinson disease.
+"i have dizziness, weakness, focal weakness, disturbance of memory. what disease do i have?",you have parkinson disease.
+"i have hand or finger pain, wrist pain, wrist swelling, knee pain, ankle pain, knee swelling, leg swelling, foot or toe swelling, joint pain. what disease do i have?",you have gout.
+"i have hand or finger swelling, knee pain, knee swelling, leg swelling, foot or toe swelling. what disease do i have?",you have gout.
+"i have hand or finger pain, wrist pain, knee pain, leg swelling, foot or toe swelling, joint pain, ankle swelling. what disease do i have?",you have gout.
+"i have sore throat, ear pain, plugged feeling in ear. what disease do i have?",you have otitis media.
+"i have sore throat, cough, diminished hearing, vomiting, ear pain, plugged feeling in ear, fluid in ear, fever. what disease do i have?",you have otitis media.
+"i have sore throat, cough, vomiting, fever. what disease do i have?",you have otitis media.
+"i have cough, vomiting, ear pain, plugged feeling in ear, fluid in ear, coryza. what disease do i have?",you have otitis media.
+"i have cough, nasal congestion, diminished hearing, plugged feeling in ear, coryza, pulling at ears. what disease do i have?",you have otitis media.
+"i have cough, nasal congestion, ear pain, fluid in ear, fever, coryza. what disease do i have?",you have otitis media.
+"i have cough, vomiting, plugged feeling in ear, fluid in ear, fever, coryza, pulling at ears. what disease do i have?",you have otitis media.
+"i have diminished hearing, vomiting, plugged feeling in ear, fluid in ear, coryza. what disease do i have?",you have otitis media.
+"i have depression, depressive or psychotic symptoms, restlessness, delusions or hallucinations. what disease do i have?",you have drug abuse (opioids).
+"i have depressive or psychotic symptoms, abusing alcohol, temper problems. what disease do i have?",you have drug abuse (opioids).
+"i have anxiety and nervousness, depressive or psychotic symptoms, insomnia, abusing alcohol, delusions or hallucinations. what disease do i have?",you have drug abuse (opioids).
+"i have neck swelling, shoulder pain, shoulder stiffness or tightness. what disease do i have?",you have fracture of the shoulder.
+"i have arm pain, neck swelling, bones are painful, shoulder stiffness or tightness. what disease do i have?",you have fracture of the shoulder.
+"i have shortness of breath, retention of urine, sharp abdominal pain, symptoms of the kidneys. what disease do i have?",you have acute kidney injury.
+"i have sharp chest pain, vomiting, nausea, peripheral edema, weakness. what disease do i have?",you have acute kidney injury.
+"i have shortness of breath, dizziness, retention of urine, sharp abdominal pain, vomiting, peripheral edema, symptoms of the kidneys. what disease do i have?",you have acute kidney injury.
+"i have sharp abdominal pain, lower abdominal pain, vaginal discharge, intermenstrual bleeding, problems during pregnancy, spotting or bleeding during pregnancy, cramps and spasms, uterine contractions. what disease do i have?",you have threatened pregnancy.
+"i have vaginal discharge, pelvic pain, problems during pregnancy. what disease do i have?",you have threatened pregnancy.
+"i have lower abdominal pain, spotting or bleeding during pregnancy, cramps and spasms, blood clots during menstrual periods. what disease do i have?",you have threatened pregnancy.
+"i have lip swelling, facial pain, mouth ulcer, peripheral edema, ear pain, jaw swelling, gum pain, bleeding gums, pain in gums. what disease do i have?",you have gum disease.
+"i have mouth ulcer, peripheral edema, ear pain, jaw swelling, bleeding gums, pain in gums. what disease do i have?",you have gum disease.
+"i have lip swelling, toothache, facial pain, ear pain, jaw swelling, pain in gums. what disease do i have?",you have gum disease.
+"i have toothache, facial pain, mouth ulcer, ear pain, gum pain, pain in gums. what disease do i have?",you have gum disease.
+"i have dizziness, blood in stool, fainting, diarrhea, vomiting blood, weakness, melena. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have fainting, diarrhea, vomiting blood, changes in stool appearance, melena, rectal bleeding. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have dizziness, fainting, nausea, diarrhea, vomiting blood, melena, rectal bleeding. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have dizziness, fainting, nausea, diarrhea, rectal bleeding. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have dizziness, sharp abdominal pain, vomiting, diarrhea, vomiting blood, weakness, changes in stool appearance, melena, rectal bleeding. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have blood in stool, fainting, vomiting, weakness, changes in stool appearance. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have fainting, sharp abdominal pain, vomiting, nausea, changes in stool appearance, melena. what disease do i have?",you have gastrointestinal hemorrhage.
+"i have acne or pimples, irregular appearing scalp, symptoms of the face, skin dryness, peeling, scaliness, or roughness, too little hair, skin rash. what disease do i have?",you have seborrheic dermatitis.
+"i have skin lesion, acne or pimples, skin growth, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, too little hair, dry or flaky scalp. what disease do i have?",you have seborrheic dermatitis.
+"i have abnormal appearing skin, skin lesion, irregular appearing scalp, itching of skin, skin dryness, peeling, scaliness, or roughness, skin rash. what disease do i have?",you have seborrheic dermatitis.
+"i have skin lesion, skin growth, symptoms of the face, itching of skin, skin dryness, peeling, scaliness, or roughness, skin rash, dry or flaky scalp. what disease do i have?",you have seborrheic dermatitis.
+"i have abnormal involuntary movements, throat swelling, arm pain, neck pain, neck stiffness or tightness, shoulder pain, neck cramps or spasms. what disease do i have?",you have torticollis.
+"i have anxiety and nervousness, sharp chest pain, abnormal involuntary movements, abusing alcohol, vomiting, problems with movement. what disease do i have?",you have alcohol intoxication.
+"i have anxiety and nervousness, depressive or psychotic symptoms, sharp chest pain, abnormal involuntary movements, abusing alcohol, problems with movement. what disease do i have?",you have alcohol intoxication.
+"i have shortness of breath, insomnia, disturbance of memory, fatigue, apnea. what disease do i have?",you have narcolepsy.
+"i have cough, nasal congestion, lip swelling, abnormal appearing skin, allergic reaction, itching of skin, skin rash. what disease do i have?",you have food allergy.
+"i have cough, nasal congestion, lip swelling. what disease do i have?",you have food allergy.
+"i have headache, nausea, plugged feeling in ear, sweating. what disease do i have?",you have labyrinthitis.
+"i have diminished hearing, vomiting, nausea, ear pain, plugged feeling in ear. what disease do i have?",you have labyrinthitis.
+"i have dizziness, diminished hearing, nausea, loss of sensation. what disease do i have?",you have labyrinthitis.
+"i have depressive or psychotic symptoms, palpitations, headache, fears and phobias. what disease do i have?",you have anxiety.
+"i have depression, shortness of breath, depressive or psychotic symptoms, palpitations, increased heart rate, fears and phobias. what disease do i have?",you have anxiety.
+"i have depressive or psychotic symptoms, abnormal involuntary movements, irregular heartbeat, fears and phobias. what disease do i have?",you have anxiety.
+"i have anxiety and nervousness, depression, insomnia, excessive appetite, excessive anger. what disease do i have?",you have impulse control disorder.
+"i have sore throat, nasal congestion, irritable infant, vomiting, sinus congestion. what disease do i have?",you have abscess of nose.
+"i have abnormal involuntary movements, diminished vision, peripheral edema, weakness, symptoms of the face. what disease do i have?",you have bell palsy.
+"i have abnormal involuntary movements, symptoms of eye, loss of sensation, focal weakness, symptoms of the face. what disease do i have?",you have bell palsy.
+"i have diminished vision, loss of sensation. what disease do i have?",you have bell palsy.
+"i have abnormal involuntary movements, headache, facial pain, diminished vision, symptoms of eye, weakness, loss of sensation, focal weakness, symptoms of the face. what disease do i have?",you have bell palsy.
+"i have symptoms of eye, eye redness, itchiness of eye, allergic reaction, sneezing. what disease do i have?",you have conjunctivitis due to allergy.
+"i have cough, nasal congestion, symptoms of eye, pain in eye, eye redness, itchiness of eye, eye burns or stings. what disease do i have?",you have conjunctivitis due to allergy.
+"i have dizziness, throat swelling, headache, abnormal appearing skin, peripheral edema, allergic reaction, itching of skin, skin rash. what disease do i have?",you have drug reaction.
+"i have dizziness, vomiting, headache, nausea, abnormal appearing skin, allergic reaction. what disease do i have?",you have drug reaction.
+"i have shortness of breath, throat swelling, abnormal appearing skin, peripheral edema, allergic reaction, itching of skin. what disease do i have?",you have drug reaction.
+"i have shortness of breath, dizziness, throat swelling, headache, nausea. what disease do i have?",you have drug reaction.
+"i have symptoms of eye, pain in eye, spots or clouds in vision, eye redness. what disease do i have?",you have myopia.
+"i have eye deviation, diminished vision, symptoms of eye, pain in eye, eye moves abnormally, blindness. what disease do i have?",you have myopia.
+"i have leg pain, hip pain, hand or finger pain, knee swelling, joint pain. what disease do i have?",you have osteoarthritis.
+"i have hip pain, back pain, knee pain, ankle pain, elbow pain, knee swelling, muscle pain. what disease do i have?",you have osteoarthritis.
+"i have diminished vision, double vision, symptoms of eye, abnormal movement of eyelid, foreign body sensation in eye, spots or clouds in vision, blindness. what disease do i have?",you have macular degeneration.
+"i have double vision, symptoms of eye, abnormal movement of eyelid, spots or clouds in vision, lacrimation, bleeding from eye. what disease do i have?",you have macular degeneration.
+"i have diminished vision, double vision, symptoms of eye, foreign body sensation in eye, spots or clouds in vision, blindness, bleeding from eye. what disease do i have?",you have macular degeneration.
+"i have diminished vision, double vision, symptoms of eye, pain in eye, abnormal movement of eyelid, spots or clouds in vision, bleeding from eye. what disease do i have?",you have macular degeneration.
+"i have sore throat, cough, nasal congestion, wheezing, weakness, difficulty breathing. what disease do i have?",you have pneumonia.
+"i have sharp chest pain, cough, nasal congestion, vomiting, wheezing, weakness, chills, coryza. what disease do i have?",you have pneumonia.
+"i have shortness of breath, sharp chest pain, sore throat, nasal congestion, vomiting, wheezing, weakness, chills, coryza. what disease do i have?",you have pneumonia.
+"i have shortness of breath, sharp chest pain, cough, nasal congestion, vomiting, chills, coryza. what disease do i have?",you have pneumonia.
+"i have sharp chest pain, sore throat, cough, wheezing. what disease do i have?",you have pneumonia.
+"i have skin swelling, mouth ulcer, skin rash. what disease do i have?",you have cold sore.
+"i have sore throat, skin swelling, vaginal itching, lip swelling, mouth ulcer, skin rash, lip sore. what disease do i have?",you have cold sore.
+"i have skin swelling, vaginal itching, lip swelling, skin rash. what disease do i have?",you have cold sore.
+"i have shortness of breath, sharp chest pain, chest tightness, palpitations, sleepiness. what disease do i have?",you have premature ventricular contractions (pvcs).
+"i have sore throat, nasal congestion, facial pain, pain in eye, neck pain. what disease do i have?",you have temporomandibular joint disorder.
+"i have nasal congestion, diminished hearing, facial pain, pain in eye, ear pain. what disease do i have?",you have temporomandibular joint disorder.
+"i have sharp abdominal pain, vaginal itching, vaginal discharge, problems with movement, vaginal pain, penile discharge. what disease do i have?",you have gonorrhea.
+"i have sharp chest pain, back pain, side pain, rib pain. what disease do i have?",you have fracture of the rib.
+"i have sharp abdominal pain, vaginal discharge, problems during pregnancy, spotting or bleeding during pregnancy. what disease do i have?",you have vaginal cyst.
+"i have vaginal discharge, intermenstrual bleeding, pain during pregnancy, pelvic pain, vaginal pain, spotting or bleeding during pregnancy, cramps and spasms, blood clots during menstrual periods. what disease do i have?",you have vaginal cyst.
+"i have sharp abdominal pain, lower abdominal pain, intermenstrual bleeding, pelvic pain, spotting or bleeding during pregnancy. what disease do i have?",you have vaginal cyst.
+"i have sharp abdominal pain, intermenstrual bleeding, vaginal pain, spotting or bleeding during pregnancy, blood clots during menstrual periods. what disease do i have?",you have vaginal cyst.
+"i have sharp abdominal pain, nausea, lower abdominal pain, vaginal discharge, intermenstrual bleeding, pelvic pain. what disease do i have?",you have ectopic pregnancy.
+"i have dizziness, sharp abdominal pain, nausea, lower abdominal pain, vaginal discharge, pelvic pain. what disease do i have?",you have ectopic pregnancy.
+"i have sharp abdominal pain, nausea, intermenstrual bleeding. what disease do i have?",you have ectopic pregnancy.
+"i have drug abuse, vomiting blood, smoking problems. what disease do i have?",you have alcohol abuse.
+"i have wrist pain, hand or finger swelling, neck pain, elbow pain, paresthesia. what disease do i have?",you have carpal tunnel syndrome.
+"i have hand or finger pain, hand or finger swelling, arm pain, elbow pain, arm weakness. what disease do i have?",you have carpal tunnel syndrome.
+"i have suprapubic pain, vomiting, lower abdominal pain, blood in urine, back pain, side pain. what disease do i have?",you have kidney stone.
+"i have sharp abdominal pain, vomiting, painful urination, frequent urination, blood in urine, back pain, side pain. what disease do i have?",you have kidney stone.
+"i have suprapubic pain, vomiting, painful urination, frequent urination. what disease do i have?",you have kidney stone.
+"i have difficulty speaking, hostile behavior, seizures, constipation, antisocial behavior. what disease do i have?",you have autism.
+"i have white discharge from eye, lacrimation, itchiness of eye, eye burns or stings. what disease do i have?",you have chronic glaucoma.
+"i have white discharge from eye, symptoms of eye, pain in eye, spots or clouds in vision. what disease do i have?",you have open wound of the eye.
+"i have headache, facial pain, ear pain, difficulty breathing, sinus congestion. what disease do i have?",you have nose disorder.
+"i have nasal congestion, headache, facial pain, ear pain, coryza, painful sinuses, nosebleed. what disease do i have?",you have nose disorder.
+"i have cough, nasal congestion, headache, ear pain, difficulty breathing, sinus congestion, painful sinuses. what disease do i have?",you have nose disorder.
+"i have anxiety and nervousness, depression, sharp abdominal pain, vomiting, chills. what disease do i have?",you have drug withdrawal.
+"i have toothache, restlessness, ear pain, skin irritation, pain in gums. what disease do i have?",you have dental caries.
+"i have skin swelling, facial pain, ear pain, jaw swelling, mouth pain. what disease do i have?",you have dental caries.
+"i have toothache, peripheral edema, ear pain, jaw swelling, skin irritation. what disease do i have?",you have dental caries.
+"i have facial pain, restlessness, peripheral edema, neck swelling, gum pain. what disease do i have?",you have dental caries.
+"i have shortness of breath, sharp chest pain, nausea, arm swelling, symptoms of the kidneys. what disease do i have?",you have kidney failure.
+"i have sharp chest pain, vomiting, swollen abdomen, symptoms of the kidneys. what disease do i have?",you have kidney failure.
+"i have shortness of breath, sharp chest pain, vomiting, arm swelling, swollen abdomen. what disease do i have?",you have kidney failure.
+"i have sharp chest pain, headache, arm pain, back pain, loss of sensation. what disease do i have?",you have muscle spasm.
+"i have headache, arm pain, neck pain, low back pain, loss of sensation. what disease do i have?",you have muscle spasm.
+"i have sharp chest pain, abnormal involuntary movements, leg pain, back pain, loss of sensation, muscle cramps, contractures, or spasms. what disease do i have?",you have muscle spasm.
+"i have sharp chest pain, regurgitation, burning abdominal pain, upper abdominal pain, regurgitation.1. what disease do i have?",you have gastroparesis.
+"i have sharp chest pain, vomiting, nausea, regurgitation, burning abdominal pain, regurgitation.1. what disease do i have?",you have gastroparesis.
+"i have vaginal itching, problems during pregnancy, fluid retention, itching of skin, skin dryness, peeling, scaliness, or roughness, itchy scalp. what disease do i have?",you have itching of unknown cause.
+"i have abnormal appearing skin, problems during pregnancy, allergic reaction, fluid retention, itching of skin, skin dryness, peeling, scaliness, or roughness, itchy scalp. what disease do i have?",you have itching of unknown cause.
+"i have hoarse voice, plugged feeling in ear, hemoptysis, mouth pain. what disease do i have?",you have head and neck cancer.
+"i have difficulty in swallowing, hot flashes, weight gain, fatigue. what disease do i have?",you have goiter.
+"i have retention of urine, involuntary urination, blood in urine, excessive urination at night, constipation. what disease do i have?",you have urge incontinence.
+"i have retention of urine, vaginal itching, blood in urine, constipation. what disease do i have?",you have urge incontinence.
+"i have retention of urine, painful urination, blood in urine, excessive urination at night, symptoms of bladder. what disease do i have?",you have urge incontinence.
+"i have white discharge from eye, diminished vision, symptoms of eye, pain in eye, foreign body sensation in eye, eye redness, lacrimation, eyelid swelling. what disease do i have?",you have corneal abrasion.
+"i have white discharge from eye, diminished vision, foreign body sensation in eye, eye redness, lacrimation, eyelid swelling. what disease do i have?",you have corneal abrasion.
+"i have white discharge from eye, diminished vision, symptoms of eye, foreign body sensation in eye, lacrimation. what disease do i have?",you have corneal abrasion.
+"i have white discharge from eye, diminished vision, pain in eye, foreign body sensation in eye, eye redness, lacrimation, eyelid swelling. what disease do i have?",you have corneal abrasion.
+"i have anxiety and nervousness, depression, depressive or psychotic symptoms, insomnia, excessive anger, disturbance of memory, temper problems, loss of sex drive. what disease do i have?",you have dysthymic disorder.
+"i have sharp chest pain, palpitations, heartburn, fatigue, recent pregnancy. what disease do i have?",you have hypertensive heart disease.
+"i have depression, abnormal involuntary movements, hostile behavior, drug abuse. what disease do i have?",you have drug abuse (barbiturates).
+"i have hot flashes, absence of menstruation, unpredictable menstruation. what disease do i have?",you have polycystic ovarian syndrome (pcos).
+"i have dizziness, insomnia, disturbance of memory. what disease do i have?",you have encephalitis.
+"i have dizziness, headache, loss of sensation, disturbance of memory. what disease do i have?",you have encephalitis.
+"i have cough, suprapubic pain, painful urination, abnormal appearing skin, skin rash, penis pain. what disease do i have?",you have balanitis.
+"i have suprapubic pain, painful urination, penis pain. what disease do i have?",you have balanitis.
+"i have cough, suprapubic pain, skin rash, penis pain, penis redness, diaper rash. what disease do i have?",you have balanitis.
+"i have itching of skin, penis pain, penis redness. what disease do i have?",you have balanitis.
+"i have sore throat, cough, throat swelling, difficulty in swallowing, vomiting. what disease do i have?",you have foreign body in the throat.
+"i have depression, hostile behavior, delusions or hallucinations, fears and phobias. what disease do i have?",you have drug abuse (cocaine).
+"i have depressive or psychotic symptoms, dizziness, abusing alcohol, fainting, seizures. what disease do i have?",you have alcohol withdrawal.
+"i have abnormal involuntary movements, vomiting, seizures, delusions or hallucinations. what disease do i have?",you have alcohol withdrawal.
+"i have depressive or psychotic symptoms, abnormal involuntary movements, fainting. what disease do i have?",you have alcohol withdrawal.
+"i have difficulty speaking, arm stiffness or tightness, problems with movement, weakness, loss of sensation, slurring words. what disease do i have?",you have hemiplegia.
+"i have difficulty speaking, arm stiffness or tightness, loss of sensation, slurring words. what disease do i have?",you have hemiplegia.
+"i have wrist pain, wrist swelling, knee pain, ankle pain, problems with movement, knee stiffness or tightness. what disease do i have?",you have joint effusion.
+"i have difficulty speaking, headache, weakness, decreased appetite, focal weakness, slurring words. what disease do i have?",you have brain cancer.
+"i have sore throat, nasal congestion, headache, itchiness of eye. what disease do i have?",you have seasonal allergies (hay fever).
+"i have ear pain, frontal headache, lacrimation, itchiness of eye, coryza. what disease do i have?",you have seasonal allergies (hay fever).
+"i have cough, decreased appetite, hemoptysis, leg weakness. what disease do i have?",you have lung cancer.
+"i have white discharge from eye, symptoms of eye, pain in eye, foreign body sensation in eye, spots or clouds in vision, eye redness, lacrimation, itchiness of eye. what disease do i have?",you have dry eye of unknown cause.
+"i have white discharge from eye, double vision, abnormal movement of eyelid, eye redness, lacrimation, itchiness of eye. what disease do i have?",you have dry eye of unknown cause.
+"i have diminished vision, symptoms of eye, pain in eye, abnormal movement of eyelid, spots or clouds in vision, eye redness, itchiness of eye. what disease do i have?",you have dry eye of unknown cause.
+"i have white discharge from eye, pain in eye, foreign body sensation in eye, eye redness, lacrimation, itchiness of eye. what disease do i have?",you have dry eye of unknown cause.
+"i have acne or pimples, irregular appearing scalp, pelvic pain, itching of skin, skin dryness, peeling, scaliness, or roughness, skin irritation, skin rash. what disease do i have?",you have fungal infection of the hair.
+"i have skin lesion, acne or pimples, skin growth, pelvic pain, skin dryness, peeling, scaliness, or roughness, skin irritation, itchy scalp, skin rash. what disease do i have?",you have fungal infection of the hair.
+"i have acne or pimples, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, itchy scalp, skin rash. what disease do i have?",you have fungal infection of the hair.
+"i have skin swelling, abnormal appearing skin, acne or pimples, pelvic pain, skin irritation, skin rash. what disease do i have?",you have fungal infection of the hair.
+"i have abnormal appearing skin, skin growth, itchy scalp. what disease do i have?",you have fungal infection of the hair.
+"i have skin swelling, toothache, jaw swelling, neck swelling, gum pain, mouth pain. what disease do i have?",you have tooth abscess.
+"i have arm swelling, paresthesia, allergic reaction, fluid retention. what disease do i have?",you have envenomation from spider or animal bite.
+"i have pain of the anus, rectal bleeding. what disease do i have?",you have rectal disorder.
+"i have pain of the anus, rectal bleeding, itching of the anus. what disease do i have?",you have rectal disorder.
+"i have sharp abdominal pain, burning abdominal pain, heartburn, melena, rectal bleeding, itching of the anus. what disease do i have?",you have rectal disorder.
+"i have shortness of breath, cough, headache, peripheral edema. what disease do i have?",you have sarcoidosis.
+"i have shortness of breath, sharp chest pain, chest tightness, headache, facial pain, pain in eye, peripheral edema. what disease do i have?",you have sarcoidosis.
+"i have sharp chest pain, facial pain, pain in eye. what disease do i have?",you have sarcoidosis.
+"i have abnormal appearing skin, eye burns or stings, mass on eyelid, eyelid swelling, eyelid lesion or rash. what disease do i have?",you have stye.
+"i have abnormal appearing skin, symptoms of eye, eye redness, itchiness of eye, eye burns or stings, swollen eye. what disease do i have?",you have stye.
+"i have skin swelling, abnormal appearing skin, pain in eye, itchiness of eye, eye burns or stings, eyelid swelling. what disease do i have?",you have stye.
+"i have abnormal appearing skin, skin lesion, acne or pimples, skin moles. what disease do i have?",you have atrophic skin condition.
+"i have lower abdominal pain, blood in urine, problems during pregnancy, back cramps or spasms. what disease do i have?",you have uterine atony.
+"i have pain during pregnancy, spotting or bleeding during pregnancy, back cramps or spasms. what disease do i have?",you have uterine atony.
+"i have lower abdominal pain, intermenstrual bleeding, spotting or bleeding during pregnancy, uterine contractions, back cramps or spasms. what disease do i have?",you have uterine atony.
+"i have sharp abdominal pain, lower abdominal pain, intermenstrual bleeding, spotting or bleeding during pregnancy, back cramps or spasms. what disease do i have?",you have uterine atony.
+"i have cough, lip swelling, toothache, fever, gum pain. what disease do i have?",you have oral mucosal lesion.
+"i have cough, lip swelling, facial pain, mouth ulcer, fever, gum pain. what disease do i have?",you have oral mucosal lesion.
+"i have hand or finger stiffness or tightness, knee pain, bones are painful. what disease do i have?",you have systemic lupus erythematosis (sle).
+"i have leg pain, hand or finger pain, wrist swelling, knee pain, hand or finger lump or mass, wrist lump or mass. what disease do i have?",you have ganglion cyst.
+"i have leg pain, knee pain, foot or toe pain, knee lump or mass, hand or finger lump or mass, wrist lump or mass. what disease do i have?",you have ganglion cyst.
+"i have sharp abdominal pain, vomiting blood, difficulty breathing. what disease do i have?",you have folate deficiency.
+"i have abnormal appearing skin, acne or pimples, skin growth, irregular appearing scalp, itching of skin, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have skin disorder.
+"i have skin swelling, acne or pimples, skin growth, itching of skin. what disease do i have?",you have skin disorder.
+"i have skin swelling, abnormal appearing skin, irregular appearing scalp, itching of skin. what disease do i have?",you have skin disorder.
+"i have abnormal appearing skin, skin lesion, irregular appearing scalp, skin moles. what disease do i have?",you have skin disorder.
+"i have headache, toothache, facial pain, mouth ulcer, peripheral edema, jaw swelling, pain in gums. what disease do i have?",you have tooth disorder.
+"i have headache, peripheral edema, jaw swelling, gum pain, bleeding gums. what disease do i have?",you have tooth disorder.
+"i have facial pain, mouth ulcer, peripheral edema, gum pain, pain in gums. what disease do i have?",you have tooth disorder.
+"i have headache, facial pain, mouth ulcer, ear pain, jaw swelling, gum pain, bleeding gums, pain in gums. what disease do i have?",you have tooth disorder.
+"i have facial pain, peripheral edema, bleeding gums. what disease do i have?",you have tooth disorder.
+"i have shortness of breath, chest tightness, irregular heartbeat, fainting, arm pain, burning chest pain, sweating. what disease do i have?",you have heart attack.
+"i have chest tightness, fainting, nausea, burning chest pain. what disease do i have?",you have heart attack.
+"i have sharp chest pain, fainting, heartburn, increased heart rate, burning chest pain, sweating. what disease do i have?",you have heart attack.
+"i have shortness of breath, sharp chest pain, irregular heartbeat, fainting, nausea, increased heart rate, burning chest pain, sweating. what disease do i have?",you have heart attack.
+"i have shortness of breath, chest tightness, irregular heartbeat, nausea, arm pain, burning chest pain. what disease do i have?",you have heart attack.
+"i have shortness of breath, fainting, increased heart rate. what disease do i have?",you have heart attack.
+"i have shortness of breath, sharp chest pain, chest tightness, irregular heartbeat, nausea, increased heart rate, sweating. what disease do i have?",you have heart attack.
+"i have sharp abdominal pain, irregular belly button. what disease do i have?",you have open wound of the abdomen.
+"i have leg pain, knee pain, ankle pain, problems with movement, leg stiffness or tightness. what disease do i have?",you have fracture of the leg.
+"i have knee weakness, problems with movement, leg stiffness or tightness, ankle swelling. what disease do i have?",you have fracture of the leg.
+"i have hip pain, ankle pain, knee weakness, ankle swelling. what disease do i have?",you have fracture of the leg.
+"i have cough, nasal congestion, irritable infant, mouth ulcer, fever, tongue lesions. what disease do i have?",you have oral thrush (yeast infection).
+"i have sore throat, irritable infant, mouth ulcer, constipation. what disease do i have?",you have oral thrush (yeast infection).
+"i have dizziness, abnormal involuntary movements, fainting, feeling ill, headache, weakness. what disease do i have?",you have orthostatic hypotension.
+"i have dizziness, abnormal involuntary movements, irregular heartbeat, feeling ill, headache, weakness. what disease do i have?",you have orthostatic hypotension.
+"i have shortness of breath, insomnia, difficulty in swallowing, weight gain, sleepiness, apnea. what disease do i have?",you have obstructive sleep apnea (osa).
+"i have insomnia, abnormal involuntary movements, mouth dryness, difficulty breathing, abnormal breathing sounds, sweating. what disease do i have?",you have obstructive sleep apnea (osa).
+"i have insomnia, difficulty in swallowing, mouth dryness, difficulty breathing, fatigue, sleepiness, abnormal breathing sounds, sweating. what disease do i have?",you have obstructive sleep apnea (osa).
+"i have shortness of breath, abnormal involuntary movements, mouth dryness, fatigue, abnormal breathing sounds, sweating. what disease do i have?",you have obstructive sleep apnea (osa).
+"i have skin swelling, skin growth, irregular appearing scalp, skin moles, joint pain. what disease do i have?",you have psoriasis.
+"i have skin swelling, abnormal appearing skin, skin growth, irregular appearing scalp, skin moles, itching of skin, skin dryness, peeling, scaliness, or roughness, itchy scalp. what disease do i have?",you have psoriasis.
+"i have skin swelling, skin lesion, irregular appearing scalp, itching of skin, skin dryness, peeling, scaliness, or roughness, itchy scalp. what disease do i have?",you have psoriasis.
+"i have skin swelling, abnormal appearing skin, irregular appearing scalp, skin moles, skin rash. what disease do i have?",you have psoriasis.
+i have sharp abdominal pain. what disease do i have?,you have cervicitis.
+"i have suprapubic pain, sharp abdominal pain, nausea, vaginal itching, painful urination, pain during pregnancy, pelvic pain. what disease do i have?",you have cervicitis.
+"i have sharp chest pain, nasal congestion, throat swelling, difficulty in swallowing, headache. what disease do i have?",you have abscess of the pharynx.
+"i have sharp chest pain, throat swelling, difficulty in swallowing. what disease do i have?",you have abscess of the pharynx.
+"i have cough, throat swelling, headache, fever. what disease do i have?",you have abscess of the pharynx.
+"i have pelvic pain, knee pain, joint pain, groin pain, hip stiffness or tightness. what disease do i have?",you have arthritis of the hip.
+"i have hip pain, back pain, low back pain, knee pain, ache all over, joint pain. what disease do i have?",you have arthritis of the hip.
+"i have hip pain, knee pain, hip stiffness or tightness. what disease do i have?",you have arthritis of the hip.
+"i have hoarse voice, nasal congestion, throat feels tight, ear pain, itchy ear(s). what disease do i have?",you have sensorineural hearing loss.
+"i have hoarse voice, nasal congestion, throat feels tight, plugged feeling in ear, itchy ear(s). what disease do i have?",you have sensorineural hearing loss.
+"i have hoarse voice, ear pain, plugged feeling in ear, itchy ear(s). what disease do i have?",you have sensorineural hearing loss.
+"i have hip pain, bones are painful, disturbance of memory, leg cramps or spasms, joint pain, early or late onset of menopause. what disease do i have?",you have osteoporosis.
+"i have disturbance of memory, leg cramps or spasms, joint pain, muscle cramps, contractures, or spasms. what disease do i have?",you have osteoporosis.
+"i have hip pain, back pain, disturbance of memory, leg cramps or spasms. what disease do i have?",you have osteoporosis.
+"i have sharp abdominal pain, nausea, diarrhea, constipation. what disease do i have?",you have ileus.
+"i have sharp chest pain, leg pain, hip pain, vomiting, arm pain, back pain, low back pain, burning abdominal pain, knee pain. what disease do i have?",you have sickle cell crisis.
+"i have hip pain, sharp abdominal pain, vomiting, arm pain, knee pain, ache all over. what disease do i have?",you have sickle cell crisis.
+"i have hip pain, back pain, burning abdominal pain, knee pain, ache all over. what disease do i have?",you have sickle cell crisis.
+"i have leg pain, sharp abdominal pain, vomiting, arm pain, back pain, low back pain, knee pain, ache all over. what disease do i have?",you have sickle cell crisis.
+"i have sharp abdominal pain, vaginal itching, painful urination, blood in urine, penis pain, penile discharge. what disease do i have?",you have urethritis.
+"i have suprapubic pain, vaginal itching, painful urination, blood in urine, penis pain. what disease do i have?",you have urethritis.
+"i have suprapubic pain, painful urination, blood in urine, penile discharge. what disease do i have?",you have urethritis.
+"i have retention of urine, lower abdominal pain, blood in urine, impotence. what disease do i have?",you have prostatitis.
+"i have sharp abdominal pain, painful urination, lower abdominal pain, impotence, chills. what disease do i have?",you have prostatitis.
+"i have retention of urine, sharp abdominal pain, frequent urination, lower abdominal pain, blood in urine, back pain, fever. what disease do i have?",you have prostatitis.
+"i have retention of urine, frequent urination, back pain, fever. what disease do i have?",you have prostatitis.
+"i have retention of urine, sharp abdominal pain, blood in urine, back pain, impotence, chills. what disease do i have?",you have prostatitis.
+"i have sharp abdominal pain, painful urination, lower abdominal pain, blood in urine, back pain, impotence, chills. what disease do i have?",you have prostatitis.
+"i have cough, diminished hearing, facial pain, ringing in ear, itchy ear(s), fluid in ear. what disease do i have?",you have otitis externa (swimmer's ear).
+"i have sore throat, diminished hearing, facial pain, ear pain, ringing in ear, itchy ear(s), fever, redness in ear. what disease do i have?",you have otitis externa (swimmer's ear).
+"i have sore throat, cough, ear pain, ringing in ear, plugged feeling in ear, itchy ear(s). what disease do i have?",you have otitis externa (swimmer's ear).
+"i have ear pain, ringing in ear, plugged feeling in ear, itchy ear(s), fever, redness in ear. what disease do i have?",you have otitis externa (swimmer's ear).
+"i have emotional symptoms, symptoms of the scrotum and testes, pain in testicles, back pain. what disease do i have?",you have testicular torsion.
+"i have suprapubic pain, symptoms of the scrotum and testes, involuntary urination, symptoms of bladder. what disease do i have?",you have urethral stricture.
+"i have dizziness, sharp abdominal pain, diminished vision, spotting or bleeding during pregnancy. what disease do i have?",you have hydatidiform mole.
+"i have dizziness, headache, low back pain, neck stiffness or tightness. what disease do i have?",you have pain disorder affecting the neck.
+"i have insomnia, arm pain, low back pain, neck stiffness or tightness, disturbance of memory. what disease do i have?",you have pain disorder affecting the neck.
+"i have shortness of breath, cough, irritable infant, vomiting, wheezing, difficulty breathing, coryza, hurts to breath. what disease do i have?",you have acute bronchiolitis.
+"i have cough, nasal congestion, wheezing, fever, pulling at ears. what disease do i have?",you have acute bronchiolitis.
+"i have cough, vomiting, decreased appetite, coryza, pulling at ears, hurts to breath. what disease do i have?",you have acute bronchiolitis.
+"i have cough, vomiting, pulling at ears, hurts to breath. what disease do i have?",you have acute bronchiolitis.
+"i have shortness of breath, irritable infant, vomiting. what disease do i have?",you have acute bronchiolitis.
+"i have cough, wheezing, difficulty breathing, coryza. what disease do i have?",you have acute bronchiolitis.
+"i have difficulty speaking, diminished vision, symptoms of eye, pain in eye, spots or clouds in vision. what disease do i have?",you have presbyopia.
+"i have difficulty speaking, diminished vision, symptoms of eye, pain in eye, abnormal movement of eyelid, foreign body sensation in eye, spots or clouds in vision. what disease do i have?",you have presbyopia.
+"i have diminished vision, abnormal movement of eyelid, foreign body sensation in eye, spots or clouds in vision. what disease do i have?",you have presbyopia.
+"i have depressive or psychotic symptoms, insomnia, abnormal involuntary movements, hostile behavior, problems with movement, disturbance of memory. what disease do i have?",you have dementia.
+"i have skin swelling, hand or finger swelling, lip swelling, abnormal appearing skin, leg swelling, fluid retention, skin rash. what disease do i have?",you have insect bite.
+"i have skin swelling, hand or finger swelling, lip swelling, skin lesion, peripheral edema, skin rash. what disease do i have?",you have insect bite.
+"i have skin swelling, hand or finger swelling, lip swelling, abnormal appearing skin, skin lesion, fluid retention. what disease do i have?",you have insect bite.
+"i have sharp chest pain, dizziness, chest tightness, fainting, weight gain, increased heart rate, fatigue. what disease do i have?",you have paroxysmal ventricular tachycardia.
+"i have dizziness, chest tightness, irregular heartbeat, weight gain, increased heart rate, fatigue. what disease do i have?",you have paroxysmal ventricular tachycardia.
+"i have shortness of breath, increased heart rate, fatigue. what disease do i have?",you have paroxysmal ventricular tachycardia.
+"i have shortness of breath, dizziness, chest tightness, irregular heartbeat, weight gain, decreased heart rate, increased heart rate, fatigue. what disease do i have?",you have paroxysmal ventricular tachycardia.
+"i have shortness of breath, dizziness, irregular heartbeat, decreased heart rate, fatigue. what disease do i have?",you have paroxysmal ventricular tachycardia.
+"i have shortness of breath, sharp chest pain, chest tightness, irregular heartbeat, fainting, increased heart rate, fatigue. what disease do i have?",you have paroxysmal ventricular tachycardia.
+"i have white discharge from eye, symptoms of eye, pain in eye. what disease do i have?",you have foreign body in the eye.
+"i have shortness of breath, sharp chest pain, dizziness, headache, wheezing. what disease do i have?",you have poisoning due to gas.
+"i have dizziness, cough, headache, wheezing, drainage in throat. what disease do i have?",you have poisoning due to gas.
+"i have hand or finger pain, abnormal appearing skin, skin lesion, foot or toe swelling, skin rash. what disease do i have?",you have pyogenic skin infection.
+"i have leg pain, skin lesion, foot or toe pain, leg swelling, foot or toe swelling. what disease do i have?",you have pyogenic skin infection.
+"i have cough, abnormal appearing skin, pulling at ears, itching of skin, skin rash. what disease do i have?",you have viral exanthem.
+"i have nasal congestion, decreased appetite, itching of skin, skin rash. what disease do i have?",you have viral exanthem.
+"i have vomiting, abnormal appearing skin, decreased appetite, pulling at ears, itching of skin, skin rash. what disease do i have?",you have viral exanthem.
+"i have vomiting, fever, pulling at ears. what disease do i have?",you have viral exanthem.
+"i have sharp abdominal pain, nausea, diarrhea, burning abdominal pain, fever, chills, rectal bleeding. what disease do i have?",you have noninfectious gastroenteritis.
+"i have sharp abdominal pain, headache, nausea, decreased appetite, fever, rectal bleeding, fluid retention. what disease do i have?",you have noninfectious gastroenteritis.
+"i have sharp abdominal pain, vomiting, nausea, diarrhea, chills, fluid retention. what disease do i have?",you have noninfectious gastroenteritis.
+"i have blood in stool, sharp abdominal pain, nausea, diarrhea, decreased appetite, fever, rectal bleeding. what disease do i have?",you have noninfectious gastroenteritis.
+"i have retention of urine, involuntary urination, frequent urination, blood in urine, impotence, symptoms of prostate. what disease do i have?",you have benign prostatic hyperplasia (bph).
+"i have retention of urine, swelling of scrotum, involuntary urination, frequent urination, blood in urine, impotence, symptoms of prostate, excessive urination at night, symptoms of bladder. what disease do i have?",you have benign prostatic hyperplasia (bph).
+"i have frequent urination, symptoms of prostate, symptoms of bladder. what disease do i have?",you have benign prostatic hyperplasia (bph).
+"i have pain in testicles, involuntary urination, impotence, symptoms of bladder. what disease do i have?",you have benign prostatic hyperplasia (bph).
+"i have pain in testicles, involuntary urination, frequent urination, blood in urine, symptoms of prostate, symptoms of bladder, hesitancy, low urine output. what disease do i have?",you have benign prostatic hyperplasia (bph).
+"i have retention of urine, involuntary urination, frequent urination, symptoms of prostate, excessive urination at night, symptoms of bladder, hesitancy, low urine output. what disease do i have?",you have benign prostatic hyperplasia (bph).
+"i have diminished vision, double vision, symptoms of eye, pain in eye, spots or clouds in vision, itchiness of eye, blindness, cloudy eye. what disease do i have?",you have cataract.
+"i have hip pain, headache, arm pain, back pain, low back pain, paresthesia, shoulder pain, lower body pain. what disease do i have?",you have spinal stenosis.
+"i have leg pain, hip pain, headache, back pain, neck pain, low back pain, problems with movement, loss of sensation, lower body pain. what disease do i have?",you have spinal stenosis.
+"i have hip pain, headache, arm pain, shoulder pain. what disease do i have?",you have spinal stenosis.
+"i have hip pain, headache, arm pain, back pain, neck pain, problems with movement, lower body pain. what disease do i have?",you have spinal stenosis.
+"i have retention of urine, sharp abdominal pain, vaginal itching. what disease do i have?",you have intestinal obstruction.
+"i have retention of urine, vomiting, nausea, vaginal itching, pain of the anus, stomach bloating, constipation. what disease do i have?",you have intestinal obstruction.
+"i have sharp chest pain, nasal congestion, headache, coughing up sputum, congestion in chest. what disease do i have?",you have acute bronchitis.
+"i have shortness of breath, nasal congestion, headache, wheezing, fever, coryza. what disease do i have?",you have acute bronchitis.
+"i have sharp chest pain, nasal congestion, headache, fever, coryza, congestion in chest. what disease do i have?",you have acute bronchitis.
+"i have shortness of breath, wheezing, coughing up sputum, coryza, congestion in chest. what disease do i have?",you have acute bronchitis.
+"i have shortness of breath, sharp chest pain, sore throat, cough, nasal congestion, difficulty breathing, coughing up sputum, coryza, congestion in chest. what disease do i have?",you have acute bronchitis.
+"i have abnormal involuntary movements, vomiting. what disease do i have?",you have persistent vomiting of unknown cause.
+"i have dizziness, abnormal involuntary movements, sharp abdominal pain, diarrhea, fever. what disease do i have?",you have persistent vomiting of unknown cause.
+"i have sharp abdominal pain, headache, lower abdominal pain, pain during pregnancy, spots or clouds in vision, recent pregnancy. what disease do i have?",you have preeclampsia.
+"i have sharp chest pain, dizziness, palpitations, throat feels tight, muscle pain, fatigue, lymphedema. what disease do i have?",you have ischemic heart disease.
+"i have shortness of breath, sharp chest pain, dizziness, chest tightness, palpitations, peripheral edema, difficulty breathing, lymphedema. what disease do i have?",you have ischemic heart disease.
+"i have dizziness, palpitations, peripheral edema, difficulty breathing, lymphedema. what disease do i have?",you have ischemic heart disease.
+"i have chest tightness, muscle pain, difficulty breathing, fatigue. what disease do i have?",you have ischemic heart disease.
+"i have sharp chest pain, dizziness, chest tightness. what disease do i have?",you have ischemic heart disease.
+"i have shortness of breath, sharp chest pain, dizziness, chest tightness, throat feels tight, muscle pain, lymphedema. what disease do i have?",you have ischemic heart disease.
+"i have shortness of breath, cough, fever, coryza. what disease do i have?",you have croup.
+"i have hoarse voice, vomiting, fever, pulling at ears. what disease do i have?",you have croup.
+"i have shortness of breath, hoarse voice, sore throat, nasal congestion, vomiting, fever, coryza. what disease do i have?",you have croup.
+"i have shortness of breath, hoarse voice, nasal congestion, coryza, abnormal breathing sounds. what disease do i have?",you have croup.
+"i have involuntary urination, vaginal discharge, heavy menstrual flow, painful menstruation. what disease do i have?",you have idiopathic excessive menstruation.
+"i have intermenstrual bleeding, long menstrual periods, unpredictable menstruation, painful menstruation. what disease do i have?",you have idiopathic excessive menstruation.
+"i have sharp abdominal pain, cramps and spasms, blood clots during menstrual periods, heavy menstrual flow, painful menstruation, frequent menstruation. what disease do i have?",you have idiopathic excessive menstruation.
+"i have sharp abdominal pain, involuntary urination, vaginal discharge, cramps and spasms, long menstrual periods, unpredictable menstruation. what disease do i have?",you have idiopathic excessive menstruation.
+"i have sharp abdominal pain, involuntary urination, cramps and spasms, blood clots during menstrual periods, long menstrual periods, heavy menstrual flow, unpredictable menstruation. what disease do i have?",you have idiopathic excessive menstruation.
+"i have heavy menstrual flow, unpredictable menstruation, frequent menstruation. what disease do i have?",you have idiopathic excessive menstruation.
+"i have depression, elbow weakness, hand or finger pain. what disease do i have?",you have dislocation of the wrist.
+"i have ear pain, plugged feeling in ear, fluid in ear, redness in ear. what disease do i have?",you have ear drum damage.
+"i have ringing in ear, plugged feeling in ear, pulling at ears, redness in ear. what disease do i have?",you have ear drum damage.
+"i have nasal congestion, diminished hearing, pus draining from ear, ringing in ear, plugged feeling in ear. what disease do i have?",you have ear drum damage.
+"i have cough, nasal congestion, pus draining from ear, ear pain, ringing in ear, plugged feeling in ear, redness in ear, bleeding from ear. what disease do i have?",you have ear drum damage.
+"i have retention of urine, involuntary urination, frequent urination, blood in urine, impotence, excessive urination at night, loss of sex drive. what disease do i have?",you have erectile dysfunction.
+"i have lower abdominal pain, blood in urine, regurgitation, regurgitation.1. what disease do i have?",you have temporary or benign blood in urine.
+"i have retention of urine, suprapubic pain, sharp abdominal pain, painful urination, involuntary urination, frequent urination, symptoms of bladder. what disease do i have?",you have temporary or benign blood in urine.
+"i have sharp abdominal pain, painful urination, frequent urination, blood in urine, symptoms of bladder. what disease do i have?",you have temporary or benign blood in urine.
+"i have retention of urine, suprapubic pain, involuntary urination, regurgitation, regurgitation.1. what disease do i have?",you have temporary or benign blood in urine.
+"i have suprapubic pain, sharp abdominal pain, painful urination, involuntary urination, frequent urination, lower abdominal pain, blood in urine, regurgitation, regurgitation.1. what disease do i have?",you have temporary or benign blood in urine.
+"i have painful urination, back pain, regurgitation, regurgitation.1, symptoms of bladder. what disease do i have?",you have temporary or benign blood in urine.
+"i have frequent urination, lower abdominal pain, blood in urine, regurgitation, regurgitation.1, symptoms of bladder. what disease do i have?",you have temporary or benign blood in urine.
+"i have skin swelling, abnormal appearing skin, foot or toe pain, skin on leg or foot looks infected, too little hair. what disease do i have?",you have onychomycosis.
+"i have retention of urine, suprapubic pain, sharp abdominal pain, vomiting, involuntary urination, side pain. what disease do i have?",you have urethral disorder.
+"i have abusing alcohol, sharp abdominal pain, vomiting, involuntary urination. what disease do i have?",you have urethral disorder.
+"i have depressive or psychotic symptoms, headache, abnormal appearing skin, fever, fatigue. what disease do i have?",you have lyme disease.
+"i have intermenstrual bleeding, regurgitation, weight gain, regurgitation.1, heavy menstrual flow. what disease do i have?",you have iron deficiency anemia.
+"i have dizziness, intermenstrual bleeding, weight gain, heavy menstrual flow. what disease do i have?",you have iron deficiency anemia.
+"i have blood in stool, intermenstrual bleeding, heartburn, weakness, fatigue. what disease do i have?",you have iron deficiency anemia.
+"i have depressive or psychotic symptoms, chest tightness, wheezing, fever, difficulty breathing, chills. what disease do i have?",you have acute respiratory distress syndrome (ards).
+"i have depressive or psychotic symptoms, chest tightness, cough, wheezing, fever, chills. what disease do i have?",you have acute respiratory distress syndrome (ards).
+"i have shortness of breath, fever, chills. what disease do i have?",you have acute respiratory distress syndrome (ards).
+"i have involuntary urination, pain during intercourse, impotence. what disease do i have?",you have psychosexual disorder.
+"i have involuntary urination, impotence, fatigue, loss of sex drive, premature ejaculation. what disease do i have?",you have psychosexual disorder.
+"i have wrist pain, hand or finger swelling, arm pain, knee pain, foot or toe pain, ankle pain, shoulder pain. what disease do i have?",you have tendinitis.
+"i have leg pain, wrist pain, arm pain, ankle pain. what disease do i have?",you have tendinitis.
+"i have hand or finger swelling, arm pain, knee pain, foot or toe pain, ankle pain. what disease do i have?",you have tendinitis.
+"i have hip pain, hand or finger pain, wrist pain, hand or finger swelling, ankle pain, shoulder pain. what disease do i have?",you have tendinitis.
+"i have sore throat, vomiting, headache, ear pain, coryza, flu-like syndrome. what disease do i have?",you have common cold.
+"i have sore throat, nasal congestion, vomiting, headache, ear pain, chills. what disease do i have?",you have common cold.
+"i have sore throat, cough, nasal congestion, fever, chills, coryza. what disease do i have?",you have common cold.
+"i have cough, nasal congestion, headache, chills, flu-like syndrome. what disease do i have?",you have common cold.
+"i have sore throat, cough, vomiting, headache, wheezing, fever, coryza, flu-like syndrome. what disease do i have?",you have common cold.
+"i have sore throat, cough, nasal congestion, vomiting, wheezing, chills, flu-like syndrome. what disease do i have?",you have common cold.
+"i have irregular heartbeat, symptoms of eye, blindness. what disease do i have?",you have central retinal artery or vein occlusion.
+"i have leg pain, leg cramps or spasms, lymphedema, skin on leg or foot looks infected, fluid retention. what disease do i have?",you have venous insufficiency.
+"i have lower abdominal pain, vaginal discharge, pain during pregnancy. what disease do i have?",you have trichomonas infection.
+"i have acne or pimples, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, skin rash. what disease do i have?",you have acne.
+"i have acne or pimples, irregular appearing scalp, skin moles, long menstrual periods, skin rash. what disease do i have?",you have acne.
+"i have anxiety and nervousness, depressive or psychotic symptoms, hostile behavior, drug abuse, disturbance of memory, delusions or hallucinations, temper problems. what disease do i have?",you have depression.
+"i have insomnia, hostile behavior, excessive anger, disturbance of memory. what disease do i have?",you have depression.
+"i have anxiety and nervousness, depressive or psychotic symptoms, hostile behavior, drug abuse, temper problems. what disease do i have?",you have depression.
+"i have anxiety and nervousness, depression, abusing alcohol, hostile behavior, drug abuse, disturbance of memory, temper problems. what disease do i have?",you have depression.
+"i have anxiety and nervousness, abusing alcohol, hostile behavior, disturbance of memory. what disease do i have?",you have depression.
+"i have insomnia, abusing alcohol, hostile behavior, excessive anger, temper problems. what disease do i have?",you have depression.
+"i have depression, depressive or psychotic symptoms, insomnia, hostile behavior, excessive anger, disturbance of memory, delusions or hallucinations. what disease do i have?",you have depression.
+"i have depression, depressive or psychotic symptoms, drug abuse, smoking problems, delusions or hallucinations, sweating, antisocial behavior. what disease do i have?",you have drug abuse.
+"i have anxiety and nervousness, depression, hostile behavior, smoking problems, delusions or hallucinations, sweating, antisocial behavior. what disease do i have?",you have drug abuse.
+"i have depressive or psychotic symptoms, hostile behavior, drug abuse, smoking problems, sweating. what disease do i have?",you have drug abuse.
+"i have depressive or psychotic symptoms, abusing alcohol, delusions or hallucinations, sweating, antisocial behavior. what disease do i have?",you have drug abuse.
+"i have suprapubic pain, blood in urine, back pain, side pain, excessive urination at night. what disease do i have?",you have urinary tract obstruction.
+"i have painful urination, frequent urination, blood in urine, symptoms of prostate, excessive urination at night. what disease do i have?",you have urinary tract obstruction.
+"i have retention of urine, suprapubic pain, sharp abdominal pain, back pain, side pain, excessive urination at night. what disease do i have?",you have urinary tract obstruction.
+"i have retention of urine, sharp abdominal pain, painful urination, blood in urine, back pain, symptoms of prostate, excessive urination at night. what disease do i have?",you have urinary tract obstruction.
+"i have suprapubic pain, sharp abdominal pain, painful urination, frequent urination, blood in urine, back pain, side pain, excessive urination at night. what disease do i have?",you have urinary tract obstruction.
+"i have symptoms of the scrotum and testes, pain in testicles. what disease do i have?",you have varicocele of the testicles.
+"i have pain in testicles, mass in scrotum, involuntary urination, lower abdominal pain, skin growth, pain of the anus, infertility. what disease do i have?",you have varicocele of the testicles.
+"i have pain in testicles, mass in scrotum, lower abdominal pain, skin growth, infertility. what disease do i have?",you have varicocele of the testicles.
+"i have pain in testicles, involuntary urination, lower abdominal pain, pain of the anus. what disease do i have?",you have varicocele of the testicles.
+"i have symptoms of the scrotum and testes, swelling of scrotum, lower abdominal pain, skin growth, pain of the anus. what disease do i have?",you have varicocele of the testicles.
+"i have symptoms of the scrotum and testes, swelling of scrotum, mass in scrotum, involuntary urination, lower abdominal pain, pain of the anus, groin pain. what disease do i have?",you have varicocele of the testicles.
+"i have flatulence, sharp abdominal pain, nausea, diarrhea, lower abdominal pain, burning abdominal pain. what disease do i have?",you have irritable bowel syndrome.
+"i have lower abdominal pain, vaginal discharge, intermenstrual bleeding, painful menstruation. what disease do i have?",you have ovarian cyst.
+"i have vomiting, nausea, vaginal discharge, intermenstrual bleeding, pelvic pain, painful menstruation. what disease do i have?",you have ovarian cyst.
+"i have cough, retention of urine, hand or finger swelling. what disease do i have?",you have parasitic disease.
+"i have skin swelling, groin mass, neck mass, back mass or lump, shoulder lump or mass. what disease do i have?",you have lipoma.
+"i have groin mass, skin growth, neck mass, back mass or lump, arm lump or mass. what disease do i have?",you have lipoma.
+"i have shortness of breath, cough, feeling ill, fatigue, apnea. what disease do i have?",you have pulmonary hypertension.
+"i have lip swelling, toothache. what disease do i have?",you have broken tooth.
+"i have sore throat, cough, skin swelling, sharp abdominal pain, neck swelling, fever. what disease do i have?",you have lymphadenitis.
+"i have sore throat, cough, skin swelling, sharp abdominal pain, neck pain, fever. what disease do i have?",you have lymphadenitis.
+"i have diminished hearing, facial pain, neck stiffness or tightness, nosebleed, bleeding from ear. what disease do i have?",you have injury to the face.
+"i have diminished hearing, facial pain, neck stiffness or tightness, mouth pain. what disease do i have?",you have injury to the face.
+"i have shortness of breath, palpitations, irregular heartbeat, fainting, difficulty breathing. what disease do i have?",you have aortic valve disease.
+"i have shortness of breath, sharp chest pain, irregular heartbeat. what disease do i have?",you have aortic valve disease.
+"i have wrist swelling, peripheral edema, knee pain. what disease do i have?",you have rheumatoid arthritis.
+"i have abnormal appearing skin, mouth ulcer, itching of skin. what disease do i have?",you have impetigo.
+"i have mouth ulcer, fever, itching of skin, skin rash, sore in nose. what disease do i have?",you have impetigo.
+"i have cough, nasal congestion, skin lesion, mouth ulcer, itching of skin, skin rash, sore in nose. what disease do i have?",you have impetigo.
+"i have nasal congestion, mouth ulcer, fever. what disease do i have?",you have impetigo.
+"i have fainting, hostile behavior, temper problems, low self-esteem, antisocial behavior. what disease do i have?",you have oppositional disorder.
+"i have leg pain, foot or toe pain, foot or toe swelling, lymphedema, foot or toe stiffness or tightness. what disease do i have?",you have diabetic peripheral neuropathy.
+"i have symptoms of the scrotum and testes, impotence, fatigue. what disease do i have?",you have testicular disorder.
+"i have groin mass, arm pain, skin growth, skin rash. what disease do i have?",you have hidradenitis suppurativa.
+"i have sore throat, cough, nasal congestion, abnormal appearing skin, fever. what disease do i have?",you have conjunctivitis due to bacteria.
+"i have sharp abdominal pain, lower abdominal pain, pelvic pain, cramps and spasms, heavy menstrual flow, unpredictable menstruation, painful menstruation, infertility, frequent menstruation. what disease do i have?",you have idiopathic irregular menstrual cycle.
+"i have pelvic pain, cramps and spasms, infertility. what disease do i have?",you have idiopathic irregular menstrual cycle.
+"i have shortness of breath, sore throat, cough, headache, wheezing, abnormal breathing sounds. what disease do i have?",you have interstitial lung disease.
+"i have shortness of breath, sore throat, wheezing. what disease do i have?",you have interstitial lung disease.
+"i have shortness of breath, sore throat, nasal congestion, headache, wheezing. what disease do i have?",you have interstitial lung disease.
+"i have leg pain, arm pain, foot or toe pain, ankle pain, elbow pain, loss of sensation, shoulder pain. what disease do i have?",you have mononeuritis.
+"i have dizziness, fainting, sharp abdominal pain, feeling ill, nausea, decreased appetite. what disease do i have?",you have hypovolemia.
+"i have dizziness, fainting, sharp abdominal pain, feeling ill, diarrhea, decreased appetite, fever. what disease do i have?",you have hypovolemia.
+"i have anxiety and nervousness, hostile behavior, low self-esteem. what disease do i have?",you have schizophrenia.
+"i have insomnia, hostile behavior, excessive anger, temper problems, fears and phobias, low self-esteem. what disease do i have?",you have schizophrenia.
+"i have anxiety and nervousness, depressive or psychotic symptoms, insomnia, hostile behavior, temper problems. what disease do i have?",you have schizophrenia.
+"i have shortness of breath, sharp chest pain, palpitations, irregular heartbeat. what disease do i have?",you have endocarditis.
+"i have sharp abdominal pain, weakness, decreased appetite, difficulty breathing, chills. what disease do i have?",you have sepsis.
+"i have shortness of breath, cough, weakness. what disease do i have?",you have sepsis.
+"i have suprapubic pain, sharp abdominal pain, decreased appetite, fever, difficulty breathing, chills. what disease do i have?",you have sepsis.
+"i have sharp chest pain, sharp abdominal pain, vomiting, back pain, burning abdominal pain, regurgitation.1. what disease do i have?",you have cholecystitis.
+"i have sharp abdominal pain, burning abdominal pain, stomach bloating. what disease do i have?",you have cholecystitis.
+"i have vomiting, back pain, burning abdominal pain, side pain, regurgitation.1, symptoms of the kidneys. what disease do i have?",you have cholecystitis.
+"i have sharp chest pain, sharp abdominal pain, back pain, burning abdominal pain, lower body pain. what disease do i have?",you have cholecystitis.
+"i have sharp chest pain, sharp abdominal pain, vomiting, back pain, side pain, upper abdominal pain, regurgitation.1, symptoms of the kidneys. what disease do i have?",you have cholecystitis.
+"i have sharp chest pain, sharp abdominal pain, vomiting, side pain, lower body pain, upper abdominal pain, stomach bloating. what disease do i have?",you have cholecystitis.
+"i have shortness of breath, palpitations, weakness, decreased heart rate. what disease do i have?",you have cardiac arrest.
+"i have depression, depressive or psychotic symptoms, excessive appetite, excessive anger, delusions or hallucinations, fears and phobias. what disease do i have?",you have social phobia.
+"i have anxiety and nervousness, depressive or psychotic symptoms, excessive appetite, delusions or hallucinations. what disease do i have?",you have social phobia.
+"i have cough, nausea, fever, ache all over. what disease do i have?",you have meningitis.
+"i have foot or toe swelling, problems during pregnancy, unpredictable menstruation, itching of skin, skin rash. what disease do i have?",you have scabies.
+"i have nasal congestion, ear pain, fluid in ear, pulling at ears, sinus congestion. what disease do i have?",you have ear wax impaction.
+"i have cough, diminished hearing, ringing in ear, plugged feeling in ear, pulling at ears. what disease do i have?",you have ear wax impaction.
+"i have skin swelling, skin lesion, acne or pimples, skin growth, symptoms of eye, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have rosacea.
+"i have difficulty in swallowing, headache, toothache, peripheral edema, neck mass. what disease do i have?",you have jaw disorder.
+"i have depression, hostile behavior, excessive anger, delusions or hallucinations. what disease do i have?",you have post-traumatic stress disorder (ptsd).
+"i have anxiety and nervousness, insomnia, abusing alcohol, hostile behavior, excessive anger, delusions or hallucinations. what disease do i have?",you have post-traumatic stress disorder (ptsd).
+"i have depression, abusing alcohol, hostile behavior, drug abuse, temper problems. what disease do i have?",you have post-traumatic stress disorder (ptsd).
+"i have depression, depressive or psychotic symptoms, insomnia, abusing alcohol, hostile behavior, temper problems. what disease do i have?",you have post-traumatic stress disorder (ptsd).
+"i have anxiety and nervousness, hostile behavior, drug abuse, delusions or hallucinations. what disease do i have?",you have post-traumatic stress disorder (ptsd).
+"i have retention of urine, groin mass, blood in urine, kidney mass. what disease do i have?",you have kidney cancer.
+"i have involuntary urination, blood in urine, kidney mass. what disease do i have?",you have kidney cancer.
+"i have white discharge from eye, diminished vision, pain in eye, spots or clouds in vision, eye redness, lacrimation, itchiness of eye, eyelid swelling. what disease do i have?",you have blepharitis.
+"i have diminished vision, symptoms of eye, pain in eye, eye redness, lacrimation, itchiness of eye, eye burns or stings, eyelid swelling. what disease do i have?",you have blepharitis.
+"i have symptoms of eye, spots or clouds in vision, eye redness. what disease do i have?",you have blepharitis.
+"i have dry lips, fever, ache all over, joint pain, temper problems. what disease do i have?",you have sickle cell anemia.
+"i have headache, facial pain, diminished vision, foreign body sensation in eye, eye redness, bleeding from eye. what disease do i have?",you have subconjunctival hemorrhage.
+"i have pain in eye, bleeding from eye. what disease do i have?",you have subconjunctival hemorrhage.
+"i have blood in stool, lower body pain, constipation, itching of the anus. what disease do i have?",you have hemorrhoids.
+"i have blood in stool, changes in stool appearance, itching of the anus. what disease do i have?",you have hemorrhoids.
+"i have skin swelling, abnormal appearing skin, allergic reaction, swollen eye, itching of skin, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have contact dermatitis.
+"i have skin swelling, abnormal appearing skin, acne or pimples, skin moles, allergic reaction, swollen eye, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have contact dermatitis.
+"i have skin swelling, skin lesion, swollen eye, itching of skin. what disease do i have?",you have contact dermatitis.
+"i have skin swelling, acne or pimples, skin moles, allergic reaction, swollen eye, itching of skin, skin rash. what disease do i have?",you have contact dermatitis.
+"i have skin lesion, acne or pimples, skin moles, itching of skin, skin irritation, skin rash. what disease do i have?",you have contact dermatitis.
+"i have chest tightness, irregular heartbeat, fainting, weakness, increased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have sharp chest pain, irregular heartbeat, fainting, feeling ill, weakness, decreased heart rate, increased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have chest tightness, irregular heartbeat, weakness, decreased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have chest tightness, fainting, decreased heart rate, increased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have shortness of breath, sharp chest pain, palpitations, decreased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have sharp chest pain, chest tightness, palpitations, decreased heart rate, increased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have sharp chest pain, dizziness, chest tightness, fainting, feeling ill, decreased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have sharp chest pain, palpitations, irregular heartbeat, feeling ill, decreased heart rate, increased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have shortness of breath, dizziness, chest tightness, palpitations, irregular heartbeat, fainting, weakness. what disease do i have?",you have sinus bradycardia.
+"i have sharp chest pain, chest tightness, palpitations, irregular heartbeat, fainting, decreased heart rate. what disease do i have?",you have sinus bradycardia.
+"i have nausea, painful urination, vaginal discharge, pelvic pain. what disease do i have?",you have pelvic inflammatory disease.
+"i have sharp abdominal pain, vomiting, painful urination, lower abdominal pain, vaginal discharge, intermenstrual bleeding, back pain, pelvic pain, burning abdominal pain. what disease do i have?",you have pelvic inflammatory disease.
+"i have sharp abdominal pain, vomiting, painful urination, lower abdominal pain, intermenstrual bleeding, back pain, burning abdominal pain. what disease do i have?",you have pelvic inflammatory disease.
+"i have suprapubic pain, vaginal discharge, intermenstrual bleeding, back pain. what disease do i have?",you have pelvic inflammatory disease.
+"i have nausea, painful urination, intermenstrual bleeding, back pain, pelvic pain, burning abdominal pain. what disease do i have?",you have pelvic inflammatory disease.
+"i have blood in stool, jaundice, nausea, peripheral edema, side pain. what disease do i have?",you have liver disease.
+"i have shortness of breath, blood in stool, jaundice, sharp abdominal pain, nausea, peripheral edema, side pain, upper abdominal pain, unusual color or odor to urine. what disease do i have?",you have liver disease.
+"i have shortness of breath, diarrhea, heartburn, upper abdominal pain, unusual color or odor to urine. what disease do i have?",you have liver disease.
+"i have sharp abdominal pain, peripheral edema, heartburn, side pain. what disease do i have?",you have liver disease.
+"i have shortness of breath, blood in stool, jaundice, sharp abdominal pain, heartburn, side pain, upper abdominal pain. what disease do i have?",you have liver disease.
+"i have shortness of breath, blood in stool, jaundice, sharp abdominal pain, nausea, diarrhea, upper abdominal pain, unusual color or odor to urine. what disease do i have?",you have liver disease.
+"i have blood in stool, sharp abdominal pain, vomiting, lower abdominal pain, rectal bleeding. what disease do i have?",you have chronic constipation.
+"i have retention of urine, blood in stool, burning abdominal pain, constipation. what disease do i have?",you have chronic constipation.
+"i have sore throat, cough, headache, diarrhea, fever, ache all over, chills, coryza. what disease do i have?",you have flu.
+"i have headache, nausea, chills, coryza. what disease do i have?",you have flu.
+"i have sore throat, vomiting, headache, diarrhea, coryza. what disease do i have?",you have flu.
+"i have abnormal involuntary movements, problems with movement. what disease do i have?",you have tic (movement) disorder.
+"i have acne or pimples, irregular appearing scalp, skin moles, skin irritation, warts. what disease do i have?",you have skin polyp.
+"i have skin swelling, abnormal appearing skin, skin lesion, acne or pimples, irregular appearing scalp, skin moles, skin irritation. what disease do i have?",you have skin polyp.
+"i have skin swelling, skin lesion, skin growth, irregular appearing scalp, skin moles, skin dryness, peeling, scaliness, or roughness, skin irritation, warts. what disease do i have?",you have skin polyp.
+"i have skin swelling, skin growth. what disease do i have?",you have skin polyp.
+"i have skin swelling, skin lesion, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, warts. what disease do i have?",you have skin polyp.
+"i have hand or finger pain, elbow pain, loss of sensation, shoulder pain. what disease do i have?",you have brachial neuritis.
+"i have headache, low back pain, elbow pain, paresthesia, shoulder pain, hand or finger weakness. what disease do i have?",you have brachial neuritis.
+"i have back pain, neck pain, low back pain, elbow pain, shoulder pain. what disease do i have?",you have brachial neuritis.
+"i have arm pain, back pain, paresthesia, shoulder pain. what disease do i have?",you have brachial neuritis.
+"i have shortness of breath, sharp chest pain, chest tightness, cough, nausea. what disease do i have?",you have esophagitis.
+"i have chest tightness, sore throat, difficulty in swallowing, sharp abdominal pain, vomiting, upper abdominal pain. what disease do i have?",you have esophagitis.
+"i have chest tightness, sore throat, sharp abdominal pain, vomiting, burning abdominal pain, upper abdominal pain. what disease do i have?",you have esophagitis.
+"i have shortness of breath, sharp chest pain, difficulty in swallowing, vomiting, burning abdominal pain, heartburn. what disease do i have?",you have esophagitis.
+"i have suprapubic pain, sharp abdominal pain, frequent urination, vaginal discharge, pelvic pain, skin rash, diaper rash. what disease do i have?",you have yeast infection.
+"i have suprapubic pain, sharp abdominal pain, vaginal itching, vaginal pain, diaper rash. what disease do i have?",you have yeast infection.
+"i have frequent urination, vaginal discharge, pelvic pain, vaginal pain, diaper rash. what disease do i have?",you have yeast infection.
+"i have suprapubic pain, sharp abdominal pain, frequent urination, vaginal discharge, vaginal pain, skin rash. what disease do i have?",you have yeast infection.
+"i have depression, depressive or psychotic symptoms, abusing alcohol, drug abuse. what disease do i have?",you have drug poisoning due to medication.
+"i have depressive or psychotic symptoms, abusing alcohol, drug abuse, lip swelling, slurring words. what disease do i have?",you have drug poisoning due to medication.
+"i have shortness of breath, depressive or psychotic symptoms, insomnia, lower body pain. what disease do i have?",you have malignant hypertension.
+"i have nausea, lower abdominal pain, fever, chills, constipation. what disease do i have?",you have diverticulitis.
+"i have sharp abdominal pain, diarrhea, lower abdominal pain, burning abdominal pain, constipation. what disease do i have?",you have diverticulitis.
+"i have nausea, diarrhea, fever, chills. what disease do i have?",you have diverticulitis.
+"i have blood in stool, lower abdominal pain, side pain, upper abdominal pain, chills. what disease do i have?",you have diverticulitis.
+"i have shortness of breath, sharp chest pain, fainting, vomiting, headache. what disease do i have?",you have heat exhaustion.
+"i have dizziness, vomiting, fluid retention. what disease do i have?",you have heat exhaustion.
+"i have shortness of breath, dizziness, fainting, vomiting, weakness. what disease do i have?",you have heat exhaustion.
+"i have shortness of breath, dizziness, fainting, vomiting, headache. what disease do i have?",you have heat exhaustion.
+"i have shortness of breath, sharp chest pain, vomiting, headache, weakness. what disease do i have?",you have heat exhaustion.
+"i have anxiety and nervousness, depression, insomnia, hostile behavior, delusions or hallucinations, fears and phobias. what disease do i have?",you have psychotic disorder.
+"i have anxiety and nervousness, depression, insomnia, abusing alcohol, hostile behavior, excessive anger, temper problems, fears and phobias, hysterical behavior. what disease do i have?",you have psychotic disorder.
+"i have anxiety and nervousness, depression, insomnia, abusing alcohol, hostile behavior, hysterical behavior. what disease do i have?",you have psychotic disorder.
+"i have shortness of breath, sharp chest pain, abusing alcohol, headache, smoking problems, excessive anger. what disease do i have?",you have smoking or tobacco addiction.
+"i have sharp chest pain, abusing alcohol, smoking problems, excessive anger, coughing up sputum. what disease do i have?",you have smoking or tobacco addiction.
+"i have arm pain, neck pain. what disease do i have?",you have sprain or strain.
+"i have leg pain, headache, wrist pain, back pain, low back pain, foot or toe pain, ankle pain. what disease do i have?",you have sprain or strain.
+"i have leg pain, wrist pain, arm pain, knee pain. what disease do i have?",you have sprain or strain.
+"i have sharp abdominal pain, vaginal itching, lower abdominal pain, cramps and spasms, long menstrual periods, unpredictable menstruation, painful menstruation. what disease do i have?",you have idiopathic painful menstruation.
+"i have sharp abdominal pain, vaginal itching, vaginal discharge, cramps and spasms, long menstrual periods, heavy menstrual flow, painful menstruation. what disease do i have?",you have idiopathic painful menstruation.
+"i have sharp abdominal pain, vaginal itching, lower abdominal pain, vaginal discharge, pelvic pain, cramps and spasms, long menstrual periods, painful menstruation. what disease do i have?",you have idiopathic painful menstruation.
+"i have hand or finger stiffness or tightness, back pain, neck pain, pelvic pain, bones are painful. what disease do i have?",you have fracture of the vertebra.
+"i have dizziness, sore throat, nasal congestion, ear pain, plugged feeling in ear, redness in ear, swollen or red tonsils. what disease do i have?",you have eustachian tube dysfunction (ear disorder).
+"i have dizziness, sore throat, diminished hearing, plugged feeling in ear, allergic reaction, abnormal breathing sounds, redness in ear. what disease do i have?",you have eustachian tube dysfunction (ear disorder).
+"i have dizziness, nasal congestion, ear pain, ringing in ear, allergic reaction, redness in ear, swollen or red tonsils. what disease do i have?",you have eustachian tube dysfunction (ear disorder).
+"i have dizziness, sore throat, diminished hearing, ear pain, allergic reaction, abnormal breathing sounds, swollen or red tonsils. what disease do i have?",you have eustachian tube dysfunction (ear disorder).
+"i have sore throat, nasal congestion, diminished hearing, ear pain, ringing in ear, plugged feeling in ear, allergic reaction, abnormal breathing sounds. what disease do i have?",you have eustachian tube dysfunction (ear disorder).
+"i have sore throat, nasal congestion, diminished hearing, ear pain, ringing in ear, allergic reaction. what disease do i have?",you have eustachian tube dysfunction (ear disorder).
+"i have lower abdominal pain, decreased appetite, side pain, upper abdominal pain, stomach bloating. what disease do i have?",you have appendicitis.
+"i have sharp abdominal pain, lower abdominal pain, decreased appetite, side pain, fever, stomach bloating. what disease do i have?",you have appendicitis.
+"i have sharp abdominal pain, vomiting, diarrhea, decreased appetite, side pain, fever. what disease do i have?",you have appendicitis.
+"i have sharp abdominal pain, vomiting, nausea, decreased appetite, side pain, fever, upper abdominal pain. what disease do i have?",you have appendicitis.
+"i have dizziness, irregular heartbeat, involuntary urination, hemoptysis, sweating. what disease do i have?",you have graves disease.
+"i have dizziness, abnormal involuntary movements, palpitations, irregular heartbeat, involuntary urination, hemoptysis. what disease do i have?",you have graves disease.
+"i have dizziness, irregular heartbeat. what disease do i have?",you have graves disease.
+"i have anxiety and nervousness, depressive or psychotic symptoms, back weakness. what disease do i have?",you have dissociative disorder.
+"i have symptoms of the scrotum and testes, painful urination, blood in urine, penis redness. what disease do i have?",you have phimosis.
+"i have dizziness, sharp abdominal pain, diarrhea, burning abdominal pain. what disease do i have?",you have hyperemesis gravidarum.
+"i have insomnia, elbow weakness. what disease do i have?",you have thalassemia.
+"i have depressive or psychotic symptoms, dizziness, emotional symptoms. what disease do i have?",you have epidural hemorrhage.
+"i have leg pain, hip pain, knee pain, knee swelling. what disease do i have?",you have septic arthritis.
+"i have skin swelling, skin lesion, foot or toe pain, irregular appearing nails, skin dryness, peeling, scaliness, or roughness, skin rash. what disease do i have?",you have athlete's foot.
+"i have abnormal appearing skin, skin lesion, foot or toe pain, irregular appearing nails, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have athlete's foot.
+"i have weakness, side pain, rib pain, hurts to breath. what disease do i have?",you have pleural effusion.
+"i have sharp chest pain, cough, back pain, weakness, difficulty breathing, rib pain. what disease do i have?",you have pleural effusion.
+"i have shortness of breath, sharp chest pain, sharp abdominal pain, weakness, side pain, difficulty breathing, hurts to breath. what disease do i have?",you have pleural effusion.
+"i have sore throat, cough, facial pain. what disease do i have?",you have sialoadenitis.
+"i have retention of urine, suprapubic pain, nausea, frequent urination, blood in urine, back pain, side pain, fever. what disease do i have?",you have urinary tract infection.
+"i have suprapubic pain, vomiting, blood in urine, side pain. what disease do i have?",you have urinary tract infection.
+"i have retention of urine, suprapubic pain, painful urination, lower abdominal pain, blood in urine, side pain, fever. what disease do i have?",you have urinary tract infection.
+"i have sharp chest pain, dizziness, fainting, leg cramps or spasms. what disease do i have?",you have arrhythmia.
+"i have dizziness, abnormal involuntary movements, headache, toothache. what disease do i have?",you have trigeminal neuralgia.
+"i have leg pain, back pain, knee pain, elbow pain, paresthesia, ache all over, stiffness all over. what disease do i have?",you have ankylosing spondylitis.
+"i have back pain, knee pain, paresthesia, ache all over, lower body pain, stiffness all over. what disease do i have?",you have ankylosing spondylitis.
+"i have abnormal involuntary movements, leg pain, foot or toe pain, loss of sensation, paresthesia. what disease do i have?",you have peripheral nerve disorder.
+"i have dizziness, abnormal involuntary movements, leg pain, arm pain, loss of sensation, paresthesia, arm weakness. what disease do i have?",you have peripheral nerve disorder.
+"i have abnormal involuntary movements, back pain, loss of sensation, disturbance of memory, paresthesia, arm weakness, leg weakness. what disease do i have?",you have peripheral nerve disorder.
+"i have leg pain, arm pain, foot or toe pain, problems with movement, loss of sensation, disturbance of memory, paresthesia, arm weakness, leg weakness. what disease do i have?",you have peripheral nerve disorder.
+"i have abnormal appearing skin, acne or pimples, hand or finger lump or mass, arm lump or mass. what disease do i have?",you have sebaceous cyst.
+"i have skin lesion, acne or pimples, irregular appearing scalp, skin moles, back mass or lump, arm lump or mass. what disease do i have?",you have sebaceous cyst.
+"i have abnormal appearing skin, skin growth, neck mass, skin moles. what disease do i have?",you have sebaceous cyst.
+"i have anxiety and nervousness, depression, insomnia, excessive anger, obsessions and compulsions. what disease do i have?",you have neurosis.
+"i have anxiety and nervousness, depression, depressive or psychotic symptoms, hostile behavior, headache, smoking problems, delusions or hallucinations, obsessions and compulsions. what disease do i have?",you have neurosis.
+"i have vomiting, diarrhea, skin growth, ache all over. what disease do i have?",you have chronic pancreatitis.
+"i have skin swelling, abnormal appearing skin, skin lesion, irregular appearing scalp, skin moles, skin irritation, skin rash. what disease do i have?",you have seborrheic keratosis.
+"i have pain during pregnancy, pelvic pain, burning abdominal pain, spotting or bleeding during pregnancy, uterine contractions. what disease do i have?",you have spontaneous abortion.
+"i have lower abdominal pain, pelvic pain, burning abdominal pain, spotting or bleeding during pregnancy, blood clots during menstrual periods. what disease do i have?",you have spontaneous abortion.
+"i have lower abdominal pain, pain during pregnancy, pelvic pain, problems during pregnancy, cramps and spasms, blood clots during menstrual periods, uterine contractions. what disease do i have?",you have spontaneous abortion.
+"i have sharp abdominal pain, lower abdominal pain, pain during pregnancy, spotting or bleeding during pregnancy, cramps and spasms, uterine contractions, heavy menstrual flow. what disease do i have?",you have spontaneous abortion.
+"i have sharp abdominal pain, lower abdominal pain, intermenstrual bleeding, burning abdominal pain, problems during pregnancy, cramps and spasms, uterine contractions. what disease do i have?",you have spontaneous abortion.
+"i have sharp abdominal pain, burning abdominal pain, cramps and spasms. what disease do i have?",you have spontaneous abortion.
+"i have sharp abdominal pain, lower abdominal pain, burning abdominal pain, spotting or bleeding during pregnancy, cramps and spasms, blood clots during menstrual periods, uterine contractions. what disease do i have?",you have spontaneous abortion.
+"i have suprapubic pain, vaginal discharge, skin rash. what disease do i have?",you have genital herpes.
+"i have suprapubic pain, painful urination, vaginal discharge, skin lesion, recent pregnancy, skin rash. what disease do i have?",you have genital herpes.
+"i have suprapubic pain, vaginal itching, painful urination, vaginal discharge, skin lesion, recent pregnancy, skin rash. what disease do i have?",you have genital herpes.
+"i have sharp chest pain, vomiting, back pain, burning abdominal pain, regurgitation.1. what disease do i have?",you have gallstone.
+"i have sharp abdominal pain, nausea, back pain, burning abdominal pain, heartburn, regurgitation.1. what disease do i have?",you have gallstone.
+"i have sharp chest pain, vomiting, heartburn, regurgitation.1. what disease do i have?",you have gallstone.
+"i have abnormal involuntary movements, headache, weakness, loss of sensation, focal weakness, leg weakness. what disease do i have?",you have multiple sclerosis.
+"i have dizziness, abnormal involuntary movements, problems with movement, disturbance of memory, paresthesia, fatigue. what disease do i have?",you have multiple sclerosis.
+"i have headache, weakness, leg weakness. what disease do i have?",you have multiple sclerosis.
+"i have difficulty speaking, leg pain, hip pain, back pain, knee pain, ache all over, groin pain. what disease do i have?",you have fracture of the pelvis.
+"i have nausea, swollen lymph nodes, rectal bleeding. what disease do i have?",you have ulcerative colitis.
+"i have blood in stool, diarrhea, lower abdominal pain, swollen lymph nodes. what disease do i have?",you have ulcerative colitis.
+"i have nausea, swollen lymph nodes, burning abdominal pain, rectal bleeding. what disease do i have?",you have ulcerative colitis.
+"i have swelling of scrotum, pain in testicles, mass in scrotum, irritable infant, bumps on penis. what disease do i have?",you have male genitalia infection.
+"i have shortness of breath, sharp chest pain, chest tightness, palpitations, hot flashes, arm pain. what disease do i have?",you have angina.
+"i have hoarse voice, cough, frontal headache, painful sinuses. what disease do i have?",you have nasal polyp.
+"i have abnormal appearing skin, skin lesion, acne or pimples, skin growth, irregular appearing scalp, skin moles, skin dryness, peeling, scaliness, or roughness, skin rash. what disease do i have?",you have skin pigmentation disorder.
+"i have abnormal appearing skin, skin growth, irregular appearing scalp, skin moles, itching of skin, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have skin pigmentation disorder.
+"i have skin swelling, abnormal appearing skin, skin lesion, skin growth, irregular appearing scalp, skin moles. what disease do i have?",you have skin pigmentation disorder.
+"i have skin swelling, abnormal appearing skin, skin growth, skin moles. what disease do i have?",you have skin pigmentation disorder.
+"i have hand or finger stiffness or tightness, problems with movement, shoulder stiffness or tightness. what disease do i have?",you have nerve impingement near the shoulder.
+"i have hand or finger stiffness or tightness, neck pain, elbow pain. what disease do i have?",you have nerve impingement near the shoulder.
+"i have blood in stool, intermenstrual bleeding, problems during pregnancy, spotting or bleeding during pregnancy. what disease do i have?",you have missed abortion.
+"i have depressive or psychotic symptoms, sharp abdominal pain, vomiting, frequent urination, decreased appetite. what disease do i have?",you have diabetic ketoacidosis.
+"i have sharp chest pain, sharp abdominal pain, diarrhea, frequent urination, weakness, decreased appetite, fluid retention. what disease do i have?",you have diabetic ketoacidosis.
+"i have depression, lack of growth, hostile behavior, low self-esteem, obsessions and compulsions. what disease do i have?",you have obsessive compulsive disorder (ocd).
+"i have depressive or psychotic symptoms, lack of growth, feeling ill, temper problems, low self-esteem. what disease do i have?",you have obsessive compulsive disorder (ocd).
+"i have anxiety and nervousness, hostile behavior, feeling ill, low self-esteem. what disease do i have?",you have obsessive compulsive disorder (ocd).
+"i have wrist swelling, ankle pain, foot or toe swelling, joint pain. what disease do i have?",you have injury of the ankle.
+"i have shortness of breath, sharp chest pain, vomiting, nausea, weakness, seizures. what disease do i have?",you have hyponatremia.
+"i have knee pain, leg cramps or spasms, muscle stiffness or tightness. what disease do i have?",you have bone disorder.
+"i have depression, hostile behavior, excessive anger, temper problems, fears and phobias. what disease do i have?",you have personality disorder.
+"i have depression, insomnia, delusions or hallucinations, temper problems, low self-esteem. what disease do i have?",you have personality disorder.
+"i have anxiety and nervousness, hostile behavior, delusions or hallucinations, temper problems, fears and phobias. what disease do i have?",you have personality disorder.
+"i have anxiety and nervousness, depressive or psychotic symptoms, hostile behavior, temper problems, fears and phobias, low self-esteem. what disease do i have?",you have personality disorder.
+"i have headache, abnormal appearing skin, pain in eye, back pain. what disease do i have?",you have shingles (herpes zoster).
+"i have ear pain, decreased appetite, fever, ache all over, skin rash. what disease do i have?",you have strep throat.
+"i have sore throat, difficulty in swallowing, headache, ear pain, ache all over, skin rash. what disease do i have?",you have strep throat.
+"i have difficulty in swallowing, symptoms of eye, joint pain. what disease do i have?",you have sjogren syndrome.
+"i have sore throat, cough, nasal congestion, difficulty in swallowing, fever, apnea. what disease do i have?",you have tonsillar hypertrophy.
+"i have nausea, vomiting blood, burning abdominal pain, regurgitation.1. what disease do i have?",you have gastritis.
+"i have sharp chest pain, nausea, diarrhea, vomiting blood. what disease do i have?",you have gastritis.
+"i have skin lesion, skin growth, skin moles, warts. what disease do i have?",you have skin cancer.
+"i have skin swelling, lip swelling, abnormal appearing skin, skin growth, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have skin cancer.
+"i have lip swelling, skin growth, irregular appearing scalp. what disease do i have?",you have skin cancer.
+"i have lip swelling, skin lesion, irregular appearing scalp, skin irritation, warts. what disease do i have?",you have skin cancer.
+"i have lip swelling, abnormal appearing skin, skin lesion, irregular appearing scalp, skin dryness, peeling, scaliness, or roughness, skin irritation, warts. what disease do i have?",you have skin cancer.
+"i have headache, toothache, mouth ulcer, fever, tongue lesions, mouth pain. what disease do i have?",you have aphthous ulcer.
+"i have sore throat, nasal congestion, diminished hearing, lump in throat, throat feels tight, redness in ear, swollen or red tonsils. what disease do i have?",you have tonsillitis.
+"i have sore throat, diminished hearing, lump in throat, swollen or red tonsils. what disease do i have?",you have tonsillitis.
+"i have difficulty in swallowing, sharp abdominal pain, diarrhea. what disease do i have?",you have stomach cancer.
+"i have depressive or psychotic symptoms, difficulty speaking, restlessness, delusions or hallucinations, temper problems, fears and phobias. what disease do i have?",you have developmental disability.
+"i have lack of growth, hostile behavior, restlessness, seizures, temper problems, antisocial behavior. what disease do i have?",you have developmental disability.
+"i have lack of growth, hostile behavior, restlessness, seizures, obsessions and compulsions. what disease do i have?",you have developmental disability.
+"i have anxiety and nervousness, depression, sharp chest pain, dizziness, abnormal involuntary movements, headache, burning abdominal pain, fatigue. what disease do i have?",you have acute stress reaction.
+"i have shortness of breath, depressive or psychotic symptoms, sharp chest pain, abnormal involuntary movements, headache, burning abdominal pain, fatigue. what disease do i have?",you have acute stress reaction.
+"i have depression, depressive or psychotic symptoms, sharp chest pain. what disease do i have?",you have acute stress reaction.
+"i have problems with movement, slurring words. what disease do i have?",you have delirium.
+"i have depressive or psychotic symptoms, difficulty speaking, focal weakness, slurring words, disturbance of memory. what disease do i have?",you have delirium.
+"i have skin swelling, abnormal appearing skin, acne or pimples. what disease do i have?",you have callus.
+"i have skin swelling, abnormal appearing skin, acne or pimples, skin growth, irregular appearing nails, skin rash. what disease do i have?",you have callus.
+"i have hip pain, low back pain, muscle pain, side pain, low back cramps or spasms. what disease do i have?",you have lumbago.
+"i have headache, facial pain, allergic reaction, apnea, painful sinuses, nosebleed. what disease do i have?",you have deviated nasal septum.
+"i have skin swelling, lip swelling, abnormal appearing skin, skin lesion, skin growth, irregular appearing scalp, skin moles, irregular appearing nails. what disease do i have?",you have hemangioma.
+"i have skin swelling, lip swelling, abnormal appearing skin, skin lesion, skin growth, irregular appearing scalp, skin moles, lymphedema, irregular appearing nails, skin dryness, peeling, scaliness, or roughness. what disease do i have?",you have hemangioma.
+"i have skin swelling, lip swelling, abnormal appearing skin, skin growth, irregular appearing nails. what disease do i have?",you have hemangioma.
+"i have symptoms of the kidneys, lymphedema. what disease do i have?",you have peripheral arterial disease.
+"i have back pain, neck pain, low back pain, loss of sensation, lower body pain, groin pain, back cramps or spasms. what disease do i have?",you have chronic back pain.
+"i have leg pain, hip pain, back pain, neck pain, low back pain, loss of sensation, side pain, groin pain, back cramps or spasms. what disease do i have?",you have chronic back pain.
+"i have hip pain, neck pain, loss of sensation, back cramps or spasms, back stiffness or tightness. what disease do i have?",you have chronic back pain.
+"i have leg pain, hip pain, back pain, low back pain, lower body pain, groin pain, back stiffness or tightness. what disease do i have?",you have chronic back pain.
+"i have leg pain, neck pain, loss of sensation, side pain, groin pain, back cramps or spasms, back stiffness or tightness. what disease do i have?",you have chronic back pain.
+"i have shortness of breath, sharp chest pain, palpitations, cough, weight gain, leg swelling, difficulty breathing. what disease do i have?",you have heart failure.
+"i have shortness of breath, sharp chest pain, cough, leg swelling, weakness, difficulty breathing, fluid retention. what disease do i have?",you have heart failure.
+"i have chest tightness, leg swelling, weakness. what disease do i have?",you have heart failure.
+"i have sharp chest pain, cough, leg swelling, difficulty breathing. what disease do i have?",you have heart failure.
+"i have chest tightness, palpitations, cough, weakness, difficulty breathing, hurts to breath. what disease do i have?",you have heart failure.
+"i have sharp chest pain, palpitations, cough, leg swelling, difficulty breathing, fluid retention, hurts to breath. what disease do i have?",you have heart failure.
+"i have shortness of breath, sharp chest pain, cough, hurts to breath. what disease do i have?",you have heart failure.
+"i have cough, weight gain, weakness, difficulty breathing. what disease do i have?",you have heart failure.
+"i have cough, nasal congestion, white discharge from eye, pain in eye, lacrimation. what disease do i have?",you have conjunctivitis.
+"i have nasal congestion, white discharge from eye, pain in eye. what disease do i have?",you have conjunctivitis.
+"i have sore throat, nasal congestion, pain in eye, eye redness, fever, coryza. what disease do i have?",you have conjunctivitis.
+"i have leg pain, arm pain, back pain, low back pain, loss of sensation, arm weakness, leg weakness. what disease do i have?",you have herniated disk.
+"i have leg pain, arm pain, neck pain, loss of sensation, paresthesia, leg weakness. what disease do i have?",you have herniated disk.
+"i have leg pain, back pain, neck pain, loss of sensation, shoulder pain, arm weakness. what disease do i have?",you have herniated disk.
+"i have skin growth, fever, chills. what disease do i have?",you have breast infection (mastitis).
+"i have shortness of breath, chest tightness, cough, leg pain, side pain, difficulty breathing, hemoptysis, sweating. what disease do i have?",you have pulmonary embolism.
+"i have chest tightness, cough, leg pain, leg swelling, weakness, side pain, difficulty breathing, hemoptysis. what disease do i have?",you have pulmonary embolism.
+"i have shortness of breath, chest tightness, cough, leg pain, leg swelling, difficulty breathing. what disease do i have?",you have pulmonary embolism.
+"i have depression, depressive or psychotic symptoms, lack of growth, abusing alcohol, hostile behavior, seizures, temper problems, hysterical behavior. what disease do i have?",you have conduct disorder.
+"i have depression, depressive or psychotic symptoms, fainting, hostile behavior, seizures, hysterical behavior. what disease do i have?",you have conduct disorder.
+"i have depressive or psychotic symptoms, lack of growth, hostile behavior, excessive anger. what disease do i have?",you have conduct disorder.
+"i have retention of urine, mass in scrotum, sharp abdominal pain, side pain, groin pain. what disease do i have?",you have epididymitis.
+"i have retention of urine, pain in testicles, painful urination, side pain, groin pain. what disease do i have?",you have epididymitis.
+"i have abnormal appearing skin, skin rash. what disease do i have?",you have molluscum contagiosum.
+"i have skin swelling, abnormal appearing skin, skin lesion, knee lump or mass, itching of skin, warts. what disease do i have?",you have molluscum contagiosum.
+"i have acne or pimples, skin dryness, peeling, scaliness, or roughness, skin rash. what disease do i have?",you have molluscum contagiosum.
+"i have suprapubic pain, frequent urination, pain during pregnancy, burning abdominal pain, vaginal redness, problems during pregnancy. what disease do i have?",you have benign vaginal discharge (leukorrhea).
+"i have suprapubic pain, sharp abdominal pain, painful urination, pain during pregnancy, burning abdominal pain. what disease do i have?",you have benign vaginal discharge (leukorrhea).
+"i have suprapubic pain, sharp abdominal pain, vaginal itching, frequent urination, vaginal discharge, pain during pregnancy, vaginal redness, problems during pregnancy. what disease do i have?",you have benign vaginal discharge (leukorrhea).
+"i have suprapubic pain, sharp abdominal pain, vaginal itching, painful urination, frequent urination, vaginal discharge, pain during pregnancy, burning abdominal pain, vaginal redness. what disease do i have?",you have benign vaginal discharge (leukorrhea).
+"i have suprapubic pain, painful urination, burning abdominal pain, problems during pregnancy. what disease do i have?",you have benign vaginal discharge (leukorrhea).
+"i have suprapubic pain, sharp abdominal pain, vaginal itching. what disease do i have?",you have benign vaginal discharge (leukorrhea).
+"i have retention of urine, suprapubic pain, involuntary urination, frequent urination, bedwetting. what disease do i have?",you have bladder obstruction.
+"i have abnormal appearing skin, skin growth, swollen lymph nodes. what disease do i have?",you have melanoma.
+"i have abnormal appearing skin, skin lesion, skin growth, irregular appearing scalp, swollen lymph nodes, itchy eyelid. what disease do i have?",you have melanoma.
+"i have irregular appearing scalp, swollen lymph nodes, itchy eyelid. what disease do i have?",you have melanoma.
+"i have cough, difficulty in swallowing, ear pain. what disease do i have?",you have laryngitis.
+"i have cough, nasal congestion, irritable infant, temper problems. what disease do i have?",you have diaper rash.
+"i have blood in stool, irritable infant, vomiting, diarrhea, temper problems, diaper rash. what disease do i have?",you have diaper rash.
+"i have cough, nasal congestion, diarrhea, temper problems, skin rash, diaper rash. what disease do i have?",you have diaper rash.
+"i have cough, blood in stool, vomiting, diarrhea, fever, temper problems, pulling at ears. what disease do i have?",you have diaper rash.
+"i have nasal congestion, irritable infant, diarrhea, temper problems, pulling at ears, skin rash, diaper rash. what disease do i have?",you have diaper rash.
+"i have blood in stool, vomiting, vomiting blood, heartburn, upper abdominal pain, changes in stool appearance. what disease do i have?",you have gastroduodenal ulcer.
+"i have vomiting, nausea, heartburn, upper abdominal pain. what disease do i have?",you have gastroduodenal ulcer.
+"i have sharp chest pain, blood in stool, nausea, vomiting blood, burning abdominal pain, changes in stool appearance. what disease do i have?",you have gastroduodenal ulcer.
+"i have swelling of scrotum, mass in scrotum, sharp abdominal pain, lower abdominal pain, ache all over. what disease do i have?",you have inguinal hernia.
+"i have groin mass, symptoms of the scrotum and testes, swelling of scrotum, ache all over, swollen abdomen, groin pain. what disease do i have?",you have inguinal hernia.
+"i have swelling of scrotum, pain in testicles, mass in scrotum, swollen abdomen, groin pain. what disease do i have?",you have inguinal hernia.
+"i have symptoms of the scrotum and testes, pain in testicles, ache all over, swollen abdomen, groin pain. what disease do i have?",you have inguinal hernia.
+"i have cough, skin swelling, abnormal appearing skin, skin lesion, acne or pimples, irregular appearing scalp, allergic reaction, itching of skin, skin irritation, warts. what disease do i have?",you have eczema.
+"i have skin swelling, abnormal appearing skin, irregular appearing scalp, allergic reaction, itching of skin, skin dryness, peeling, scaliness, or roughness, skin irritation, skin rash. what disease do i have?",you have eczema.
+"i have cough, abnormal appearing skin, acne or pimples, irregular appearing scalp, allergic reaction, itching of skin. what disease do i have?",you have eczema.
+"i have abnormal appearing skin, itching of skin, warts. what disease do i have?",you have eczema.
+"i have cough, abnormal appearing skin, acne or pimples, allergic reaction, skin dryness, peeling, scaliness, or roughness, skin irritation, warts. what disease do i have?",you have eczema.
+"i have skin swelling, skin lesion, allergic reaction, skin dryness, peeling, scaliness, or roughness, warts. what disease do i have?",you have eczema.
+"i have lack of growth, fainting, hostile behavior, excessive anger. what disease do i have?",you have asperger syndrome.
+"i have depression, lack of growth, hostile behavior, antisocial behavior. what disease do i have?",you have asperger syndrome.
+"i have anxiety and nervousness, depressive or psychotic symptoms, fainting, excessive anger. what disease do i have?",you have asperger syndrome.
+"i have sore throat, difficulty in swallowing, mouth ulcer, decreased appetite. what disease do i have?",you have mucositis.
+"i have sore throat, difficulty in swallowing, irritable infant, mouth ulcer. what disease do i have?",you have mucositis.
+"i have cough, vomiting, nausea, diarrhea, chills, fatigue. what disease do i have?",you have white blood cell disease.
+"i have leg pain, hip pain, back pain, low back pain, problems with movement, loss of sensation, paresthesia, leg cramps or spasms. what disease do i have?",you have spondylolisthesis.
+"i have leg pain, hip pain, paresthesia, leg cramps or spasms, leg weakness. what disease do i have?",you have spondylolisthesis.
+"i have leg pain, back pain, neck pain, low back pain, leg cramps or spasms, leg weakness. what disease do i have?",you have spondylolisthesis.
+"i have leg pain, neck pain, paresthesia, leg cramps or spasms, leg weakness. what disease do i have?",you have spondylolisthesis.
+"i have nasal congestion, white discharge from eye, diminished vision, eye redness, itchiness of eye, fever. what disease do i have?",you have conjunctivitis due to virus.
+"i have cough, white discharge from eye, diminished vision, eye redness, itchiness of eye, swollen eye. what disease do i have?",you have conjunctivitis due to virus.
+"i have diminished hearing, headache, facial pain. what disease do i have?",you have open wound of the nose.
+"i have diminished hearing, facial pain. what disease do i have?",you have open wound of the nose.
