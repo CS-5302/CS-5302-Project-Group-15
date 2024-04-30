@@ -54,6 +54,12 @@ collection.upsert(
 etc. (2), (3), (4) and others like it can be found here in chromaDB documentation: https://docs.trychroma.com/usage-guide
 """
 
+"""
+(5)
+For getitng embeddings do model.chroma_collection.get(include = ['documents', 'embeddings', 'metadatas'])
+
+"""
+
 # Installations:
 # !pip install llama-index chromadb
 # !pip install chromadb

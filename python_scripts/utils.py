@@ -21,7 +21,9 @@ import soundfile
 import wave
 
 def sasti_harkat(file_path):
-
+    """
+    Re-uploads wav file
+    """
     data, samplerate = soundfile.read(file_path)
     soundfile.write(file_path, data, samplerate)
 
@@ -174,12 +176,21 @@ def read_jsonl_to_list_of_lists(filepath):
     - list: A list where each element is a list of values extracted from each JSON object.
     """
     all_values = []
-    with open(filepath, 'r', encoding = 'utf-8', errors = 'replace') as file:
+    with open(filepath, 'r', encoding='utf-8', errors='replace') as file:
         for line in file:
             cleaned_line = re.sub(r'\\u0[0-9a-fA-F]{3}', '', line)
-            json_obj = json.loads(cleaned_line)
-            values_list = [str(value) for value in json_obj.values()]
-            all_values.append(values_list)
+            cleaned_line = cleaned_line.strip()  # Remove leading/trailing whitespace
+            if cleaned_line:  # Check if line is not empty after stripping
+                values_list = []
+                while cleaned_line:
+                    match = re.search(r'"(.*?)"', cleaned_line)
+                    if match:
+                        value = match.group(1)
+                        values_list.append(value)
+                        cleaned_line = cleaned_line[match.end():].lstrip(', ')
+                    else:
+                        break
+                all_values.append(values_list)
     return all_values
 
 # Example usage of reading JSONL to list of lists

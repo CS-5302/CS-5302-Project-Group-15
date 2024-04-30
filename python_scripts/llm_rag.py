@@ -1,9 +1,10 @@
 import os
 import getpass
 import openai
+from tqdm.notebook import tqdm
 from uuid import uuid4 # assigns unique ID to documents
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader # caveat. SimpleDirectoryReader prefers .txt.
-from llama_index.legacy.vector_stores.chroma import ChromaVectorStore
+from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
 from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.llms.openai import OpenAI # resp = OpenAI().complete("Paul Graham is ")
@@ -16,7 +17,6 @@ from llama_index.core import PromptTemplate
 from IPython.display import Markdown, display
 import chromadb
 import llama_index
-os.environ["REPLICATE_API_TOKEN"] = getpass.getpass("REPLICATE API KEY:")
 from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.replicate import Replicate
 from python_scripts import utils
@@ -47,11 +47,12 @@ class DocumentEmbeddingPipeline:
         # Service context is a hypothetical construct that manages settings and configurations
         self.service_context = Settings  # Initialize settings for the service context
         # Initialize language model with specific configurations like model version and token limits
+        os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
         self.service_context.llm = Replicate(model = self.model_version, is_chat_model = True, additional_kwargs = {"max_new_tokens": 512})
         # Define the embedding model to use locally
         self.service_context.embed_model = "local:BAAI/bge-small-en-v1.5"
         # Initialize the node parser for sentence splitting with specified chunk size and overlap
-        self.service_context.node_parser = SentenceSplitter(chunk_size = 1024, chunk_overlap = 128)
+        self.service_context.node_parser = SentenceSplitter()
 
     def prepare_documents(self, data_path, collection_name,  joining = True, persistent = False):
 
@@ -65,14 +66,18 @@ class DocumentEmbeddingPipeline:
         """
         # Initialize ChromaDB client based on the persistence requirement
         chroma_client = chromadb.PersistentClient(path = self.chroma_path) if persistent else chromadb.Client()
-
+        print("talha muqeem")
+        cl = chroma_client.list_collections()
+        print(cl)
         # Check if the specified collection already exists in ChromaDB
-        if collection_name in chroma_client.list_collections():
+        if collection_name in cl:
             # If the collection exists, retrieve it
+            print("collection hai")
             self.chroma_collection = chroma_client.get_collection(name = collection_name)
         else:
+            print("collection nahi hai")
             # If the collection does not exist, create a new one with the specified name and metadata
-            self.chroma_collection = chroma_client.create_collection(name = collection_name, metadata = {"hnsw:space": 'cosine'})  
+            self.chroma_collection = chroma_client.create_collection(get_or_create = True, name = collection_name, metadata = {"hnsw:space": 'cosine'})  
 
         # if joining:
         #     utils.join_text(directory_path = data_path)
@@ -80,11 +85,12 @@ class DocumentEmbeddingPipeline:
         # Load documents from the given path using a simple directory reader utility
         
         # Preprocess the data if of jsonl/json type
-        print(data_path, '\n', data_path + '/json_to_text.txt')
+        # print(data_path)
         if data_path.endswith(('.jsonl', '.ndjson')):
+            print(data_path)
             step1 = utils.read_jsonl_to_list_of_lists(data_path)
             step2 = utils.flatten_list_of_lists(step1)
-            data_path = data_path + '/json_to_text.txt'
+            # data_path = data_path + '/json_to_text.txt'
             step3 = utils.write_list_to_file(step2, data_path)
 
         required_exts = ['.txt']
@@ -94,26 +100,30 @@ class DocumentEmbeddingPipeline:
             required_exts = required_exts,
             recursive = True
         )
-        self.documents = reader.load_data()
+        self.documents = reader.load_data(True)
+        print(reader.input_files)
+        print("Hi")
+        print(f"loaded {len(self.documents)} docs")
 
-    def embed_and_index(self, model_name = "BAAI/bge-base-en-v1.5"):
+    def embed_and_index(self, model_name = "BAAI/bge-small-en-v1.5"):
         """
         Embed the documents using a specified model and index them in ChromaDB.
 
         :param model_name: Name of the embedding model to use for generating document embeddings.
         """
         # Initialize the embedding model
-        embed_model = HuggingFaceEmbedding(model_name = model_name)
+        Settings.embed_model = HuggingFaceEmbedding(model_name = model_name)
+        print('kkjkk')
         # Parse and chunk documents for embedding
-        chunks = self.service_context.node_parser(self.documents)
-
+        chunks = self.service_context.node_parser.get_nodes_from_documents(self.documents, True)
+        print("chnk")
         # Initialize lists to store texts, embeddings, and metadata
         texts, text_embeds, metadatas = [], [], []
 
         # Iterate over chunks, embed texts, and prepare metadata
-        for chunk in chunks:
+        for chunk in tqdm(chunks, desc='Chunking data'):
             texts.append(chunk.text)
-            text_embeds.append(embed_model.get_text_embedding(chunk.text))
+            text_embeds.append(Settings.embed_model.get_text_embedding(chunk.text))
             metadatas.append({'source': self.chroma_collection.name, 'text': chunk.text})
 
         # Generate unique identifiers for each embedded document
@@ -127,8 +137,7 @@ class DocumentEmbeddingPipeline:
         storage_context = StorageContext.from_defaults(vector_store = vector_store)
 
         # Create an index from the documents using the vector store and embedding model
-        self.index = VectorStoreIndex.from_documents(self.documents, storage_context = storage_context, embed_model = embed_model)
-
+        self.index = VectorStoreIndex.from_documents(self.documents, storage_context, True, service_context=self.service_context)
     def query_data(self, query):
         """
         Query data from the index and display the result.
@@ -139,23 +148,3 @@ class DocumentEmbeddingPipeline:
         query_engine = self.index.as_query_engine()
         response = query_engine.query(query)
         return response
-
-
-
-# Alternative Response Generation (might come in handy later)
-
-# # # Set Up the Query Engine and Retrieval System
-# query_engine = index.as_query_engine()
-# K = 3  # Number of top similar results to retrieve
-# retriever = index.as_retriever(similarity_top_k = K)
-
-# # # Define the Response Synthesizer with a Custom Template
-# custom_instruction = "Use the following pieces of context to answer the user's question. If you don't know the answer, just say that you don't know."
-# template = f"{custom_instruction}\n---------------------\nWe have provided context information below.\n---------------------\n{{context_str}}\n---------------------\nGiven this information, please answer the question: {{query_str}}\n"
-# qa_template = PromptTemplate(template)
-# synth = get_response_synthesizer(text_qa_template = qa_template)
-
-# # # Query and Response Mechanism
-# user_query = "What is the main topic of the document?"  # Example user query
-# response = query_engine.query(user_query)
-# print(f"Response: {response}")
