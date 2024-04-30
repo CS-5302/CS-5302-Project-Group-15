@@ -55,7 +55,7 @@ class DocumentEmbeddingPipeline:
         # Initialize the node parser for sentence splitting with specified chunk size and overlap
         self.service_context.node_parser = SentenceSplitter()
 
-    def prepare_documents(self, data_path, collection_name,  joining = True, persistent = False):
+    def prepare_documents(self, collection_name,  joining = True, persistent = False):
 
         """
         Load documents from a specified path and initialize a collection in ChromaDB.
@@ -77,14 +77,6 @@ class DocumentEmbeddingPipeline:
         else:
             # If the collection does not exist, create a new one with the specified name and metadata
             self.chroma_collection = chroma_client.create_collection(get_or_create = True, name = collection_name, metadata = {"hnsw:space": 'cosine'})  
-
-        # if joining:
-        #     utils.join_text(directory_path = data_path)
-                            
-        # Load documents from the given path using a simple directory reader utility
-        
-        # Preprocess the data if of jsonl/json type
-        # print(data_path)
 
         for idx, file in enumerate(os.listdir(self.chroma_path)):
             file_path = os.path.join(self.chroma_path, file)
