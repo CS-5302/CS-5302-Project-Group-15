@@ -21,6 +21,8 @@ from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.replicate import Replicate
 from python_scripts import utils
 
+os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
+
 
 class DocumentEmbeddingPipeline:
    
@@ -47,7 +49,6 @@ class DocumentEmbeddingPipeline:
         # Service context is a hypothetical construct that manages settings and configurations
         self.service_context = Settings  # Initialize settings for the service context
         # Initialize language model with specific configurations like model version and token limits
-        os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
         self.service_context.llm = Replicate(model = self.model_version, is_chat_model = True, additional_kwargs = {"max_new_tokens": 512})
         # Define the embedding model to use locally
         self.service_context.embed_model = "local:BAAI/bge-small-en-v1.5"
@@ -86,15 +87,22 @@ class DocumentEmbeddingPipeline:
         
         # Preprocess the data if of jsonl/json type
         # print(data_path)
-        if data_path.endswith(('.jsonl', '.ndjson')):
-            print(data_path)
-            step1 = utils.read_jsonl_to_list_of_lists(data_path)
-            step2 = utils.flatten_list_of_lists(step1)
-            # data_path = data_path + '/json_to_text.txt'
-            step3 = utils.write_list_to_file(step2, data_path)
+
+        for file in os.listdir(self.chroma_path):
+            file_path = os.path.join(self.chroma_path, file)
+            print(file_path)
+            if file_path.endswith(('.jsonl', '.ndjson')):
+                print("hello")
+                step1 = utils.read_jsonl_to_list_of_lists(file_path)
+                print("talha momy")
+                step2 = utils.flatten_list_of_lists(step1)
+                print("ubaid king")
+                # data_path = data_path + '/json_to_text.txt'
+                step3 = utils.write_list_to_file(step2, self.chroma_path)
 
         required_exts = ['.txt']
         print("RR")
+        print(self.chroma_path)
         reader = SimpleDirectoryReader(
             input_dir = self.chroma_path,
             required_exts = required_exts,

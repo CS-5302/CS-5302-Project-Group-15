@@ -227,6 +227,7 @@ def write_list_to_file(list_of_items, file_path):
     with open(file_path, 'w') as file:
         for item in list_of_items:
             # Convert item to string and write it to the file followed by a newline
+            print("i dont have permission bcuz i am muqeem")
             file.write(str(item) + '\n')
 
 # Example usage
