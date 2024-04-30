@@ -26,7 +26,7 @@ def transcribe_audio(audio_file, models):
         whisper_model = WhisperModel(model)
 
         # Perform trancription into English
-        segments, info = whisper_model.transcribe(audio_file, task='translate')
+        segments, info = whisper_model.transcribe(audio_file, task = 'translate')
 
         # Extracting the detected language and transcribed text in the result
         detected_lang = info.language
@@ -36,8 +36,8 @@ def transcribe_audio(audio_file, models):
             text = segment.text
 
         # Store the detected language, language_prob, and transcribed text in the dictionary
-        # transcript[model] = {'lang': detected_lang, 'prob': lang_prob, 'text': text}
-        transcript[model] = text
+        transcript[model] = [detected_lang, lang_prob, text]
+        # transcript[model] = text
     return transcript
 
 # # Example Usage

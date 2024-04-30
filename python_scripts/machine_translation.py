@@ -7,20 +7,24 @@ import warnings
 warnings.filterwarnings('ignore')
 
 def translate_text(text, src_lang, trg_lang):
-    model_name = f'Helsinki-NLP/opus-mt-{src_lang}-{trg_lang}'
-    tokenizer = MarianTokenizer.from_pretrained(model_name)
-    model = MarianMTModel.from_pretrained(model_name)
 
-    # tokenizing the text
-    tokenized_text = tokenizer.prepare_seq2seq_batch([text], return_tensors = 'pt')
+    if src_lang == trg_lang: # if target and source are the same
+        return text
+    else:
+        model_name = f'Helsinki-NLP/opus-mt-{src_lang}-{trg_lang}'
+        tokenizer = MarianTokenizer.from_pretrained(model_name)
+        model = MarianMTModel.from_pretrained(model_name)
 
-    # generating the translation
-    translated = model.generate(**tokenized_text)
+        # tokenizing the text
+        tokenized_text = tokenizer.prepare_seq2seq_batch([text], return_tensors = 'pt')
 
-    # decoding the translation
-    translation = tokenizer.batch_decode(translated, skip_special_tokens = True)
+        # generating the translation
+        translated = model.generate(**tokenized_text)
 
-    return translation[0]
+        # decoding the translation
+        translation = tokenizer.batch_decode(translated, skip_special_tokens = True)
+
+        return translation[0]
 
 # Example Usage
 

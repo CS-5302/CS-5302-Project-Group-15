@@ -21,6 +21,7 @@ from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.replicate import Replicate
 from python_scripts import utils
 
+
 os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
 
 
@@ -77,10 +78,12 @@ class DocumentEmbeddingPipeline:
         else:
             # If the collection does not exist, create a new one with the specified name and metadata
             self.chroma_collection = chroma_client.create_collection(get_or_create = True, name = collection_name, metadata = {"hnsw:space": 'cosine'})  
-
-        for idx, file in enumerate(os.listdir(self.chroma_path)):
+        
+        idx = 0
+        for file in os.listdir(self.chroma_path):
             file_path = os.path.join(self.chroma_path, file)
             if file_path.endswith(('.jsonl', '.ndjson')):
+                idx = idx + 1
                 destination_path = os.path.join(self.chroma_path, f'output{idx}.txt')
                 utils.jsonl_to_text(file_path, destination_path, 'text')
 
