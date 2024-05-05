@@ -12,8 +12,7 @@ Our overall SMTS system can be broken down into the following blocks:
 
 - **Audio Input**: The system receives a user's query in the form of an audio input.
 - **Speech-to-Text (STT) Module**: The audio query is transcribed into English using [FasterWhisper](https://github.com/SYSTRAN/faster-whisper).
-- **Large Language Model (LLM) Utilization**: A pre-trained LLM is employed to interpret the transcribed query. The model has been fine-tuned on the [MeDAL](https://github.com/mcGill-NLP/medal) dataset to ensure it can provide medically accurate diagnoses in response to patient symptoms. For this purpose, we used [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/).
-- **Response Generation**: The LLM generates a text response in English based on the user's query. This response contains the expert diagnosis for the patient.
+- **Large Language Model (LLM) Utilization**: A pre-trained LLM is employed to interpret the transcribed query. The model has been fine-tuned on the [MeDAL](https://github.com/mcGill-NLP/medal) dataset to ensure it can provide medically accurate diagnoses in response to patient symptoms. For this purpose, we used [Mistral 7B](https://mistral.ai/news/announcing-mistral-7b/). The LLM generates a text response in English based on the user's query. This response contains the expert diagnosis for the patient.
 - **Machine Translation**: The English text response is translated into the user's preferred language by employing [MarianMT](https://huggingface.co/docs/transformers/en/model_doc/marian).
 - **Text-to-Speech (TTS) Module**: The translated text is converted back into audio form with [Google Translate's text-to-speech API](https://pypi.org/project/gTTS/).
 - **Audio Output**: An audio recording of the diagnosis in the patient's language is played back.
