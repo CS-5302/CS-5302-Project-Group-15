@@ -41,5 +41,3 @@ sample_text_fr = 'Aujourd’hui, on est samedi, nous rendons visite à notre gra
 """
 >>> 'Today, it's Saturday, we visit our grandmother. She's 84 and she lives in Antibes. I love my grandmother, she's very nice. She makes good cakes.'
 """
-# Note will take time for a new language as it initializes the model etc. French, Deutsch and Arabic have been done
-# but accuracy has to be determined.

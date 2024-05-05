@@ -30,7 +30,9 @@ def sasti_harkat(file_path):
     soundfile.write(file_path, data, samplerate)
 
 def preprocess_audio(audio_path):
-
+    """
+    Preprocesses audio file
+    """
     audio = AudioSegment.from_wav(audio_path)
 
     if audio[0] != 16000: # 16 kHz
@@ -45,13 +47,18 @@ def preprocess_audio(audio_path):
     return arr
 
 def get_reranker(reranker_top_n, service_context):
+    """
+    Returns an LLMRerank object
+    """
     return LLMRerank(
             choice_batch_size = 5,
             top_n = reranker_top_n,
             service_context = service_context)
 
 def get_retriever(documents, storage_context, service_context, K, parent_doc):
-
+    """
+    Returns a retriever object
+    """
     index = VectorStoreIndex.from_documents(documents, storage_context = storage_context, service_context = service_context)
     retriever = index.as_retriever(similarity_top_k = K)
 
@@ -164,6 +171,9 @@ def play_wav(filename):
 # play_wav(wav_file_path)
 
 def jsonl_to_text(jsonl_file, text_file, field_name):
+    """
+    Converts a JSONL file to a text file by extracting a specific field from each JSON object.
+    """
     with open(jsonl_file, 'r', encoding='utf-8') as input_file, open(text_file, 'w', encoding='utf-8') as output_file:
         reader = jsonlines.Reader(input_file)
         for data in reader:

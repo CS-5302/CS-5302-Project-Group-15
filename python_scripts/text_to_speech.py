@@ -4,6 +4,13 @@ import os
 
 
 def multilingual_text_to_speech(text, filepath):
+    """
+    Converts a given text into speech in the detected language of the text and saves it as an audio file.
+
+    Parameters:
+    - text (str): The text to be converted into speech.
+    - filepath (str): The path where the generated audio file will be saved.
+    """
     try:
         lang = detect(text)
         print(f"Detected language: {lang}")
