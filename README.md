@@ -8,5 +8,4 @@ Effective communication between patients and healthcare providers is vital for q
 
 ## System Design
 
-![System Level Diagram For Our SMTS System](https://drive.google.com/file/d/1RHzO4M8760jdDV5Lx4irtcNYG6WzGaAW/view?usp=drive_link)
-
+![alt text](system_design_diagram.png)
