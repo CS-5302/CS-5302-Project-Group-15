@@ -1,6 +1,6 @@
 # Speech Recognition and Translation System For Medical Communication
 
-This is our final project for the course *CS 5302 - Speech and Language Processing With Generative AI* offered in Spring 2024 at the Lahore University of Management Sciences. This project was supervised by the course instructor Dr. Agha Ali Raza (Associate Professor at the Department of Computer Science, LUMS).
+This is our final project for the course *CS 5302 - Speech and Language Processing with Generative AI* offered in Spring 2024 at the Lahore University of Management Sciences. This project was supervised by the course instructor Dr. Agha Ali Raza (Associate Professor at the Department of Computer Science, LUMS).
 
 ## Introduction
 
