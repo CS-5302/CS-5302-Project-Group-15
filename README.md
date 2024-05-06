@@ -21,7 +21,9 @@ SymptoCare can be broken down into the following blocks:
 
 ## User Instructions
 
-You can access SymptoCare by running the SMTS_deploy.ipynb notebook. We'll also be sharing a comprehensive video guide for navigating around our health assistant. Here's what the final UI should look like:
+You can access SymptoCare by running the SMTS_deploy.ipynb notebook. We'll also be sharing a comprehensive video guide for navigating around our health assistant. 
+
+To access the API keys and other project deliverables, you can visit this [Google Drive link](https://drive.google.com/drive/folders/1pFgekU6hQQG2GhDhlIHJMoj-ke3UdU_1). Here's what the final UI should look like:
 
 ![alt text](sample_response.png)
 
