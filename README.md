@@ -1,4 +1,4 @@
-# Speech Recognition and Translation System For Medical Communication
+# SymptoCare: A Speech Recognition and Translation System For Medical Communication
 
 This is our final project for the course *CS 5302 - Speech and Language Processing with Generative AI* offered in Spring 2024 at the Lahore University of Management Sciences. This project was supervised by the course instructor Dr. Agha Ali Raza (Associate Professor at the Department of Computer Science, LUMS).
 
@@ -21,7 +21,7 @@ SymptoCare can be broken down into the following blocks:
 
 ## User Instructions
 
-You can access SymptoCare by running the *SMTS_deploy.ipynb* notebook. You can find a comprehensive step-by-step video guide on how to use the app by clicking [here](https://drive.google.com/file/d/1w0ozMUCpgf2rCODQ6N_CH3fSxCJ7v40s/view?usp=drive_link).
+You can access SymptoCare by running the [SMTS_deploy.ipynb](https://github.com/CS-5302/CS-5302-Project-Group-15/blob/main/SMTS_deploy.ipynb) notebook. You can also find a comprehensive step-by-step video guide on how to use the app by clicking [here](https://drive.google.com/file/d/1w0ozMUCpgf2rCODQ6N_CH3fSxCJ7v40s/view?usp=drive_link).
 
 To gain a better understanding of how our GitHub repository works, click [here](https://drive.google.com/file/d/1GZwShpsGaDuEwNFpOqt5Xy85RCB7N1ZW/view?usp=drive_link) to watch another video guide.
 
