@@ -37,7 +37,7 @@ def transcribe_audio(audio_file, models):
 
         # Store the detected language, language_prob, and transcribed text in the dictionary
         transcript[model] = [detected_lang, lang_prob, text]
-        # transcript[model] = text
+        
     return transcript
 
 # # Example Usage
