@@ -1,3 +1,5 @@
+# Designed to record audio and stop recording at will whilst in the jupyter notebook.
+
 # Neccessary Imports
 import os
 import pyaudio  # Import the PyAudio library for audio recording
@@ -78,4 +80,4 @@ class AudioRecorder:
         wf.writeframes(b''.join(self.frames))
         wf.close()
 
-        print(f"Recording stopped and saved to {self.output_filename}", flush=True)
+        print(f"Recording stopped and saved to {self.output_filename}", flush = True)

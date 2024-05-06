@@ -12,9 +12,7 @@ import os
 import threading
 import wave
 import pyaudio
-import json
 from itertools import chain
-import re
 from pydub import AudioSegment
 
 import soundfile
@@ -25,6 +23,8 @@ import jsonlines
 def sasti_harkat(file_path):
     """
     Re-uploads wav file
+    Note: named the function 'sasti_harkat' because it's a function that literally reads a wav file and writes it in the exact same path
+    For some reason this was neccessary when returning audio from Gradio
     """
     data, samplerate = soundfile.read(file_path)
     soundfile.write(file_path, data, samplerate)

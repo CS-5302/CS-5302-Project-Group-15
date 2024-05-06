@@ -1,6 +1,0 @@
-**Whisper Notes**
-
-* 31/03/24
-- Whisper package from GitHub doesnot support any-to-english language transcription for python implementation
-- It supports the above functionality via command line
-- Will need to figure out a way to interface the commandline with .py file for pipeline implementation.  
