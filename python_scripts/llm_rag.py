@@ -20,13 +20,11 @@ import llama_index
 from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.replicate import Replicate
 from python_scripts import utils
-from gradientai import Gradient
+# from gradientai import Gradient
 
-
-os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
-os.environ['GRADIENT_WORKSPACE_ID'] = getpass.getpass("GRADIENT_WORKSPACE_ID")
-os.environ['GRADIENT_ACCESS_TOKEN'] = getpass.getpass("GRADIENT_ACCESS_TOKEN")
-
+# os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
+# os.environ['GRADIENT_WORKSPACE_ID'] = getpass.getpass("GRADIENT_WORKSPACE_ID")
+# os.environ['GRADIENT_ACCESS_TOKEN'] = getpass.getpass("GRADIENT_ACCESS_TOKEN")
 
 class DocumentEmbeddingPipeline:
 
@@ -91,7 +89,12 @@ class DocumentEmbeddingPipeline:
       ], return_tensors = "pt").to("cuda")
 
       outputs = model.generate(**inputs, max_new_tokens = 64, use_cache = True)
-      return tokenizer.batch_decode(outputs)
+      # Extract the response part
+      start_index = tokenizer.batch_decode(outputs)[0].find("Response:") + len("Response:")
+      end_index = tokenizer.batch_decode(outputs)[0].find("</s>", start_index)
+
+      response_part = tokenizer.batch_decode(outputs)[0][start_index:end_index].strip()
+      return response_part
 
     def setup_environment(self):
         """
