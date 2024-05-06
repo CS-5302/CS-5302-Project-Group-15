@@ -6,23 +6,16 @@ from uuid import uuid4 # assigns unique ID to documents
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader # caveat. SimpleDirectoryReader prefers .txt.
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext
-# from llama_index.llms.huggingface import HuggingFaceLLM
-from llama_index.llms.openai import OpenAI # resp = OpenAI().complete("Paul Graham is ")
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
-from llama_index.core import Settings # Settings.embed_model = OpenAIEmbedding()
-from llama_index.embeddings.openai import OpenAIEmbedding
-from llama_index.core import get_response_synthesizer
+from llama_index.core import Settings 
 from llama_index.core.node_parser import SentenceSplitter
-from llama_index.core import PromptTemplate
-from IPython.display import Markdown, display
 import chromadb
-import llama_index
-from llama_index.core.prompts import PromptTemplate
 from llama_index.llms.replicate import Replicate
 from python_scripts import utils
 # from gradientai import Gradient
 
-# os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
+
+os.environ['REPLICATE_API_TOKEN'] = getpass.getpass("REPLICATE_API_TOKEN")
 # os.environ['GRADIENT_WORKSPACE_ID'] = getpass.getpass("GRADIENT_WORKSPACE_ID")
 # os.environ['GRADIENT_ACCESS_TOKEN'] = getpass.getpass("GRADIENT_ACCESS_TOKEN")
 
@@ -105,7 +98,6 @@ class DocumentEmbeddingPipeline:
         # Initialize language model with specific configurations like model version and token limits
         if not self.fine_tune:
           self.service_context.llm = Replicate(model = self.model_version, is_chat_model = True, additional_kwargs = {"max_new_tokens": 512})
-          print("GOTTEN MODEL")
         # Define the embedding model to use locally
         self.service_context.embed_model = "local:BAAI/bge-small-en-v1.5"
         # Initialize the node parser for sentence splitting with specified chunk size and overlap
@@ -135,7 +127,6 @@ class DocumentEmbeddingPipeline:
             self.chroma_collection = chroma_client.create_collection(get_or_create = True, name = collection_name, metadata = {"hnsw:space": 'cosine'})
 
         idx = 0
-        print("HI")
         for file in os.listdir(self.chroma_path):
             file_path = os.path.join(self.chroma_path, file)
             if file_path.endswith(('.jsonl', '.ndjson')):
@@ -144,15 +135,11 @@ class DocumentEmbeddingPipeline:
                 utils.jsonl_to_text(file_path, destination_path, 'text')
 
         required_exts = ['.txt']
-        print(f'chroma_path = {self.chroma_path}')
-        print("HELLO")
-        #maryam[0], nehals[1]
         reader = SimpleDirectoryReader(
             input_dir = os.path.dirname(self.chroma_path),
             required_exts = required_exts,
             recursive = True
         )
-        print("HI")
         self.documents = (reader.load_data(True))[:2]
         print(len(self.documents))
 
@@ -183,7 +170,6 @@ class DocumentEmbeddingPipeline:
             # Add the embedded texts and metadata to the ChromaDB collection
             self.chroma_collection.add(embeddings = text_embeds, documents = texts, metadatas = metadatas, ids = ids)
 
-        print("EMBEDDINGS DONE!!")
         # Prepare a vector store for indexing the documents in ChromaDB
         vector_store = ChromaVectorStore(chroma_collection = self.chroma_collection, add_sparse_vector = True, include_metadata = True)
         storage_context = StorageContext.from_defaults(vector_store = vector_store)
