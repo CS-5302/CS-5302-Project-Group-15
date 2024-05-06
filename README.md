@@ -21,7 +21,9 @@ SymptoCare can be broken down into the following blocks:
 
 ## User Instructions
 
-You can access SymptoCare by running the SMTS_deploy.ipynb notebook. We'll also be sharing a comprehensive video guide for navigating around our health assistant. 
+You can access SymptoCare by running the *SMTS_deploy.ipynb* notebook. You can find a comprehensive step-by-step video guide on how to use the app by clicking [here](https://drive.google.com/file/d/1w0ozMUCpgf2rCODQ6N_CH3fSxCJ7v40s/view?usp=drive_link).
+
+To gain a better understanding of how our GitHub repository works, click [here](https://drive.google.com/file/d/1GZwShpsGaDuEwNFpOqt5Xy85RCB7N1ZW/view?usp=drive_link) to watch another video guide.
 
 To access the API keys and other project deliverables, you can visit this [Google Drive link](https://drive.google.com/drive/folders/1pFgekU6hQQG2GhDhlIHJMoj-ke3UdU_1). 
 
