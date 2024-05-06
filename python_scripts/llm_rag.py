@@ -141,8 +141,6 @@ class DocumentEmbeddingPipeline:
             recursive = True
         )
         self.documents = (reader.load_data(True))[:2]
-        print(len(self.documents))
-
 
     def embed_and_index(self, model_name = "BAAI/bge-small-en-v1.5"):
         """
